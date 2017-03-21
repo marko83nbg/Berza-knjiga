@@ -88,5 +88,10 @@
 .navbar-default {
     background-color: #fff;
     border-color: #d7caa8;
+    border-top: 1px solid #d7caa8;
+}
+
+.nav > li > a {
+    padding: 10px 8px;
 }
 
