@@ -1,16 +1,29 @@
 
 
 @media(min-width:768px){
-    
-    
-}
+
+    ul.nav li:hover > ul.dropdown-menu {
+        display: block;
+    }
+    #navbar {
+        text-align: center;
+    }
+    .navbar-default {
+        background-color: #fff;
+        border-color: #d7caa8;
+        border-top: 1px solid #d7caa8;
+    }
+
+}  
+
+
 
 @media(min-width:992px){
-    
-    
+
+
 }
 
 @media(min-width:1200px){
-    
-    
+
+
 }
