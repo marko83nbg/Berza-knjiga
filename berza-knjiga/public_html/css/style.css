@@ -1,8 +1,15 @@
-
+a:focus{
+    outline: none;
+}
 .navbar-default {
     background-color: #fff;
     border-color: #d7caa8;
     border-top: 1px solid #d7caa8;
+}
+
+.fa-home{
+    color: #d7caa8;
+    font-size: 20px;
 }
 
 
@@ -17,24 +24,157 @@
     margin: 0 auto;
 }
 
-/*.navbar-nav li{
-    width: 10%;
-}*/
+.nav-blog{
+
+    background-color: #d7caa8;
+    border: 1px solid #d7caa8;
+
+}
+
+.navbar-nav .social{
+    text-align: center;
+    position: relative;
+    padding: 15px;
+}
+
+.navbar-nav .social-list{
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-nav .social-list li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+
+}
+
+.navbar-nav .social-list li a{
+    display: inline-block;
+    color: #fff;
+    background-color:#d7caa8;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d7caa8;
+    border-radius: 50%;
+}
+
+
 
 /* END OF NAV SECTION */
 
 /* MAIN SLIDER SECTION */
 
+.main-slider{
+    padding: 50px 0;
+}
+
 .bxslider li{
     padding: 0 50px;
 }
 
-.bxslider figure{
-    width: 35%;
+.bxslider img{
+    margin: 0 auto;
+}
+
+.book-content{
+    text-align: center;
+}
+
+.book-content h3 span{
+    display: block;
+
+}
+
+.book-content .about-book{
+    text-align: left;
+}
+
+.cena{
+    font-size: 25px;
+}
+
+.cena span{
+    font-size: 18px;
+}
+
+.book-content .btn{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+.book-content .favorit{
+    border-color: #d7caa8;
+    color: #d7caa8;
+    transition: 1s ease;
+}
+
+.book-content .favorit:hover,
+.book-content .favorit:focus{
+    background-color: #d7caa8; 
+    color: #fff;
+}
+
+.book-content .cart{
+    background-color:#e87217;
+    border-color: #e87217;
+    color: #fff;
+    transition: 1s ease;
+}
+
+.book-content .cart:hover,
+.book-content .cart:focus{
+    background-color:#f48b39;
+    border-color: #f48b39;
+}
+
+
+.book-for-sale{
+    text-align: center;
+    color: #fff;
+    background-color: #e87217;
+    padding: 15px;
+}
+
+.book-for-sale a{
+    color: #fff;
+    font-size: 25px;
+}
+
+.author-of-month a,
+.book-of-month a{
+    color: #e87217;
+}
+
+.book-of-month div{
+    width: 60%;
     float: left;
 }
 
-.bxslider .book-content{
-    width: 65%;
+.book-of-month figure{
+    width: 40%;
     float: right;
+}
+/*END OF MAINSLIDER SECTION*/
+
+/*SECTION TABS*/
+
+.tabs{
+    padding: 50px 0px;
+}
+
+.tabs .nav-tabs > li > a {
+    border-radius: 0;
+    padding: 10px 2px;
+    font-size: 12px;
+    
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+    background-color: #fff;
+    border: none;
+    
 }

@@ -14,16 +14,78 @@
         border-top: 1px solid #d7caa8;
     }
 
+
+    /* END OF HEADER*/
+
+    /* SECTION MAIN SLIDER*/
+
+    .bxslider figure{
+        width: 35%;
+        float: left;
+    }
+
+    .bxslider .book-content{
+        width: 65%;
+        float: right;
+        padding: 5px 10px;
+        text-align: left;
+    }
+
+    .bxslider .book-content h3{
+        margin-top: 10px;
+    }
+
+    .book-for-sale{
+        padding: 10px;
+    }
+
+    .book-for-sale p{
+        font-size: 12px;
+    }
+
+    .book-for-sale a{
+        font-size: 14px;
+    }
+
+    .book-of-month h4{
+        font-size: 12px;
+    }
 }  
 
 
 
 @media(min-width:992px){
+    .book-content .favorit{
+        margin-right: 15px;
+    }
+
+    .book-for-sale{
+        padding: 15px;
+    }
+
+    .book-for-sale p{
+        font-size: 14px;
+    }
+
+
+    .book-for-sale a{
+        font-size: 20px;
+    }
+    
+    .book-of-month h4{
+        font-size: 18px;
+    }
+
 
 
 }
 
 @media(min-width:1200px){
+
+    .book-for-sale a{
+        font-size: 25px;
+    }
+
 
 
 }
