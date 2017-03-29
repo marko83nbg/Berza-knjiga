@@ -8,11 +8,30 @@
     #navbar {
         text-align: center;
     }
+
     .navbar-default {
+        border: none;
         background-color: #fff;
-        border-color: #d7caa8;
-        border-top: 1px solid #d7caa8;
     }
+
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        border-top: 1px solid #d7caa8;
+        border-bottom: 1px solid #d7caa8;
+    }
+
+    .navbar-nav > li > a {
+        padding: 5px 3px ;
+        /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    .navbar-nav .social{
+        padding: 5px 4px ;
+        /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
 
 
     /* END OF HEADER*/
@@ -50,11 +69,42 @@
     .book-of-month h4{
         font-size: 12px;
     }
+    /*END OF MAINSLIDER SECTION*/
+
+    /*SECTION TABS*/
+
+    .tabs .nav-tabs h2{
+        margin-top: 0;
+        margin-right: 50px;
+    }
+
+    .tabs .nav-tabs li{
+        font-size: 14px;
+    }
+
+    .tabs .nav-tabs > li > a {
+        padding: 10px 10px;
+}
 }  
 
 
 
 @media(min-width:992px){
+
+    .navbar-nav > li > a {
+        padding: 10px 14px ;
+        /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    .navbar-nav .social{
+        padding: 10px 15px ;
+        /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    /* END OF HEADER*/
+
+    /* SECTION MAIN SLIDER*/
+
     .book-content .favorit{
         margin-right: 15px;
     }
@@ -71,7 +121,7 @@
     .book-for-sale a{
         font-size: 20px;
     }
-    
+
     .book-of-month h4{
         font-size: 18px;
     }
@@ -81,6 +131,20 @@
 }
 
 @media(min-width:1200px){
+
+    .navbar-nav > li > a {
+        padding: 10px 24px ;
+        /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    .navbar-nav .social{
+        padding: 10px 25px ;
+        /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    /* END OF HEADER*/
+
+    /* SECTION MAIN SLIDER*/
 
     .book-for-sale a{
         font-size: 25px;
