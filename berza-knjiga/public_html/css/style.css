@@ -55,15 +55,13 @@ a:focus{
     border-radius: 0;
 }
 
-.navbar .collapse{
-    padding: 0;
+.navbar-nav > li > a {
     text-align: center;
 }
 
-
-
-.navbar-nav > li > a {
-    padding: 0 ;
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d7caa8;
 }
 
 
@@ -71,10 +69,14 @@ a:focus{
     background-color: #d7caa8;
 }
 
+.nav-blog a:hover{
+    color: #fff !important;
+}
+
 .navbar-nav .social{
     text-align: center;
     position: relative;
-
+    padding: 10px 0;
 }
 
 .navbar-nav .social-list{
@@ -98,7 +100,15 @@ a:focus{
     height: 20px;
     border: 1px solid #d7caa8;
     border-radius: 50%;
+    transition: 1s ease;
 }
+
+.navbar-nav .social-list li a:hover{
+    background-color: #ebdebb;
+    border: 1px solid #ebdebb;
+}
+
+
 
 
 
@@ -131,11 +141,11 @@ a:focus{
     text-align: left;
 }
 
-.cena{
+.price{
     font-size: 25px;
 }
 
-.cena span{
+.price span{
     font-size: 18px;
 }
 
@@ -227,12 +237,60 @@ a:focus{
     background-color: transparent;
 }
 
-.nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover, 
 .nav-tabs > li.active > a:focus {
     background-color: #fff;
     border: none;
 
 }
+
+.nav-tabs > li.active > a{
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.tab-content {
+    margin: 20px 0;
+}
+
+.opis .fa-check-circle{
+    color: #d7caa8; 
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.opis .link a{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #d7caa8; 
+    color: #d7caa8;
+    line-height: 30px;
+    text-align: center;
+    transition: 1s ease;
+}
+
+.opis .link a:last-of-type{
+    margin-right: 0;
+    border: 1px solid #e87217;
+    background-color: #e87217;
+    color: #fff;
+}
+
+.opis .link a:hover{
+    color: #fff;
+    background-color: #d7caa8;
+}
+
+.opis .link a:last-of-type:hover{
+     background-color:#f48b39;
+     border: 1px solid #f48b39;
+}
+
+
+
 
 

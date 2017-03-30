@@ -23,12 +23,12 @@
     }
 
     .navbar-nav > li > a {
-        padding: 5px 3px ;
+        padding: 5px 2px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
     .navbar-nav .social{
-        padding: 5px 4px ;
+        padding: 4px 2px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
@@ -92,12 +92,12 @@
 @media(min-width:992px){
 
     .navbar-nav > li > a {
-        padding: 10px 14px ;
+        padding: 10px 13px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
     .navbar-nav .social{
-        padding: 10px 15px ;
+        padding: 9px 13px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
@@ -133,12 +133,12 @@
 @media(min-width:1200px){
 
     .navbar-nav > li > a {
-        padding: 10px 24px ;
+        padding: 10px 23px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
     .navbar-nav .social{
-        padding: 10px 25px ;
+        padding: 9px 23px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
