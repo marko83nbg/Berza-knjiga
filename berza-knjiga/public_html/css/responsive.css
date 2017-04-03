@@ -22,6 +22,32 @@
         border-bottom: 1px solid #d7caa8;
     }
 
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #e87218;
+        background-color: #f5f1e8;
+    }
+
+    .navbar-nav > li > .dropdown-menu {
+        text-align: left;
+        padding: 10px;
+        background-color: #f5f1e8;
+        border-color: #f5f1e8;
+        box-shadow: none;
+        transition: 1s ease;
+        border-radius: 0;
+    }
+
+    .navbar-nav > li > .dropdown-menu li{
+        background-color: #fff;
+        border-color: #fff;
+
+    }
+
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        color: #f5f1e8;
+        background-color: #fff;
+    }
+
     .navbar-nav > li > a {
         padding: 5px 2px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
@@ -66,12 +92,19 @@
         font-size: 14px;
     }
 
-    .book-of-month h4{
+    .book-of-month h4,
+    .author-of-month h4{
         font-size: 12px;
     }
     /*END OF MAINSLIDER SECTION*/
 
     /*SECTION TABS*/
+
+    .tabs{
+        padding:  50px 0;
+        margin-top: 70px;
+
+    }
 
     .tabs .nav-tabs h2{
         margin-top: 0;
@@ -84,7 +117,51 @@
 
     .tabs .nav-tabs > li > a {
         padding: 10px 10px;
-}
+    }
+    /*END OF SECTION TABS*/
+
+    /*SECTION NEWSLETTER*/
+
+
+    .newsletter .col-sm-8{
+        background-color: #fff;
+    }
+
+    .newsletter .col-sm-8 article{
+        background-color: #f5f1e8;
+    }
+    /*END OF SECTION NEWSLETTER*/
+
+    /*FOOTER*/
+
+    footer .category,
+    footer .authors,
+    footer .about-us{
+        width: 15%;
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 1px solid #ababab;
+        text-align: left;
+    }
+
+    footer .about-us{
+        border: none;
+    }
+
+    footer .bw-logo{
+        width: 15%;
+        float: right;
+    }
+    
+    footer .bw-logo img{
+        width: 100%;
+        height: auto;
+    }
+
+    footer .fb-like{
+        margin-top: 35px;
+    }
 }  
 
 
@@ -122,10 +199,28 @@
         font-size: 20px;
     }
 
-    .book-of-month h4{
+    .book-of-month h4,
+    .author-of-month h4{
         font-size: 18px;
     }
+    /* END OF SECTION MAIN SLIDER*/
 
+    /* SECTION NEWSLETTER*/
+
+    .newsletter .col-sm-8 article{
+        padding: 25px 0px 25px 25px;
+    }
+    .newsletter .col-sm-8 h3{
+        width: 40%;
+        float: left;
+        margin: 15px 0;
+        line-height: 34px;
+    }
+
+    .newsletter .col-sm-8 form{
+        width: 60%;
+        float: right;
+    }
 
 
 }

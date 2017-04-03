@@ -42,7 +42,7 @@ a:focus{
 
 .fa-home{
     color: #d7caa8;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .dropdown-menu{
@@ -57,20 +57,18 @@ a:focus{
 
 .navbar-nav > li > a {
     text-align: center;
+    transition: 1s ease;
 }
 
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
-    color: #d7caa8;
+    color: #e87218;
+    background-color: #f5f1e8;
 }
 
 
 .nav-blog{
     background-color: #d7caa8;
-}
-
-.nav-blog a:hover{
-    color: #fff !important;
 }
 
 .navbar-nav .social{
@@ -122,6 +120,11 @@ a:focus{
 
 .bxslider li{
     padding: 0 50px;
+    /*    background: #fff;
+        background: -webkit-linear-gradient(#fff, #d7caa8); 
+        background: -o-linear-gradient(#fff, #d7caa8);
+        background: -moz-linear-gradient(#fff, #d7caa8); 
+        background: linear-gradient(#fff, #d7caa8); */
 }
 
 .bxslider img{
@@ -185,6 +188,7 @@ a:focus{
     color: #fff;
     background-color: #e87217;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 .book-for-sale a{
@@ -192,29 +196,33 @@ a:focus{
     font-size: 25px;
 }
 
+.author-of-month{
+    margin-bottom: 20px;
+}
+
 .author-of-month a,
 .book-of-month a{
     color: #e87217;
 }
 
-.book-of-month div{
+.book-of-month div,
+.author-of-month div{
     width: 60%;
     float: left;
 }
 
-.book-of-month figure{
+.book-of-month figure,
+.author-of-month figure{
     width: 40%;
     float: right;
+}
+
+.author-of-month img{
+    border-radius: 50%;
 }
 /*END OF MAINSLIDER SECTION*/
 
 /*SECTION TABS*/
-
-.tabs{
-    padding:  50px 0;
-    margin-top: 70px;
-    
-}
 
 .tabs .nav-tabs{
     border-bottom: none;
@@ -222,7 +230,7 @@ a:focus{
 
 .tabs .nav-tabs li{
     font-size: 11px;
-    
+
 }
 
 .tabs .nav-tabs > li > a {
@@ -286,9 +294,103 @@ a:focus{
 }
 
 .opis .link a:last-of-type:hover{
-     background-color:#f48b39;
-     border: 1px solid #f48b39;
+    background-color:#f48b39;
+    border: 1px solid #f48b39;
 }
+
+/*END OF SECTION TABS*/
+
+/*SECTION NEWSLETTER*/
+
+.newsletter{
+    padding: 30px 0;
+}
+
+.newsletter .col-sm-4 article{
+    text-align: center;
+}
+
+.newsletter .col-sm-4 h3{
+    margin-top: 10px;
+}
+
+.newsletter .col-sm-4 a{
+    color: #e87217;
+}
+
+.newsletter .col-sm-8{
+    background-color: #f5f1e8;
+}
+
+.newsletter .col-sm-8 article{
+    text-align: center; 
+}
+
+.newsletter .col-sm-8 h3{
+    margin-top: 10px;
+}
+
+.newsletter .col-sm-8 form{
+    margin: 15px 0;
+}
+
+.newsletter .col-sm-8 .form-control {
+    border: 1px solid #d7caa8; 
+    border-radius: 0px;
+    box-shadow: none;
+
+}
+
+.newsletter .col-sm-8 .btn {
+    border: 1px solid #e87217;
+    background-color: #e87217;
+    border-radius: 0;
+    color: #fff;
+}
+
+.newsletter .col-sm-8 .btn:focus{
+    outline: none;
+}
+
+/*END OF SECTION NEWSLETTER*/
+
+/*FOOTER*/
+
+footer{
+    background-color: #333333;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer h4{
+    color: #666666;
+}
+
+footer p{
+    color: #666666;
+    font-size: 10px;
+}
+
+footer a{
+    color: #ababab;
+    transition: 1s ease;
+}
+
+footer a:hover,
+footer a:focus{
+    color: #ababab;
+    outline: none;
+}
+
+footer .fb-like{
+    margin: 10px 0;
+}
+
 
 
 
