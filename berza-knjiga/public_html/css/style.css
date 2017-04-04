@@ -239,6 +239,11 @@ a:focus{
 .author-of-month img{
     border-radius: 50%;
 }
+
+.underline{
+    background: url('assets/underline.jpg') repeat center center;
+    height: 5px;
+}
 /*END OF MAINSLIDER SECTION*/
 
 /*SECTION TABS*/
