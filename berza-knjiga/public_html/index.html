@@ -61,7 +61,25 @@
                         <li><a href="#">strane knjige</a></li>
                         <li><a href="#">akcija</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">best seller<b class="caret"></b></a>
+                            <a href="#" class="dropdown-content" >best seller<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <img>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-content" >knjige za decu<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -70,16 +88,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">knjige za decu<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">udzbenici<b class="caret"></b></a>
+                            <a href="#" class="dropdown-content" >udzbenici<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -254,6 +263,7 @@
                                     <h4>
                                         Autor meseca
                                     </h4>
+                                    <div class="underline"></div>
                                     <a href="#">
                                         Autor
                                     </a>
@@ -271,6 +281,7 @@
                                     <h4>
                                         Knjiga meseca
                                     </h4>
+                                    <div class="underline"></div>
                                     <a href="#">
                                         naslov knjige
                                     </a>
@@ -303,6 +314,7 @@
                         <li><a href="#tab2" data-toggle="tab">Najvise komentara</a></li>
                         <li><a href="#tab3" data-toggle="tab">Najbolje ocene</a></li>
                     </ul>
+                    <div class="underline"></div>
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab1">
                             <div class="owl-carousel tab-carousel">
@@ -319,14 +331,16 @@
                                     <p><span class="fa fa-check-circle"></span>ima na stanju</p>
                                     <p>nema na stanju</p>
                                     <div class='ratio'></div>
-                                    <p class="price">
-                                        450,00
-                                        <span>rsd</span>
-                                    </p>
+                                    <div class="product-price">
                                     <p class="discount">
                                         300,00
                                         <span>rsd</span>
                                     </p>
+                                    <p class="price">
+                                        450,00
+                                        <span>rsd</span>
+                                    </p>
+                                    </div>
                                     <div class="link clearfix">
                                         <a href="#">
                                             <span class="fa fa-share-alt"></span>
@@ -857,6 +871,7 @@
                                 <h3>
                                     Izdvajamo sa bloga
                                 </h3>
+                                <div class="underline"></div>
                                 <p>
                                     <a href="#">Kupujem, ali ih ne citam</a>
                                 </p>
@@ -889,94 +904,94 @@
             </section>
             <footer>
                 <div class="container clearfix">
-                <div class="category">
-                    <h4>Kategorije</h4>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                domace knjige
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                strane knjige
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                akcija
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                best sellers
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                knjige za decu
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                knjige meseca
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                nova izdanja
-                            </a>
-                        </li>
-                    </ul> 
-                </div>
-                <div class="authors">
-                    <h4>Autori</h4>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                domaci autori
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                strani autori
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                autori meseca
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                novi autori
-                            </a>
-                        </li>
-                    </ul> 
-                </div>
-                <div class="about-us">
-                    <h4>Berza knjiga</h4>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                O nama
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Pomoc
-                            </a>
-                        </li>
-                    </ul> 
-                </div>
-                
+                    <div class="category">
+                        <h4>Kategorije</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    domace knjige
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    strane knjige
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    akcija
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    best sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    knjige za decu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    knjige meseca
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    nova izdanja
+                                </a>
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="authors">
+                        <h4>Autori</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    domaci autori
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    strani autori
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    autori meseca
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    novi autori
+                                </a>
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="about-us">
+                        <h4>Berza knjiga</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    O nama
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Pomoc
+                                </a>
+                            </li>
+                        </ul> 
+                    </div>
+
                     <div class="bw-logo">
-                    <figure>
-                        <img src="img/berza-knjiga-bw.jpg" alt=""/>
-                    </figure>
-                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div> 
-                <p>Berza knjiga 2014</p>
-                </div>
+                        <figure>
+                            <img src="img/berza-knjiga-bw.jpg" alt=""/>
+                        </figure>
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div> 
+                        <p>Berza knjiga 2014</p>
+                    </div>
                 </div>
             </footer>
 

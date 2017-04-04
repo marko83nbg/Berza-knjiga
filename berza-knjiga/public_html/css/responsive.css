@@ -1,9 +1,15 @@
 
 
 @media(min-width:768px){
-
-    ul.nav li:hover > ul.dropdown-menu {
-        display: block;
+    ul.dropdown-menu{
+        position: absolute;
+        top:100%;
+        width:250px;
+        max-width: 400px;
+        left: 0;
+    }
+    ul.nav .dropdown:hover > ul.dropdown-menu {
+        display: block !important;
     }
     #navbar {
         text-align: center;

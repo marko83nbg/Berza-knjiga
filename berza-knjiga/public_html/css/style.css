@@ -45,8 +45,27 @@ a:focus{
     font-size: 16px;
 }
 
-.dropdown-menu{
+.dropdown-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: none;
+    width: 100%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
     text-align: center;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
 .navbar {
@@ -296,6 +315,31 @@ a:focus{
 .opis .link a:last-of-type:hover{
     background-color:#f48b39;
     border: 1px solid #f48b39;
+}
+
+.product-price{
+    height: 45px;
+    margin: 10px 0;
+}
+
+.product-price .price{
+    line-height: 25px;
+    margin: 0;
+}
+
+.product-price .discount{
+    line-height: 20px;
+    margin: 0;
+}
+
+.old-price{
+    color: #a7a7a7;
+    text-decoration: line-through;
+}
+
+.new-price{
+    color: #b40d27;
+    font-size: 25px;
 }
 
 /*END OF SECTION TABS*/
