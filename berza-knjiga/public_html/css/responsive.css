@@ -41,6 +41,7 @@
         box-shadow: none;
         transition: 1s ease;
         border-radius: 0;
+        z-index: 99999;
     }
 
     .navbar-nav > li > .dropdown-menu li{
@@ -55,12 +56,12 @@
     }
 
     .navbar-nav > li > a {
-        padding: 5px 2px ;
+        padding: 5px 4px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
     .navbar-nav .social{
-        padding: 4px 2px ;
+        padding: 4px 7px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
@@ -102,7 +103,11 @@
     .author-of-month h4{
         font-size: 12px;
     }
-    /*END OF MAINSLIDER SECTION*/
+
+    .book-of-month .underline{
+        top: 30%;
+    }
+    /*END OF MAIN SLIDER SECTION*/
 
     /*SECTION TABS*/
 
@@ -135,6 +140,7 @@
 
     .newsletter .col-sm-8 article{
         background-color: #f5f1e8;
+        padding: 10px 0;
     }
     /*END OF SECTION NEWSLETTER*/
 
@@ -159,7 +165,7 @@
         width: 15%;
         float: right;
     }
-    
+
     footer .bw-logo img{
         width: 100%;
         height: auto;
@@ -175,13 +181,21 @@
 @media(min-width:992px){
 
     .navbar-nav > li > a {
-        padding: 10px 13px ;
+        font-size: 14px;
+    }
+
+    .navbar-nav > li > a {
+        padding: 10px 11px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
     .navbar-nav .social{
-        padding: 9px 13px ;
+        padding: 9px 16px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    ul.dropdown-menu {
+        width: 350px;
     }
 
     /* END OF HEADER*/
@@ -202,12 +216,16 @@
 
 
     .book-for-sale a{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .book-of-month h4,
     .author-of-month h4{
         font-size: 18px;
+    }
+
+    .book-of-month .underline{
+        top: 28%;
     }
     /* END OF SECTION MAIN SLIDER*/
 
@@ -232,15 +250,23 @@
 }
 
 @media(min-width:1200px){
+    
+     .navbar-nav > li > a {
+        font-size: 16px;
+    }
 
     .navbar-nav > li > a {
-        padding: 10px 23px ;
+        padding: 10px 17px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
     }
 
     .navbar-nav .social{
-        padding: 9px 23px ;
+        padding: 9px 20px ;
         /*podlozno promeni kada se ubaci originalni font i velicina*/
+    }
+
+    ul.dropdown-menu {
+        width: 400px;
     }
 
     /* END OF HEADER*/
@@ -248,7 +274,11 @@
     /* SECTION MAIN SLIDER*/
 
     .book-for-sale a{
-        font-size: 25px;
+        font-size: 22px;
+    }
+
+    .book-of-month .underline{
+        top: 23%;
     }
 
 

@@ -1,11 +1,20 @@
-@font-face{
-    src: url('css/fonts/slick.eot');
-}
+/*
+
+ font-family: 'Roboto', sans-serif;
+ font-family: 'Droid Serif', serif;
+
+*/
+
 
 
 a:focus{
     outline: none;
 }
+
+.btn:focus{
+    outline: none;
+}
+
 .navbar-default {
     background-color: #fff;
     border-color: #d7caa8;
@@ -53,7 +62,7 @@ a:focus{
     display: none;
     float: none;
     width: 100%;
-    padding: 5px 0;
+    padding: 0;
     margin: 2px 0 0;
     font-size: 14px;
     text-align: center;
@@ -61,11 +70,56 @@ a:focus{
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
+    border: 1px solid #d7caa8;
+    border-radius: 0px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: none;
+}
+
+.dropdown-menu .list-options{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-menu .list-options a{
+    color: #777;
+    transition: 1s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown-menu .list-options a:hover,
+.dropdown-menu .list-options a:focus{
+    color: #e87218;
+    text-decoration: none;
+}
+
+.dropdown-menu .list-img{
+    width: 50%;
+    float: right;
+    padding: 15px 5px;
+}
+
+.dropdown-menu .list-img li{
+    text-align: center;
+}
+
+.dropdown-menu .list-img img{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.dropdown-menu .list-img h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown-menu .list-img a{
+    color: #33a0bd;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -77,6 +131,9 @@ a:focus{
 .navbar-nav > li > a {
     text-align: center;
     transition: 1s ease;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 12px;
 }
 
 .navbar-default .navbar-nav > li > a:hover, 
@@ -88,6 +145,10 @@ a:focus{
 
 .nav-blog{
     background-color: #d7caa8;
+}
+
+.nav-blog a{
+    text-transform: uppercase;
 }
 
 .navbar-nav .social{
@@ -121,8 +182,8 @@ a:focus{
 }
 
 .navbar-nav .social-list li a:hover{
-    background-color: #ebdebb;
-    border: 1px solid #ebdebb;
+    background-color: #f5f1e8;
+    border: 1px solid #f5f1e8;
 }
 
 
@@ -154,17 +215,30 @@ a:focus{
     text-align: center;
 }
 
+.book-content h3{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+}
+
 .book-content h3 span{
     display: block;
 
 }
 
+.book-content h3 span a{
+    color: #33a0bd;
+}
+
+
 .book-content .about-book{
     text-align: left;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 .price span{
@@ -174,6 +248,7 @@ a:focus{
 .book-content .btn{
     margin-bottom: 15px;
     border-radius: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .book-content .favorit{
@@ -210,18 +285,39 @@ a:focus{
     margin-bottom: 20px;
 }
 
+.book-for-sale p{
+    font-family: 'Roboto', sans-serif;
+}
+
 .book-for-sale a{
     color: #fff;
     font-size: 25px;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
 }
 
-.author-of-month{
-    margin-bottom: 20px;
+.author-of-month,
+.book-of-month{
+    max-width: 335px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.author-of-month h4,
+.book-of-month h4{
+    font-family: 'Droid Serif', serif;
 }
 
 .author-of-month a,
 .book-of-month a{
     color: #e87217;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+}
+
+.author-of-month p,
+.book-of-month p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .book-of-month div,
@@ -244,12 +340,30 @@ a:focus{
     background: url('assets/underline.jpg') repeat center center;
     height: 5px;
 }
+
+.author-of-month .underline{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    z-index: -1;
+}
+
+.book-of-month .underline{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    z-index: -1;
+}
 /*END OF MAINSLIDER SECTION*/
 
 /*SECTION TABS*/
 
 .tabs .nav-tabs{
     border-bottom: none;
+}
+
+.tabs .nav-tabs h2 {
+    font-family: 'Droid Serif', serif;
 }
 
 .tabs .nav-tabs li{
@@ -262,6 +376,7 @@ a:focus{
     padding: 10px 2px;
     margin: 0;
     color: #d7caa8; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-tabs > li > a:hover {
@@ -284,6 +399,57 @@ a:focus{
 
 .tab-content {
     margin: 20px 0;
+}
+
+.tab-content figure{
+    position: relative;
+    overflow: hidden;
+}
+
+.tab-content figure .discount-banner,
+.tab-content figure .new-banner{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 3;
+    text-align: center;
+    border-bottom: none;
+    background-color: #fedb03;
+    border: 1px solid #fff;
+    transform: rotate(-40deg);
+    transform-origin: 80px 170px;
+    height: 20%;
+    width: 300px;
+}
+
+.tab-content figure .discount-banner span,
+.tab-content figure .new-banner span{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(-18%,-50%);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.tab-content figure .new-banner{
+    background-color: #e87218;
+}
+
+.tab-content figure .new-banner span{
+    color: #fff;
+}
+
+.opis{
+    font-family: 'Roboto', sans-serif;
+}
+
+.opis .opis-author{
+    color: #33a0bd;
 }
 
 .opis .fa-check-circle{
@@ -361,10 +527,17 @@ a:focus{
 
 .newsletter .col-sm-4 h3{
     margin-top: 10px;
+    font-family: 'Droid Serif', serif;
+}
+
+.newsletter .col-sm-4 article p:first-of-type{
+    margin-top: 5px;
 }
 
 .newsletter .col-sm-4 a{
     color: #e87217;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
 }
 
 .newsletter .col-sm-8{
@@ -377,6 +550,8 @@ a:focus{
 
 .newsletter .col-sm-8 h3{
     margin-top: 10px;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
 }
 
 .newsletter .col-sm-8 form{
@@ -395,6 +570,7 @@ a:focus{
     background-color: #e87217;
     border-radius: 0;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .newsletter .col-sm-8 .btn:focus{
@@ -409,6 +585,7 @@ footer{
     background-color: #333333;
     padding: 30px 0;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer ul{
