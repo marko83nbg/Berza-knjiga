@@ -739,6 +739,7 @@ SIGN IN PAGE
 .new-password-form form{
     background-color: #fff;
     padding: 20px;
+    border: 1px solid #eaead2;
 }
 
 
