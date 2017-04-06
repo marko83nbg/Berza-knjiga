@@ -81,6 +81,7 @@ a:focus{
 
 .dropdown-menu .clearfix{
     background-color: #fff;
+    border: 1px solid #eaead2;
 }
 
 .dropdown-menu .list-options{
@@ -200,6 +201,7 @@ a:focus{
 .navbar-default .navbar-collapse, 
 .navbar-default .navbar-form {
     border-color: transparent;
+    padding: 0;
 }
 
 
@@ -293,7 +295,8 @@ a:focus{
 }
 
 
-.book-for-sale{
+.book-for-sale,
+.create-an-account{
     text-align: center;
     color: #fff;
     background-color: #e87217;
@@ -301,11 +304,13 @@ a:focus{
     margin-bottom: 20px;
 }
 
-.book-for-sale p{
+.book-for-sale p,
+.create-an-account p{
     font-family: 'Roboto', sans-serif;
 }
 
-.book-for-sale a{
+.book-for-sale a,
+.create-an-account a{
     color: #fff;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
@@ -651,7 +656,90 @@ SIGN IN PAGE
 
 */
 
+.sign-in-page{
+    padding: 50px 0;
+}
 
+.sign-in-page article {
+    position: relative;
+}
+
+.sign-in-page .new-password{
+    position: absolute;
+    width: 100%;
+    top:100%;
+    visibility: hidden;
+}
+
+.sign-in-page h2{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.sign-in-page label{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #a8a8a8;
+    font-weight: 400;
+    width: 40%;
+    float: left;
+}
+
+.sign-in-page input{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 400;
+    width: 60%;
+    float: right;
+    border: 1px solid #eaead2;
+}
+
+.sign-in-page .btn {
+    border: 1px solid #e87218;
+    border-radius: 0px;
+    background-color: #e87218;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.sign-in-form .btn{
+    margin-left: 40%;
+}
+
+.new-password-form .btn{
+    margin-left:  30%;
+}
+
+.sign-in a{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #e87218;
+    font-weight: 400;
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 10px; 
+}
+
+.new-password p{
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sign-in-form,
+.new-password-form{
+    background-color: #f5f1e8;
+    padding: 20px;
+}
+
+.sign-in-form form,
+.new-password-form form{
+    background-color: #fff;
+    padding: 20px;
+}
 
 
 

@@ -57,15 +57,18 @@
         margin-top: 10px;
     }
 
-    .book-for-sale{
+    .book-for-sale,
+    .create-an-account{
         padding: 10px;
     }
 
-    .book-for-sale p{
+    .book-for-sale p,
+    .create-an-account p{
         font-size: 12px;
     }
 
-    .book-for-sale a{
+    .book-for-sale a,
+    .create-an-account a{
         font-size: 14px;
     }
 
@@ -144,6 +147,23 @@
     footer .fb-like{
         margin-top: 35px;
     }
+    /*END OF FOOTER*/
+
+    /*
+
+     END OF INDEX PAGE
+
+    */
+
+    /*
+    
+    SIGN IN PAGE
+    
+    */
+
+    .new-password-form .btn{
+        margin-left:  40%;
+    }
 }  
 
 
@@ -207,19 +227,16 @@
 
     .nav-justified > li > .dropdown-menu li{
         background-color: #fff;
-        border-color: #fff;
+    }
 
+    .dropdown-menu .clearfix {
+        border: 1px solid #eaead2;
     }
 
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
         color: #f5f1e8;
         background-color: #fff;
     }
-
-
-
-
-
 
     ul.dropdown-menu {
         width: 350px;
@@ -233,16 +250,19 @@
         margin-right: 15px;
     }
 
-    .book-for-sale{
+    .book-for-sale,
+    .create-an-account{
         padding: 15px;
     }
 
-    .book-for-sale p{
+    .book-for-sale p,
+    .create-an-account p{
         font-size: 14px;
     }
 
 
-    .book-for-sale a{
+    .book-for-sale a,
+    .create-an-account a{
         font-size: 18px;
     }
 
@@ -272,6 +292,50 @@
         width: 60%;
         float: right;
     }
+    /* END OF SECTION NEWSLETTER*/
+
+    /* SECTION NEWSLETTER*/
+
+    /*
+
+     END OF INDEX PAGE
+
+    */
+
+    /*
+    
+    SIGN IN PAGE
+    
+    */
+
+    .sign-in-page article{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sign-in-page label{
+        width: 30%;
+    }
+
+    .sign-in-page input{
+        width: 70%;
+    }
+
+    .sign-in a{
+        margin-left: 30%;
+    }
+
+    .new-password p{
+        font-size: 12px;
+    }
+
+    .sign-in-form .btn{
+        margin-left: 30%;
+    }
+
+    .new-password-form .btn{
+        margin-left:  30%;
+    }
 
 
 }
@@ -283,11 +347,6 @@
     .nav-justified > li > a {
         font-size: 16px;
     }
-
-
-
-
-
     ul.dropdown-menu {
         width: 400px;
     }
@@ -302,6 +361,36 @@
 
     .book-of-month .underline{
         top: 23%;
+    }
+
+    /* END OF SECTION MAIN SLIDER*/
+
+    /*
+
+     END OF INDEX PAGE
+
+    */
+
+    /*
+    
+    SIGN IN PAGE
+    
+    */
+
+    .sign-in-page label {
+        font-size: 14px;
+    }
+
+    .sign-in a{
+        font-size: 14px;
+    }
+
+    .new-password p{
+        font-size: 14px;
+    }
+
+    .new-password p{
+        font-size: 14px;
     }
 
 

@@ -44,7 +44,7 @@ $(document).ready(function () {
             margin: 10,
             responsiveClass: true,
             nav: true,
-            dots:false,
+            dots: false,
             responsive: {
                 0: {
                     items: 2
@@ -67,10 +67,14 @@ $(document).ready(function () {
         });
 
         /*NEXT OWL CAROUSEL*/
-        
-        
 
 
+
+        $('.forgot-password').click(function (e) {
+            e.preventDefault();
+            $('.new-password').css('visibility: visible');
+            $('.forgot-password').css('opacity: 10');
+        });
 
 
 
