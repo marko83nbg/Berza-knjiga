@@ -1,7 +1,10 @@
 /*
 
- font-family: 'Roboto', sans-serif;
- font-family: 'Droid Serif', serif;
+ 
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto', sans-serif;
+
 
 */
 
@@ -51,7 +54,7 @@ a:focus{
 
 .fa-home{
     color: #d7caa8;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .dropdown-menu {
@@ -62,18 +65,22 @@ a:focus{
     display: none;
     float: none;
     width: 100%;
-    padding: 0;
-    margin: 2px 0 0;
+    padding: 25px;
+    margin: 0;
     font-size: 14px;
     text-align: center;
     list-style: none;
-    background-color: #fff;
+    background-color: #f5f1e8;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #d7caa8;
+    border: 1px solid #f5f1e8;
     border-radius: 0px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: none;
+}
+
+.dropdown-menu .clearfix{
+    background-color: #fff;
 }
 
 .dropdown-menu .list-options{
@@ -128,16 +135,20 @@ a:focus{
     border-radius: 0;
 }
 
-.navbar-nav > li > a {
+.nav-justified > li > a {
     text-align: center;
     transition: 1s ease;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #363636;
+    height: auto;
+    margin: 0;
 }
 
-.navbar-default .navbar-nav > li > a:hover, 
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .nav-justified > li > a:hover, 
+.navbar-default .nav-justified > li > a:focus{
     color: #e87218;
     background-color: #f5f1e8;
 }
@@ -151,18 +162,18 @@ a:focus{
     text-transform: uppercase;
 }
 
-.navbar-nav .social{
+.nav-justified .social{
     text-align: center;
     position: relative;
     padding: 10px 0;
 }
 
-.navbar-nav .social-list{
+.nav-justified .social-list{
     list-style: none;
     padding: 0;
 }
 
-.navbar-nav .social-list li{
+.nav-justified .social-list li{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -170,7 +181,7 @@ a:focus{
 
 }
 
-.navbar-nav .social-list li a{
+.nav-justified .social-list li a{
     display: inline-block;
     color: #fff;
     background-color:#d7caa8;
@@ -181,9 +192,14 @@ a:focus{
     transition: 1s ease;
 }
 
-.navbar-nav .social-list li a:hover{
+.nav-justified .social-list li a:hover{
     background-color: #f5f1e8;
     border: 1px solid #f5f1e8;
+}
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border-color: transparent;
 }
 
 
@@ -216,7 +232,7 @@ a:focus{
 }
 
 .book-content h3{
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
@@ -292,7 +308,7 @@ a:focus{
 .book-for-sale a{
     color: #fff;
     font-size: 25px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
@@ -305,13 +321,13 @@ a:focus{
 
 .author-of-month h4,
 .book-of-month h4{
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .author-of-month a,
 .book-of-month a{
     color: #e87217;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
@@ -363,7 +379,7 @@ a:focus{
 }
 
 .tabs .nav-tabs h2 {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .tabs .nav-tabs li{
@@ -491,24 +507,28 @@ a:focus{
 .product-price{
     height: 45px;
     margin: 10px 0;
+    position: relative;
 }
 
 .product-price .price{
     line-height: 25px;
     margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
-.product-price .discount{
+.product-price .old-price{
     line-height: 20px;
     margin: 0;
-}
-
-.old-price{
-    color: #a7a7a7;
     text-decoration: line-through;
+    color: #acacac;
 }
 
-.new-price{
+
+
+.product-price .old-price ~ .price{
     color: #b40d27;
     font-size: 25px;
 }
@@ -527,7 +547,7 @@ a:focus{
 
 .newsletter .col-sm-4 h3{
     margin-top: 10px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .newsletter .col-sm-4 article p:first-of-type{
@@ -536,7 +556,7 @@ a:focus{
 
 .newsletter .col-sm-4 a{
     color: #e87217;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
@@ -550,7 +570,7 @@ a:focus{
 
 .newsletter .col-sm-8 h3{
     margin-top: 10px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
@@ -616,6 +636,22 @@ footer a:focus{
 footer .fb-like{
     margin: 10px 0;
 }
+
+/*END OF FOOTER*/
+
+/*
+
+END OF INDEX PAGE
+
+*/
+
+/*
+
+SIGN IN PAGE
+
+*/
+
+
 
 
 

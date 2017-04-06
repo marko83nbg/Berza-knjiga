@@ -5,15 +5,15 @@ $(document).ready(function () {
         w = $(window).width();
     });
 
-    $('.navbar-nav > .dropdown > a').click(function (e) {
+    $('.nav-justified > .dropdown > a').click(function (e) {
         e.preventDefault();
-        if (w < 768) {
+        if (w < 992) {
             if ($(this).hasClass('active')) {
                 $(this).next('.dropdown-menu').slideUp();
                 $(this).removeClass('active');
             } else {
-                $('.navbar-nav .dropdown-menu ').slideUp();
-                $('.navbar-nav > li > a').removeClass('active');
+                $('.nav-justified .dropdown-menu ').slideUp();
+                $('.nav-justified > li > a').removeClass('active');
                 $(this).addClass('active');
                 $(this).next('.dropdown-menu').slideDown();
             }
@@ -44,6 +44,7 @@ $(document).ready(function () {
             margin: 10,
             responsiveClass: true,
             nav: true,
+            dots:false,
             responsive: {
                 0: {
                     items: 2
@@ -68,7 +69,7 @@ $(document).ready(function () {
         /*NEXT OWL CAROUSEL*/
         
         
-        
+
 
 
 
