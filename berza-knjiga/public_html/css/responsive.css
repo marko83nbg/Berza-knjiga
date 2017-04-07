@@ -57,18 +57,15 @@
         margin-top: 10px;
     }
 
-    .book-for-sale,
-    .create-an-account{
+    .book-for-sale{
         padding: 10px;
     }
 
-    .book-for-sale p,
-    .create-an-account p{
+    .book-for-sale p{
         font-size: 12px;
     }
 
-    .book-for-sale a,
-    .create-an-account a{
+    .book-for-sale a{
         font-size: 14px;
     }
 
@@ -164,8 +161,18 @@
     .new-password-form .btn{
         margin-left:  40%;
     }
-}  
+    
+    .create-an-account{
+        
+    }
 
+
+
+
+
+
+
+}
 
 
 @media(min-width:992px){
@@ -255,14 +262,12 @@
         padding: 15px;
     }
 
-    .book-for-sale p,
-    .create-an-account p{
+    .book-for-sale p{
         font-size: 14px;
     }
 
 
-    .book-for-sale a,
-    .create-an-account a{
+    .book-for-sale a{
         font-size: 18px;
     }
 

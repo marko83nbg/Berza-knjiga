@@ -662,13 +662,11 @@ SIGN IN PAGE
 
 .sign-in-page article {
     position: relative;
+    margin: 20px 0;
 }
 
 .sign-in-page .new-password{
-    position: absolute;
-    width: 100%;
-    top:100%;
-    visibility: hidden;
+    display: none;
 }
 
 .sign-in-page h2{
@@ -701,6 +699,12 @@ SIGN IN PAGE
     background-color: #e87218;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    transition: 1s ease;
+}
+
+.sign-in-page .btn:hover{
+    border: 1px solid #f48b39;
+    background-color: #f48b39;
 }
 
 .sign-in-form .btn{
@@ -741,6 +745,26 @@ SIGN IN PAGE
     padding: 20px;
     border: 1px solid #eaead2;
 }
+
+
+.create-an-account p{
+    font-size: 16px;
+}
+
+.create-an-account a{
+    font-size: 30px;
+}
+
+.hidden-form{
+    visibility: hidden;
+}
+
+.create-an-account{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
 
 
 
