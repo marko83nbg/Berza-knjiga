@@ -20,19 +20,19 @@ $(document).ready(function () {
         }
 
     });
-    
+
     $('.forgot-password').click(function (e) {
-            e.preventDefault();
-            $('.new-password').fadeIn(3000);
-            $('.sign-in').fadeTo("slow" , 0.2);
-        });
-        
-        $('.create').click(function(e){
-            e.preventDefault();
-            $('.create-an-account').hide();
-            $('.create-an-account-form').removeClass('hidden-form');
-            $('.sign-in').fadeTo("slow" , 0.2);
-        });
+        e.preventDefault();
+        $('.new-password').fadeIn(3000);
+        $('.sign-in').fadeTo("slow", 0.2);
+    });
+
+    $('.create').click(function (e) {
+        e.preventDefault();
+        $('.create-an-account').hide();
+        $('.create-an-account-form').removeClass('hidden-form');
+        $('.sign-in').fadeTo("slow", 0.2);
+    });
 
 //MAIN SLIDER ON INDEX PAGE
     $('.bxslider').bxSlider({
@@ -83,13 +83,13 @@ $(document).ready(function () {
 
 
 
-        
+
 
 
 
     }
-    
-    
+
+
 
 
 
