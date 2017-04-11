@@ -424,7 +424,8 @@ a:focus{
 
 .tab-content figure{
     position: relative;
-    overflow: hidden;
+    height: 410px;
+
 }
 
 .tab-content figure .discount-banner,
@@ -467,6 +468,7 @@ a:focus{
 
 .opis{
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .opis .opis-author{
@@ -682,13 +684,14 @@ SIGN IN PAGE
     font-weight: 400;
     width: 40%;
     float: left;
+    line-height: 24px;
 }
 
 .sign-in-page input{
     font-family: 'Roboto', sans-serif;
     color: #000;
     font-weight: 400;
-    width: 60%;
+    width: 100%;
     float: right;
     border: 1px solid #eaead2;
 }
@@ -763,6 +766,11 @@ SIGN IN PAGE
     position: absolute;
     top: 50%;
     width: 100%;
+    transform: translateY(-50%);
+}
+
+.create-an-account-form h2{
+    margin-bottom: 30px;
 }
 /*
 
@@ -778,139 +786,58 @@ USER PROFILE PAGE
 
 /* breadcrumb style */
 
-@import "compass/css3";
-
-$blue-gray 			    : #34495e;
-$blue-gray-darken 	: #2c3e50;
-$blue 				      : #3498db;
-$blue-darken 		    : #2980b9;
-$green 				      : #1abc9c;
-$green-darken 		  : #16a085;
-
-*{
-  margin: 0;
-  padding: 0;
-  @include box-sizing(border-box);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+.breadcrumb-section .container{
+    padding: 20px 15px;
 }
 
-body{
-  text-align: center;
-  background-color: $blue-gray;
+#breadcrumb li{
+    float: left;
+    position: relative;
+    margin-right: 17px;
+    margin-bottom: 5px;
 }
 
-h1{
-  font-weight:100;
-  font-size:32px;
-  padding:40px;
-  color:#fff;
+#breadcrumb li a{
+    display: block;
+    background: #f4f2e6;
+    color: #000;
+    padding: 0 3px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #b4b1ac;
 }
 
-#breadcrumb{
-  list-style:none;
-  display: inline-block;
-  
-  .icon{
-    font-size: 14px;
-  }
-  
-  li{
-    float:left;
-    a{
-      color:#FFF;
-      display:block;
-      background: $blue;
-      text-decoration: none;
-      position:relative;
-      height: 40px;
-      line-height:40px;
-      padding: 0 10px 0 5px;
-      text-align: center;
-      margin-right: 23px;
-    }
-    &:nth-child(even){
-      a{
-        background-color: $blue-darken;
-        
-        &:before{
-          border-color:$blue-darken;
-          border-left-color:transparent;
-         }
-        &:after{
-          border-left-color:$blue-darken;
-        }
-      }
-    }
-    &:first-child{
-      a{
-        padding-left:15px;
-        @include border-radius(4px 0 0 4px);
-        &:before{
-          border:none;
-         }
-      }
-    }
-    &:last-child{
-      a{
-        padding-right:15px;
-        @include border-radius(0 4px 4px 0);
-        &:after{
-          border:none;
-         }
-      }
-    }
-    
-    a{   
-      &:before,
-      &:after{
-        content: "";
-        position:absolute;
-        top: 0;
-        border:0 solid $blue;
-        border-width:20px 10px;
-        width: 0;
-        height: 0;
-      }
-      &:before{
-        left:-20px;
-        border-left-color:transparent;
-      }
-      &:after{
-        left:100%;
-        border-color:transparent;
-        border-left-color:$blue;
-      }
-      &:hover{
-        background-color: $green;
-        
-        &:before{
-          border-color:$green;
-          border-left-color:transparent;
-         }
-        &:after{
-          border-left-color:$green;
-        }
-      }
-      &:active{
-        background-color: $green-darken;
-        
-        &:before{
-          border-color:$green-darken;
-          border-left-color:transparent;
-         }
-        &:after{
-          border-left-color:$green-darken;
-        }
-      }
-    }
-  }
+#breadcrumb li.active a{
+    cursor: text;
+    color: #6c6867;
+}
+
+#breadcrumb li:after{
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    border-left:15px solid #f4f2e6;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+
+#breadcrumb li:before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid #f4f2e6;
+    border-top: 15px solid #f4f2e6;
+}
+#breadcrumb li:first-of-type:before{
+    display: none;
 }
 
 /* end of breadcrumb style */
-
-
-
 
 
 

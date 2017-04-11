@@ -60,6 +60,10 @@ $(document).ready(function () {
             dots: false,
             responsive: {
                 0: {
+                    items: 1
+
+                },
+                480: {
                     items: 2
 
                 },
@@ -81,16 +85,12 @@ $(document).ready(function () {
 
         /*NEXT OWL CAROUSEL*/
 
-
-
-
-
-
-
     }
 
 
-
+    $('#breadcrumb .active a').click(function (e) {
+        e.preventDefault();
+    });
 
 
 

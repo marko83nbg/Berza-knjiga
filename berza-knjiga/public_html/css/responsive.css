@@ -37,6 +37,14 @@
     }
 }
 
+@media(min-width:480px){
+    .tab-content figure{
+    position: relative;
+    height: 360px;
+   
+}
+}
+
 @media(min-width:768px){
 
     /* SECTION MAIN SLIDER*/
@@ -86,6 +94,11 @@
         margin-top: 70px;
 
     }
+       .tab-content figure{
+    position: relative;
+    height: 260px;
+   
+}
 
     .tabs .nav-tabs h2{
         margin-top: 0;
@@ -312,6 +325,10 @@
     SIGN IN PAGE
     
     */
+    
+    main{
+        min-height: 600px;
+    }
 
     .sign-in-page article{
         width: 80%;
