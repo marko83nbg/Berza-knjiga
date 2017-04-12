@@ -39,17 +39,22 @@
 
 @media(min-width:480px){
     .tab-content figure{
-    position: relative;
-    height: 360px;
-   
-}
+        position: relative;
+        height: 360px;
+
+    }
+
+    .user-profile-tab h2{
+        font-size: 30px;
+
+    }
 }
 
 @media(min-width:768px){
 
     /* SECTION MAIN SLIDER*/
 
-    .bxslider figure{
+    .bxslider .slider-img{
         width: 35%;
         float: left;
     }
@@ -94,11 +99,11 @@
         margin-top: 70px;
 
     }
-       .tab-content figure{
-    position: relative;
-    height: 260px;
-   
-}
+    .tab-content figure{
+        position: relative;
+        height: 260px;
+
+    }
 
     .tabs .nav-tabs h2{
         margin-top: 0;
@@ -174,12 +179,47 @@
     .new-password-form .btn{
         margin-left:  40%;
     }
-    
+
     .create-an-account{
-        
+
+    }
+    /*
+
+     END OF SIGN IN PAGE
+
+    */
+
+    /*
+    
+    USER PROFILE PAGE
+    
+    */
+    .user-slider .about-user{
+        text-align: left;
     }
 
+    .user-slider .user-image{
 
+        max-height: 160px;
+    }
+
+    .about-user h1{
+        margin-top: 0;
+    }
+
+    .favorit-author,
+    .favorit-book{
+        margin-top: 50px;
+    }
+
+    .favorit-author h4,
+    .favorit-book h4{
+        font-size: 16px;
+    }
+
+    .favorit-book .underline {
+        top: 20%;
+    }
 
 
 
@@ -218,8 +258,8 @@
         float: none;
         margin: 0 auto;
         text-align: center;
-        border-top: 1px solid #d7caa8;
-        border-bottom: 1px solid #d7caa8;
+        border-top: 1px solid #f4f2e6;
+        border-bottom: 1px solid #f4f2e6;
     }
     .nav-justified > li  {
         vertical-align: middle;
@@ -312,8 +352,6 @@
     }
     /* END OF SECTION NEWSLETTER*/
 
-    /* SECTION NEWSLETTER*/
-
     /*
 
      END OF INDEX PAGE
@@ -325,7 +363,7 @@
     SIGN IN PAGE
     
     */
-    
+
     main{
         min-height: 600px;
     }
@@ -358,6 +396,25 @@
     .new-password-form .btn{
         margin-left:  30%;
     }
+    /*
+
+    END OF SIGN IN PAGE
+
+    */
+
+    /*
+    
+    USER PROFILE PAGE
+    
+    */
+    .favorit-author h4,
+    .favorit-book h4{
+        font-size:14px;
+    }
+
+    .favorit-book .underline {
+        top: 28%;
+    }
 
 
 }
@@ -382,7 +439,7 @@
     }
 
     .book-of-month .underline{
-        top: 23%;
+        top: 24%;
     }
 
     /* END OF SECTION MAIN SLIDER*/
@@ -413,6 +470,25 @@
 
     .new-password p{
         font-size: 14px;
+    }
+    /*
+
+    END OF SIGN IN PAGE
+
+    */
+
+    /*
+    
+    USER PROFILE PAGE
+    
+    */
+    .favorit-author h4,
+    .favorit-book h4{
+        font-size:16px;
+    }
+
+    .favorit-book .underline {
+        top: 23%;
     }
 
 

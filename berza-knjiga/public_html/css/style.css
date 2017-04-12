@@ -156,7 +156,7 @@ a:focus{
 
 
 .nav-blog{
-    background-color: #d7caa8;
+    background-color: #f4f2e6;
 }
 
 .nav-blog a{
@@ -839,6 +839,57 @@ USER PROFILE PAGE
 
 /* end of breadcrumb style */
 
+.user-slider .user-image{
+    max-width: 200px;
+    max-height: 285px;
+}
 
+.user-slider .about-user{
+    text-align: center;
+}
 
+.about-user h1{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.about-user p{
+    font-family: 'Roboto', sans-serif;
+    color: #aaaaaa;
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+    border-bottom: 1px dotted #eaead2;
+    font-size: 12px;
+}
+
+.about-user p span{
+    color: #000;
+}
+
+.about-user a{
+    display: block;
+    color: #e87218;
+}
+
+.favorit-author,
+.favorit-book{
+    margin-top: 30px;
+}
+
+.favorit-author h4,
+.favorit-book h4{
+    font-size: 16px;
+}
+
+.favorit-book .underline {
+    top: 28%;
+}
+
+.user-profile-tab h2{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
 
