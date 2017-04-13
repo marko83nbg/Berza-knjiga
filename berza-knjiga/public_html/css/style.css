@@ -790,11 +790,16 @@ USER PROFILE PAGE
     padding: 20px 15px;
 }
 
+#breadcrumb{
+    margin-left: 15px;
+}
+
 #breadcrumb li{
     float: left;
     position: relative;
     margin-right: 17px;
     margin-bottom: 5px;
+    padding: 0;
 }
 
 #breadcrumb li a{
@@ -804,7 +809,7 @@ USER PROFILE PAGE
     padding: 0 3px;
     height: 30px;
     line-height: 30px;
-    font-size: 10px;
+    font-size: 8px;
     text-transform: uppercase;
     color: #b4b1ac;
 }
@@ -838,6 +843,14 @@ USER PROFILE PAGE
 }
 
 /* end of breadcrumb style */
+
+.user-slider{
+    padding: 0;
+}
+
+.user-wrapper{
+    margin-top: 20px;
+}
 
 .user-slider .user-image{
     max-width: 200px;
@@ -893,3 +906,64 @@ USER PROFILE PAGE
     font-family: 'Playfair Display', serif;
 }
 
+
+
+.user-slider .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 0px;
+    margin-top: 0px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;}
+ 
+.user-slider .bx-wrapper .bx-prev {
+    left:auto;
+    background: url('assets/arrow-right-color.png') no-repeat 0 0;
+    right: 50px;
+}
+
+.user-slider .bx-wrapper .bx-next {
+    left:auto;
+    background: url('assets/arrow-left-color.png') no-repeat 0 0;
+    right: 10px;
+}
+
+.user-slider .bx-wrapper .bx-next:hover, 
+.user-slider .bx-wrapper .bx-next:focus {
+    background-position: 0 0;
+}
+
+.user-slider .bx-wrapper .bx-pager {
+    display: none;
+}
+
+.user-slider .bxslider li{
+    padding: 0px;
+    /*    background: #fff;
+        background: -webkit-linear-gradient(#fff, #d7caa8); 
+        background: -o-linear-gradient(#fff, #d7caa8);
+        background: -moz-linear-gradient(#fff, #d7caa8); 
+        background: linear-gradient(#fff, #d7caa8); */
+}
+
+
+.bx-viewport{
+    height: 100% !important;
+}
+.book-of-month h4,
+.author-of-month h4{
+    position: relative;
+}
+.book-of-month h4:after,
+.author-of-month h4:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 110%;
+    height: 5px;
+    background:url('assets/underline.jpg') repeat-x;
+    z-index: -1;
+}

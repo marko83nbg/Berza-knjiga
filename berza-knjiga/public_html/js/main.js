@@ -84,6 +84,38 @@ $(document).ready(function () {
         });
 
         /*NEXT OWL CAROUSEL*/
+        
+        $('.nav-carousel').owlCarousel({
+            navText: ['', ''],
+            loop: false,
+            margin: 10,
+            responsiveClass: true,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 2
+
+                },
+                480: {
+                    items: 3
+
+                },
+                768: {
+                    items:5
+
+                },
+                992: {
+                    items:6
+
+
+                },
+                1200: {
+                    items:10
+
+                }
+            }
+        });
 
     }
 

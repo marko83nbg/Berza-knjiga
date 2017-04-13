@@ -194,6 +194,11 @@
     USER PROFILE PAGE
     
     */
+
+    #breadcrumb li a{
+        font-size: 10px;
+    }
+
     .user-slider .about-user{
         text-align: left;
     }
@@ -407,6 +412,17 @@
     USER PROFILE PAGE
     
     */
+
+    .user-slider .bx-wrapper .bx-prev {
+        right: 55px;
+    }
+
+    .user-slider .bx-wrapper .bx-next {
+        left:auto;
+        background: url('assets/arrow-left-color.png') no-repeat 0 0;
+        right: 15px;
+    }
+
     .favorit-author h4,
     .favorit-book h4{
         font-size:14px;
