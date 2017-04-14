@@ -223,7 +223,22 @@
     .favorit-book .underline {
         top: 20%;
     }
+    /*
 
+     END OF USER PROFILE PAGE
+
+    */
+
+    /*
+    
+    USER DATA PAGE
+    
+    */
+
+    .user-data h2{
+        text-align: left;
+        margin-top: 0;
+    }
 
 
 

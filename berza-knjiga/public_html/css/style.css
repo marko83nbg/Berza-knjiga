@@ -923,7 +923,7 @@ USER PROFILE PAGE
     height: 32px;
     text-indent: -9999px;
     z-index: 9999;}
- 
+
 .user-slider .bx-wrapper .bx-prev {
     left:auto;
     background: url('assets/arrow-left-color1.png') no-repeat 0 0;
@@ -938,14 +938,14 @@ USER PROFILE PAGE
 
 .user-slider .bx-wrapper .bx-next:hover,
 .user-slider .bx-wrapper .bx-next:focus {
-  background: url('assets/arrow-right-color2.png') no-repeat center center;
-  width: 33px;
+    background: url('assets/arrow-right-color2.png') no-repeat center center;
+    width: 33px;
 }
 
 .user-slider .bx-wrapper .bx-prev:hover,
 .user-slider .bx-wrapper .bx-prev:focus {
-  background: url('assets/arrow-left-color2.png') no-repeat center center;
-  width: 33px;
+    background: url('assets/arrow-left-color2.png') no-repeat center center;
+    width: 33px;
 }
 
 .user-slider .bx-wrapper .bx-pager {
@@ -954,14 +954,57 @@ USER PROFILE PAGE
 
 .user-slider .bxslider li{
     padding: 0px;
-    /*    background: #fff;
-        background: -webkit-linear-gradient(#fff, #d7caa8); 
-        background: -o-linear-gradient(#fff, #d7caa8);
-        background: -moz-linear-gradient(#fff, #d7caa8); 
-        background: linear-gradient(#fff, #d7caa8); */
 }
 
 
 .bx-viewport{
     height: 100% !important;
 }
+
+/*
+
+END OF USER PROFILE PAGE
+
+*/
+
+/*
+
+USER DATA PAGE
+
+*/
+
+.user-data-tabs{
+    margin-top: 0 !important;
+    padding: 30px;
+}
+
+.user-data-tabs .user-data-img img{
+    max-width: 195px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.user-data h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-carousel{
+    border-top: 1px dotted #eaead2;
+}
+
+.user-data-tabs .nav-carousel{
+    line-height: 25px;
+}
+
+.user-data-tabs .nav-carousel li {
+    font-size: 11px !important;
+    text-align: center;
+}
+
+.user-data-tabs .nav-carousel .nav-tabs li{
+    float: left;
+}
+
+
+

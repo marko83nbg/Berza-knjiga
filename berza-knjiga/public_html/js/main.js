@@ -98,7 +98,7 @@ $(document).ready(function () {
 
                 },
                 480: {
-                    items: 3
+                    items: 4
 
                 },
                 768: {
@@ -106,7 +106,7 @@ $(document).ready(function () {
 
                 },
                 992: {
-                    items:6
+                    items:7
 
 
                 },
