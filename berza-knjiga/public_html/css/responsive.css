@@ -72,6 +72,7 @@
 
     .book-for-sale{
         padding: 10px;
+        margin-top: 0px;
     }
 
     .book-for-sale p{
@@ -85,10 +86,7 @@
     .book-of-month h4,
     .author-of-month h4{
         font-size: 12px;
-    }
 
-    .book-of-month .underline{
-        top: 30%;
     }
     /*END OF MAIN SLIDER SECTION*/
 
@@ -233,6 +231,7 @@
 }
 
 
+
 @media(min-width:992px){
 
     /* HEADER*/
@@ -333,10 +332,6 @@
     .author-of-month h4{
         font-size: 18px;
     }
-
-    .book-of-month .underline{
-        top: 28%;
-    }
     /* END OF SECTION MAIN SLIDER*/
 
     /* SECTION NEWSLETTER*/
@@ -418,18 +413,17 @@
     }
 
     .user-slider .bx-wrapper .bx-next {
-        left:auto;
-        background: url('assets/arrow-left-color.png') no-repeat 0 0;
         right: 15px;
+    }
+
+    .favorit-author, 
+    .favorit-book {
+        margin-top:30px;
     }
 
     .favorit-author h4,
     .favorit-book h4{
         font-size:14px;
-    }
-
-    .favorit-book .underline {
-        top: 28%;
     }
 
 
@@ -452,10 +446,6 @@
 
     .book-for-sale a{
         font-size: 22px;
-    }
-
-    .book-of-month .underline{
-        top: 24%;
     }
 
     /* END OF SECTION MAIN SLIDER*/

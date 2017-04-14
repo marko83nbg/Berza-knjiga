@@ -228,7 +228,7 @@ max-height: 100%;
     right: 0;
     width: 32px;
     height: 32px;
-    background-image: url('assets/arrow-left-color.png');
+    background-image: url('assets/arrow-right-color1.png');
     background-repeat: no-repeat;
 }
 .owl-carousel .owl-nav .owl-prev{
@@ -236,7 +236,7 @@ max-height: 100%;
     left: 0;
     width: 32px;
     height: 32px;
-    background-image: url('assets/arrow-right-color.png');
+    background-image: url('assets/arrow-left-color1.png');
     background-repeat: no-repeat;
 }
 

@@ -304,6 +304,10 @@ a:focus{
     margin-bottom: 20px;
 }
 
+.book-for-sale{
+    margin-top: 50px;
+}
+
 .book-for-sale p,
 .create-an-account p{
     font-family: 'Roboto', sans-serif;
@@ -362,17 +366,19 @@ a:focus{
     height: 5px;
 }
 
-.author-of-month .underline{
-    position: absolute;
-    width: 100%;
-    top: 35%;
-    z-index: -1;
+.book-of-month h4,
+.author-of-month h4{
+    position: relative;
 }
-
-.book-of-month .underline{
+.book-of-month h4:after,
+.author-of-month h4:after{
+    content: '';
     position: absolute;
-    width: 100%;
-    top: 20%;
+    bottom: -10px;
+    left: 0;
+    width: 150%;
+    height: 5px;
+    background:url('assets/underline.jpg') repeat-x;
     z-index: -1;
 }
 /*END OF MAINSLIDER SECTION*/
@@ -920,19 +926,26 @@ USER PROFILE PAGE
  
 .user-slider .bx-wrapper .bx-prev {
     left:auto;
-    background: url('assets/arrow-right-color.png') no-repeat 0 0;
+    background: url('assets/arrow-left-color1.png') no-repeat 0 0;
     right: 50px;
 }
 
 .user-slider .bx-wrapper .bx-next {
     left:auto;
-    background: url('assets/arrow-left-color.png') no-repeat 0 0;
+    background: url('assets/arrow-right-color1.png') no-repeat 0 0;
     right: 10px;
 }
 
-.user-slider .bx-wrapper .bx-next:hover, 
+.user-slider .bx-wrapper .bx-next:hover,
 .user-slider .bx-wrapper .bx-next:focus {
-    background-position: 0 0;
+  background: url('assets/arrow-right-color2.png') no-repeat center center;
+  width: 33px;
+}
+
+.user-slider .bx-wrapper .bx-prev:hover,
+.user-slider .bx-wrapper .bx-prev:focus {
+  background: url('assets/arrow-left-color2.png') no-repeat center center;
+  width: 33px;
 }
 
 .user-slider .bx-wrapper .bx-pager {
@@ -951,19 +964,4 @@ USER PROFILE PAGE
 
 .bx-viewport{
     height: 100% !important;
-}
-.book-of-month h4,
-.author-of-month h4{
-    position: relative;
-}
-.book-of-month h4:after,
-.author-of-month h4:after{
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 110%;
-    height: 5px;
-    background:url('assets/underline.jpg') repeat-x;
-    z-index: -1;
 }
