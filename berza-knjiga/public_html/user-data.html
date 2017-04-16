@@ -153,195 +153,121 @@
                             <article>
                                 <h2>Petar Petrović</h2>
                                 <!-- <div class="owl-carousel nav-carousel"> -->
-                                    
-                                        <ul class="nav nav-tabs">
-                                            <li class="active"><a href="#tab1" data-toggle="tab">moji podaci</a></li>
-                                            <li><a href="#tab2" data-toggle="tab">kupovine</a></li>
-                                            <li><a href="#tab3" data-toggle="tab">poruke</a></li>
-                                            <li><a href="#tab4" data-toggle="tab">moj izbor</a></li>
-                                            <li><a href="#tab5" data-toggle="tab">lista želja</a></li>
-                                            <li><a href="#tab6" data-toggle="tab">anketa</a></li>
-                                            <li><a href="#tab7" data-toggle="tab">praćenje</a></li>
-                                            <li><a href="#tab8" data-toggle="tab">novčanik</a></li>
-                                            <li><a href="#tab9" data-toggle="tab">zaradi</a></li>
-                                            <li><a href="#tab10" data-toggle="tab">moja prodavnica</a></li>
 
-                                        </ul>
-                                    
-                                
+                                <ul class="nav nav-tabs owl-carousel nav-carousel">
+                                    <li class="active"><a href="#tab1" data-toggle="tab">moji podaci</a></li>
+                                    <li><a href="#tab2" data-toggle="tab">kupovine</a></li>
+                                    <li><a href="#tab3" data-toggle="tab">poruke</a></li>
+                                    <li><a href="#tab4" data-toggle="tab">moj izbor</a></li>
+                                    <li><a href="#tab5" data-toggle="tab">lista želja</a></li>
+                                    <li><a href="#tab6" data-toggle="tab">anketa</a></li>
+                                    <li><a href="#tab7" data-toggle="tab">praćenje</a></li>
+                                    <li><a href="#tab8" data-toggle="tab">novčanik</a></li>
+                                    <li><a href="#tab9" data-toggle="tab">zaradi</a></li>
+                                    <li><a href="#tab10" data-toggle="tab">moja prodavnica</a></li>
+
+                                </ul>
+
+
                                 <div class="underline"></div>
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1">
-                                        <div class="owl-carousel tab-carousel">
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                                    <!-- IF PRODUCT IS ON DISCOUNT DISPLAY THIS PARAGRAPH
-                                                          ELSE REMOVE IT-->
-                                                    <p class="discount-banner">
-                                                        <span>popust</span>
-                                                    </p>
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
-
-                                                <p>
-                                                    <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
-                                                    <span class="fa fa-check-circle"></span>ima na stanju
-
-                                                    <!--ELSE DISPLAY THIS-->
-                                                    <!--nema na stanju-->
-                                                </p>
-
-                                                <div class='ratio'></div>
-
-                                                <!--EXAMPLE WITH DISCOUNT
-                                                IF YOU DONT HAVE DISCOUNT ONLY REMOVE p.old-price
-                                                -->
-                                                <div class="product-price">
-                                                    <p class="old-price">
-                                                        450,00
-                                                        <span>rsd</span>
-                                                    </p>
-                                                    <p class="price">
-                                                        300,00
-                                                        <span>rsd</span>
-                                                    </p>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <label for="email">e-mail</label>
+                                                        <input type="email" id="email">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="password">lozinka</label>
+                                                        <input type="password" id="password">
+                                                    </div>
+                                                    <a href="#">izmeni lozinku</a>
+                                                    <a href="#">izmeni fotografiju</a>
+                                                    <div class="form-group">
+                                                        <label for="facebook">facebook</label>
+                                                        <input type="text" id="facebook">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="twitter">twitter</label>
+                                                        <input type="text" id="twitter">
+                                                    </div>
                                                 </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
-
-                                                </div>
-
-                                            </div>
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
-                                                <!--paragraf BELOW IS EXAMPE IF IS PRODUCT OUT OF STOCK-->
-                                                <p>nema na stanju</p>
-                                                <div class='ratio'></div>
-
-                                                <!--EXAMPLE WIDTHOUT DISCOUNT-->
-                                                <div class="product-price">
-
-                                                    <p class="price">
-                                                        450,00
-                                                        <span>rsd</span>
-                                                    </p>
-                                                </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <label for="name">Ime</label>
+                                                        <input type="text" id="name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="lastname">Prezime</label>
+                                                        <input type="text" id="lastname">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="birth-date">Rodjendan</label>
+                                                        <select>
+                                                            <option value="">-----</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                        </select>
+                                                        <select>
+                                                            <option value="">-----</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                        </select>
+                                                        <select>
+                                                            <option value="">-----</option>
+                                                            <option value="1980">1980</option>
+                                                            <option value="1981">1981</option>
+                                                            <option value="1982">1982</option>
+                                                            <option value="1983">1983</option>
+                                                            <option value="1984">1984</option>
+                                                            <option value="1985">1985</option>
+                                                            <option value="1986">1986</option>
+                                                            <option value="1987">1987</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="address">Adresa</label>
+                                                        <input type="text" id="address">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="address">Adresa</label>
+                                                        <select>
+                                                            <option value="">------</option>
+                                                            <option value="Ada">Ada</option>
+                                                            <option value="Beograd">Beograd</option>
+                                                            <option value="Jagodina">Jagodina</option>
+                                                            <option value="Kragujevac">Kragujevac</option>
+                                                            <option value="Nis">Niš</option>
+                                                            <option value="Novi Sad">Novi Sad</option>
+                                                        </select>
+                                                    </div>
 
                                                 </div>
-
-                                            </div>
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                                    <!-- IF PRODUCT IS NEW ON STOCK DISPLAY THOS PARAGRAPH
-                                                       ELSE REMOVE IT-->
-                                                    <p class="new-banner">
-                                                        <span>novo</span>
-                                                    </p>
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
-                                                <p>
-                                                    <span class="fa fa-check-circle"></span>ima na stanju
-                                                </p>
-
-                                                <div class='ratio'></div>
-                                                <div class="product-price">
-
-                                                    <p class="price">
-                                                        300,00
-                                                        <span>rsd</span>
-                                                    </p>
-                                                </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <label>Šta volim da čitam</label>
+                                                        <textarea name="comment" placeholder="Upišite šta volite da čitate od žanrova"></textarea>
+                                                    </div>
 
                                                 </div>
+                                            </div> 
+                                            <button type="submit" class="btn btn-default">Snimi izmene</button>
 
-                                            </div>
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
-                                                <p>
-                                                    <span class="fa fa-check-circle"></span>ima na stanju
-                                                </p>
-
-                                                <div class='ratio'></div>
-                                                <div class="product-price">
-
-
-                                                    <p class="price">
-                                                        300,00
-                                                        <span>rsd</span>
-                                                    </p>
-                                                </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
-
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                        </form>
 
                                     </div>
                                     <div class="tab-pane" id="tab2">
@@ -381,10 +307,10 @@
 
                                                 <div class="link clearfix">
                                                     <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
+                                                        <span class="fa fa-trash-o"></span>
                                                     </a>
                                                     <a href="#">
-                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-share-alt"></span>
                                                     </a>
                                                     <a href="#">
                                                         <span class="fa fa-shopping-cart"></span>
@@ -429,10 +355,10 @@
                                                 </div>
                                                 <div class="link clearfix">
                                                     <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
+                                                        <span class="fa fa-trash-o"></span>
                                                     </a>
                                                     <a href="#">
-                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-share-alt"></span>
                                                     </a>
                                                     <a href="#">
                                                         <span class="fa fa-shopping-cart"></span>
@@ -466,10 +392,10 @@
                                                 </div>
                                                 <div class="link clearfix">
                                                     <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
+                                                        <span class="fa fa-trash-o"></span>
                                                     </a>
                                                     <a href="#">
-                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-share-alt"></span>
                                                     </a>
                                                     <a href="#">
                                                         <span class="fa fa-shopping-cart"></span>
@@ -501,10 +427,10 @@
                                                 </div>
                                                 <div class="link clearfix">
                                                     <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
+                                                        <span class="fa fa-trash-o"></span>
                                                     </a>
                                                     <a href="#">
-                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-share-alt"></span>
                                                     </a>
                                                     <a href="#">
                                                         <span class="fa fa-shopping-cart"></span>
@@ -518,53 +444,141 @@
                                     </div>
                                     <div class="tab-pane" id="tab3">
 
-                                        <div class="owl-carousel tab-carousel">
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book3.jpeg" alt="" class="img-responsive"/>
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
+                                        <div class="media">
+                                            <a  class = "pull-left" href = "#">
+                                                <h5 class="media-heading">Larsen Mortin<span class="comment-date">12.jan/2017</span></h5> 
+                                            </a>
+                                            <div class="media-body">
+
                                                 <p>
-                                                    <span class="fa fa-check-circle"></span>ima na stanju
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                </p>
+                                                <div class="media">
+                                                    <a  class = "pull-left" href = "#">
+                                                        <img class = "media-object" src="img/customers/index04.jpg" alt="Generic placeholder image">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h5 class="media-heading">Albert Jonse<span class="comment-date">13.jan/2017</span><span class="reply"><a href="#">reply</a></span></h5>
+                                                        <p>
+                                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <a  class = "pull-left" href = "#">
+                                                <img class = "media-object" src="img/customers/index03.jpg" alt="Generic placeholder image">
+                                            </a>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">selina Carmel<span class="comment-date">02.feb/2017</span><span class="reply"><a href="#">reply</a></span></h5>
+                                                <p>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                                 </p>
 
-                                                <div class='ratio'></div>
-                                                <div class="product-price">
-
-
-                                                    <p class="price">
-                                                        400,00
-                                                        <span>rsd</span>
-                                                    </p>
-                                                </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
-
-                                                </div>
-
                                             </div>
-
                                         </div>
                                     </div>
                                     <div class="tab-pane" id="tab4">
 
-                                        <div class="owl-carousel tab-carousel">
+                                        <div class="owl-carousel tab-carousel" >
                                             <div class="opis">
                                                 <figure>
-                                                    <img src="img/book-img/book3.jpeg" alt="" class="img-responsive"/>
+                                                    <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                    <!-- IF PRODUCT IS NEW ON STOCK DISPLAY THOS PARAGRAPH
+                                                       ELSE REMOVE IT-->
+                                                    <p class="new-banner">
+                                                        <span>novo</span>
+                                                    </p>
+                                                </figure>
+                                                <h4>
+                                                    naslov
+                                                </h4>
+                                                <a href="#" class="opis-author">
+                                                    autor
+                                                </a>
+                                                <p>
+                                                    <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
+                                                    <span class="fa fa-check-circle"></span>ima na stanju
+
+                                                    <!--ELSE DISPLAY THIS-->
+                                                    <!--nema na stanju-->
+                                                </p>
+                                                <div class='ratio'></div>
+                                                <div class="product-price">
+
+
+                                                    <p class="price">
+                                                        500,00
+                                                        <span>rsd</span>
+                                                    </p>
+                                                </div>
+
+                                                <div class="link clearfix">
+                                                    <a href="#">
+                                                        <span class="fa fa-trash-o"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-share-alt"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-shopping-cart"></span>
+                                                    </a>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="opis">
+                                                <figure>
+                                                    <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                    <!-- IF PRODUCT IS ON DISCOUNT DISPLAY THIS PARAGRAPH
+                                                          ELSE REMOVE IT-->
+                                                    <p class="discount-banner">
+                                                        <span>popust</span>
+                                                    </p>
+                                                </figure>
+                                                <h4>
+                                                    naslov
+                                                </h4>
+                                                <a href="#" class="opis-author">
+                                                    autor
+                                                </a>
+                                                <p>
+                                                    <span class="fa fa-check-circle"></span>ima na stanju
+                                                </p>
+
+
+                                                <div class='ratio'></div>
+                                                <!--EXAMPLE WITH DISCOUNT
+                                                IF YOU DONT HAVE DISCOUNT ONLY REMOVE p.old-price
+                                                -->
+                                                <div class="product-price">
+                                                    <p class="old-price">
+                                                        500,00
+                                                        <span>rsd</span>
+                                                    </p>
+                                                    <p class="price">
+                                                        350,00
+                                                        <span>rsd</span>
+                                                    </p>
+                                                </div>
+                                                <div class="link clearfix">
+                                                    <a href="#">
+                                                        <span class="fa fa-trash-o"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-share-alt"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-shopping-cart"></span>
+                                                    </a>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="opis">
+                                                <figure>
+                                                    <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
                                                 </figure>
                                                 <h4>
                                                     naslov
@@ -581,16 +595,16 @@
 
 
                                                     <p class="price">
-                                                        400,00
+                                                        500,00
                                                         <span>rsd</span>
                                                     </p>
                                                 </div>
                                                 <div class="link clearfix">
                                                     <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
+                                                        <span class="fa fa-trash-o"></span>
                                                     </a>
                                                     <a href="#">
-                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-share-alt"></span>
                                                     </a>
                                                     <a href="#">
                                                         <span class="fa fa-shopping-cart"></span>
@@ -599,94 +613,495 @@
                                                 </div>
 
                                             </div>
+                                            <div class="opis">
+                                                <figure>
+                                                    <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                </figure>
+                                                <h4>
+                                                    naslov
+                                                </h4>
+                                                <a href="#" class="opis-author">
+                                                    autor
+                                                </a>
 
+                                                <p>nema na stanju</p>
+                                                <div class='ratio'></div>
+                                                <div class="product-price">
+
+
+                                                    <p class="price">
+                                                        500,00
+                                                        <span>rsd</span>
+                                                    </p>
+                                                </div>
+                                                <div class="link clearfix">
+                                                    <a href="#">
+                                                        <span class="fa fa-trash-o"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-share-alt"></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        <span class="fa fa-shopping-cart"></span>
+                                                    </a>
+
+                                                </div>
+
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="tab-pane" id="tab5">
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-sm-7">
+                                                    <div class="owl-carousel tab-carousel" >
+                                                        <div class="opis">
+                                                            <figure>
+                                                                <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                                <!-- IF PRODUCT IS NEW ON STOCK DISPLAY THOS PARAGRAPH
+                                                                   ELSE REMOVE IT-->
+                                                                <p class="new-banner">
+                                                                    <span>novo</span>
+                                                                </p>
+                                                            </figure>
+                                                            <h4>
+                                                                naslov
+                                                            </h4>
+                                                            <a href="#" class="opis-author">
+                                                                autor
+                                                            </a>
+                                                            <p>
+                                                                <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
+                                                                <span class="fa fa-check-circle"></span>ima na stanju
 
-                                        <div class="owl-carousel tab-carousel">
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book3.jpeg" alt="" class="img-responsive"/>
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
-                                                <p>
-                                                    <span class="fa fa-check-circle"></span>ima na stanju
-                                                </p>
-
-                                                <div class='ratio'></div>
-                                                <div class="product-price">
+                                                                <!--ELSE DISPLAY THIS-->
+                                                                <!--nema na stanju-->
+                                                            </p>
+                                                            <div class='ratio'></div>
+                                                            <div class="product-price">
 
 
-                                                    <p class="price">
-                                                        400,00
-                                                        <span>rsd</span>
-                                                    </p>
+                                                                <p class="price">
+                                                                    500,00
+                                                                    <span>rsd</span>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="link clearfix">
+                                                                <a href="#">
+                                                                    <span class="fa fa-trash-o"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-share-alt"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-shopping-cart"></span>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="opis">
+                                                            <figure>
+                                                                <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                                <!-- IF PRODUCT IS ON DISCOUNT DISPLAY THIS PARAGRAPH
+                                                                      ELSE REMOVE IT-->
+                                                                <p class="discount-banner">
+                                                                    <span>popust</span>
+                                                                </p>
+                                                            </figure>
+                                                            <h4>
+                                                                naslov
+                                                            </h4>
+                                                            <a href="#" class="opis-author">
+                                                                autor
+                                                            </a>
+                                                            <p>
+                                                                <span class="fa fa-check-circle"></span>ima na stanju
+                                                            </p>
+
+
+                                                            <div class='ratio'></div>
+                                                            <!--EXAMPLE WITH DISCOUNT
+                                                            IF YOU DONT HAVE DISCOUNT ONLY REMOVE p.old-price
+                                                            -->
+                                                            <div class="product-price">
+                                                                <p class="old-price">
+                                                                    500,00
+                                                                    <span>rsd</span>
+                                                                </p>
+                                                                <p class="price">
+                                                                    350,00
+                                                                    <span>rsd</span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="link clearfix">
+                                                                <a href="#">
+                                                                    <span class="fa fa-trash-o"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-share-alt"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-shopping-cart"></span>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="opis">
+                                                            <figure>
+                                                                <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                            </figure>
+                                                            <h4>
+                                                                naslov
+                                                            </h4>
+                                                            <a href="#" class="opis-author">
+                                                                autor
+                                                            </a>
+                                                            <p>
+                                                                <span class="fa fa-check-circle"></span>ima na stanju
+                                                            </p>
+
+                                                            <div class='ratio'></div>
+                                                            <div class="product-price">
+
+
+                                                                <p class="price">
+                                                                    500,00
+                                                                    <span>rsd</span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="link clearfix">
+                                                                <a href="#">
+                                                                    <span class="fa fa-trash-o"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-share-alt"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-shopping-cart"></span>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="opis">
+                                                            <figure>
+                                                                <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                            </figure>
+                                                            <h4>
+                                                                naslov
+                                                            </h4>
+                                                            <a href="#" class="opis-author">
+                                                                autor
+                                                            </a>
+
+                                                            <p>nema na stanju</p>
+                                                            <div class='ratio'></div>
+                                                            <div class="product-price">
+
+
+                                                                <p class="price">
+                                                                    500,00
+                                                                    <span>rsd</span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="link clearfix">
+                                                                <a href="#">
+                                                                    <span class="fa fa-trash-o"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-share-alt"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span class="fa fa-shopping-cart"></span>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
+                                                <div class="col-sm-5">
+                                                    <article>
+                                                        <h4>Omiljena knjiga</h4>
+                                                        <div>
+                                                            <div class="opis">
+                                                                <figure>
+                                                                    <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                                    <!-- IF PRODUCT IS NEW ON STOCK DISPLAY THOS PARAGRAPH
+                                                                       ELSE REMOVE IT-->
+                                                                    <p class="new-banner">
+                                                                        <span>novo</span>
+                                                                    </p>
+                                                                </figure>
+                                                                <h4>
+                                                                    naslov
+                                                                </h4>
+                                                                <a href="#" class="opis-author">
+                                                                    autor
+                                                                </a>
+                                                                <p>
+                                                                    <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
+                                                                    <span class="fa fa-check-circle"></span>ima na stanju
 
+                                                                    <!--ELSE DISPLAY THIS-->
+                                                                    <!--nema na stanju-->
+                                                                </p>
+                                                                <div class='ratio'></div>
+                                                                <div class="product-price">
+
+
+                                                                    <p class="price">
+                                                                        500,00
+                                                                        <span>rsd</span>
+                                                                    </p>
+                                                                </div>
+
+                                                                <div class="link clearfix">
+                                                                    <a href="#">
+                                                                        <span class="fa fa-trash-o"></span>
+                                                                    </a>
+                                                                    <a href="#">
+                                                                        <span class="fa fa-share-alt"></span>
+                                                                    </a>
+                                                                    <a href="#">
+                                                                        <span class="fa fa-shopping-cart"></span>
+                                                                    </a>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </article>
                                                 </div>
-
                                             </div>
-
                                         </div>
+                                        <div>
+                                            <div class="owl-carousel tab-carousel" >
+                                                <div class="opis">
+                                                    <figure>
+                                                        <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                        <!-- IF PRODUCT IS NEW ON STOCK DISPLAY THOS PARAGRAPH
+                                                           ELSE REMOVE IT-->
+                                                        <p class="new-banner">
+                                                            <span>novo</span>
+                                                        </p>
+                                                    </figure>
+                                                    <h4>
+                                                        naslov
+                                                    </h4>
+                                                    <a href="#" class="opis-author">
+                                                        autor
+                                                    </a>
+                                                    <p>
+                                                        <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
+                                                        <span class="fa fa-check-circle"></span>ima na stanju
+
+                                                        <!--ELSE DISPLAY THIS-->
+                                                        <!--nema na stanju-->
+                                                    </p>
+                                                    <div class='ratio'></div>
+                                                    <div class="product-price">
+
+
+                                                        <p class="price">
+                                                            500,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="link clearfix">
+                                                        <a href="#">
+                                                            <span class="fa fa-trash-o"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-share-alt"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-shopping-cart"></span>
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="opis">
+                                                    <figure>
+                                                        <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                        <!-- IF PRODUCT IS ON DISCOUNT DISPLAY THIS PARAGRAPH
+                                                              ELSE REMOVE IT-->
+                                                        <p class="discount-banner">
+                                                            <span>popust</span>
+                                                        </p>
+                                                    </figure>
+                                                    <h4>
+                                                        naslov
+                                                    </h4>
+                                                    <a href="#" class="opis-author">
+                                                        autor
+                                                    </a>
+                                                    <p>
+                                                        <span class="fa fa-check-circle"></span>ima na stanju
+                                                    </p>
+
+
+                                                    <div class='ratio'></div>
+                                                    <!--EXAMPLE WITH DISCOUNT
+                                                    IF YOU DONT HAVE DISCOUNT ONLY REMOVE p.old-price
+                                                    -->
+                                                    <div class="product-price">
+                                                        <p class="old-price">
+                                                            500,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                        <p class="price">
+                                                            350,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="link clearfix">
+                                                        <a href="#">
+                                                            <span class="fa fa-trash-o"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-share-alt"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-shopping-cart"></span>
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="opis">
+                                                    <figure>
+                                                        <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                    </figure>
+                                                    <h4>
+                                                        naslov
+                                                    </h4>
+                                                    <a href="#" class="opis-author">
+                                                        autor
+                                                    </a>
+                                                    <p>
+                                                        <span class="fa fa-check-circle"></span>ima na stanju
+                                                    </p>
+
+                                                    <div class='ratio'></div>
+                                                    <div class="product-price">
+
+
+                                                        <p class="price">
+                                                            500,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="link clearfix">
+                                                        <a href="#">
+                                                            <span class="fa fa-trash-o"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-share-alt"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-shopping-cart"></span>
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="opis">
+                                                    <figure>
+                                                        <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
+                                                    </figure>
+                                                    <h4>
+                                                        naslov
+                                                    </h4>
+                                                    <a href="#" class="opis-author">
+                                                        autor
+                                                    </a>
+
+                                                    <p>nema na stanju</p>
+                                                    <div class='ratio'></div>
+                                                    <div class="product-price">
+
+
+                                                        <p class="price">
+                                                            500,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="link clearfix">
+                                                        <a href="#">
+                                                            <span class="fa fa-trash-o"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-share-alt"></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            <span class="fa fa-shopping-cart"></span>
+                                                        </a>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="tab-pane" id="tab6">
 
-                                        <div class="owl-carousel tab-carousel">
-                                            <div class="opis">
-                                                <figure>
-                                                    <img src="img/book-img/book3.jpeg" alt="" class="img-responsive"/>
-                                                </figure>
-                                                <h4>
-                                                    naslov
-                                                </h4>
-                                                <a href="#" class="opis-author">
-                                                    autor
-                                                </a>
-                                                <p>
-                                                    <span class="fa fa-check-circle"></span>ima na stanju
-                                                </p>
-
-                                                <div class='ratio'></div>
-                                                <div class="product-price">
-
-
-                                                    <p class="price">
-                                                        400,00
-                                                        <span>rsd</span>
-                                                    </p>
-                                                </div>
-                                                <div class="link clearfix">
-                                                    <a href="#">
-                                                        <span class="fa fa-share-alt"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                    </a>
-
-                                                </div>
-
+                                        <p>Ucestvujte u anketi Berze knjiga.......</p>
+                                        <form>
+                                            <div class="first">
+                                                <p>1. Kako Vam se svidja funkcionalnost naseg portala?</p>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="html">odlicno
+                                                    <span></span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="css">nije lose
+                                                    <span></span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="js">svidja mi se
+                                                    <span></span>
+                                                </label>
                                             </div>
-
-                                        </div>
+                                            <div class="second">
+                                                <p>2. Da li mislite da su cene knjiga odgovarajuce?</p>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="html">skupe su
+                                                    <span></span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="css">jeftine su
+                                                    <span></span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="js">ne znam
+                                                    <span></span>
+                                                </label>
+                                            </div>
+                                            <div class="first">
+                                                <p>3. Koliko knjiga procitate mesecno?</p>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="html">manje od jedne
+                                                    <span></span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="css">jednu
+                                                    <span></span>
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="oblast" value="js">vise od jedne
+                                                    <span></span>
+                                                </label>
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Posalji odgovor</button>
+                                               
+                                        </form>
                                     </div>
                                     <div class="tab-pane" id="tab7">
 
