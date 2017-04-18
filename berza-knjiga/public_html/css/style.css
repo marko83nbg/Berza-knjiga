@@ -987,6 +987,7 @@ USER DATA PAGE
 .user-data h2{
     text-align: center;
     font-family: 'Playfair Display', serif;
+    margin-top: 30px;
 }
 
 .nav-carousel{
@@ -1002,9 +1003,125 @@ USER DATA PAGE
     text-align: center;
 }
 
+.user-data-tabs .nav-carousel li a{
+    color: #acacac;
+}
+
+.user-data-tabs .nav-carousel li a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.user-data-tabs .nav-carousel li a.active{
+    text-decoration: none;
+    color: #000;
+}
+
 .user-data-tabs .nav-carousel .nav-tabs li{
     float: left;
 }
+
+.owl-carousel.nav-carousel .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: -13%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.owl-carousel.nav-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: -16px;
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/left-arrow-gold-small.png');
+    background-repeat: no-repeat;
+}
+
+.owl-carousel.nav-carousel .owl-nav .owl-next {
+    position: absolute;
+    right:  -22px;
+    width: 20px;
+    height: 20px;
+    background-image: url('assets/right-arrow-gold-small.png');
+    background-repeat: no-repeat;
+}
+
+/* tab1 style */
+
+#tab1 form{
+    text-align: center;
+}
+
+#tab1 label{
+    color: #acacac;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: block;
+}
+
+#tab1 input{
+    width: 50%;
+    border: 1px solid #eaead2;
+    padding: 3px 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tab1 select{
+    height: 28px;
+    border-radius: 0;
+    border: 1px solid #eaead2;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tab1 select:focus{
+    outline: none !important;
+}
+
+#tab1 select.city{
+    width: 50%;
+}
+
+#tab1 textarea{
+    width: 50%;
+    height: 70px;
+    border: 1px solid #eaead2;
+    padding: 3px 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tab1 a{
+    color: #e87218;
+}
+
+#tab1 a:hover,
+#tab1 a:focus{
+    color: #e87218;
+}
+
+#tab1 a.change-photo{
+   position: absolute;
+   top: -45%;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+#tab1 .btn {
+    border: 1px solid #e87218;
+    background-color: #e87218;
+    border-radius: 0px;
+    color: #fff;
+    transition: 1s ease;
+}
+
+#tab1 .btn:hover{
+    border: 1px solid #f48b39;
+    background-color: #f48b39;
+}
+
+
 
 
 

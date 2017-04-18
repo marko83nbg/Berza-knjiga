@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+ 
     var w = $(window).width();
     $(window).resize(function () {
         w = $(window).width();
@@ -123,6 +123,16 @@ $(document).ready(function () {
     $('#breadcrumb .active a').click(function (e) {
         e.preventDefault();
     });
+    
+    $('.nav-carousel a').click(function(e){
+        e.preventDefault();
+        $('.nav-carousel a').removeClass('active');
+        $(this).addClass('active');
+        var hrAtr = $(this).attr('href');
+        $('.tab-pane').removeClass('active');
+        $(hrAtr).addClass('active');
+    });
+   
 
 
 

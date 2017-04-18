@@ -240,6 +240,42 @@
         margin-top: 0;
     }
 
+    /* tab1 style */
+
+    #tab1 label{
+        text-align: left;
+    }
+
+    #tab1 input{
+        width: 100%;
+    }
+
+    #tab1 textarea{
+        width: 100%;
+
+    }
+
+    #tab1 select.birthday{
+        width: 30%;
+        font-size: 11px;
+    }
+
+    #tab1 select.city{
+        width: 100%;
+    }
+
+    #tab1 a.change-photo{
+        top: 50%;
+        left: -50%;
+    }
+
+    #tab1 .btn {
+        float: left;
+    }
+
+
+
+
 
 
 
@@ -440,6 +476,27 @@
     .favorit-book h4{
         font-size:14px;
     }
+    /*
+
+    END OF USER PROFILE PAGE
+
+    */
+
+    /*
+    
+    USER DATA PAGE
+    
+    */
+
+    /* tab1 style */
+
+    #tab1 select.birthday{
+        font-size: 14px;
+    }
+
+    #tab1 a.change-photo{
+        top: 70%;
+    }
 
 
 }
@@ -511,7 +568,51 @@
     .favorit-book .underline {
         top: 23%;
     }
+    /*
 
+   END OF USER PROFILE PAGE
+
+    */
+
+    /*
+    
+    USER DATA PAGE
+    
+    */
+
+    /* tab1 style */
+
+    #tab1 label{
+        display: inline-block;
+        width: 30%;
+        float: left;
+        text-align: left;
+        line-height: 28px;
+    }
+
+    #tab1 label.reading{
+        width: 100%;
+    }
+
+    #tab1 input{
+        width: 70%;
+        float: right;
+    }
+
+    #tab1 select.birthday{
+        width: 22.3%;
+    }
+
+    #tab1 a.change-photo{
+        top: 75%;
+        left: -30%;
+
+    }
+
+    #tab1 select.city{
+        width: 70%;
+        float: right;
+    }
 
 
 }
