@@ -172,18 +172,20 @@
                                 <div class="underline"></div>
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1">
-                                        <form>
+                                        <form data-toggle="validator" role="form" method="get" action="">
                                             <div class="row">
                                                 <div class="col-sm-4">
                                                     <div class="form-group clearfix">
                                                         <label for="email">e-mail</label>
-                                                        <input type="email" id="email">
+                                                        <input type="email" id="email" required="" data-error="Ovo polje je obavezno">
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
-                                                    <div class="form-group clearfix">
+                                                    <div class="form-group clearfix password-div">
                                                         <label for="password">lozinka</label>
-                                                        <input type="password" id="password">
+                                                        <input type="password" id="password" required="" pattern="^[_A-z0-9]{1,}$" data-minlength="6">
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
-                                                    <a href="#">izmeni lozinku</a>
+                                                    <a href="#" class="change-password">izmeni lozinku</a>
                                                     <a href="#" class="change-photo">izmeni fotografiju</a>
                                                     <div class="form-group clearfix">
                                                         <label for="facebook">facebook</label>
@@ -197,15 +199,17 @@
                                                 <div class="col-sm-4">
                                                     <div class="form-group clearfix">
                                                         <label for="name">Ime</label>
-                                                        <input type="text" id="name">
+                                                        <input type="text" id="name" required="" pattern="^[_A-z]{1,}$" maxlength="15" data-minlength="3">
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <label for="lastname">Prezime</label>
-                                                        <input type="text" id="lastname">
+                                                        <input type="text" id="lastname" required="" pattern="^[_A-z]{1,}$" maxlength="15" data-minlength="3">
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <label for="birth-date">Rodjendan</label>
-                                                        <select class="birthday">
+                                                        <select class="birthday" required="">
                                                             <option value="">-----</option>
                                                             <option value="1">1</option>
                                                             <option value="2">2</option>
@@ -216,7 +220,7 @@
                                                             <option value="7">7</option>
                                                             <option value="8">8</option>
                                                         </select>
-                                                        <select class="birthday">
+                                                        <select class="birthday" required="">
                                                             <option value="">-----</option>
                                                             <option value="1">1</option>
                                                             <option value="2">2</option>
@@ -227,7 +231,7 @@
                                                             <option value="7">7</option>
                                                             <option value="8">8</option>
                                                         </select>
-                                                        <select class="birthday">
+                                                        <select class="birthday" required="">
                                                             <option value="">-----</option>
                                                             <option value="1980">1980</option>
                                                             <option value="1981">1981</option>
@@ -238,14 +242,16 @@
                                                             <option value="1986">1986</option>
                                                             <option value="1987">1987</option>
                                                         </select>
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <label for="address">Adresa</label>
-                                                        <input type="text" id="address">
+                                                        <input type="text" id="address" required="" pattern="^[_A-z0-9]{1,}$" data-minlength="5">
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="address">Grad</label>
-                                                        <select class="city">
+                                                        <select class="city" required="">
                                                             <option value="">------</option>
                                                             <option value="Ada">Ada</option>
                                                             <option value="Beograd">Beograd</option>
@@ -254,6 +260,7 @@
                                                             <option value="Nis">Niš</option>
                                                             <option value="Novi Sad">Novi Sad</option>
                                                         </select>
+                                                        <div class="help-block with-errors error"></div>
                                                     </div>
 
                                                 </div>
@@ -1100,7 +1107,7 @@
                                                 </label>
                                             </div>
                                             <button type="submit" class="btn btn-default">Posalji odgovor</button>
-                                               
+
                                         </form>
                                     </div>
                                     <div class="tab-pane" id="tab7">
@@ -1408,8 +1415,8 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
 
-
-
+        <!-- custom -->
+        <script src="js/validator.js" type="text/javascript"></script>
 
 
         <script src="js/main.js" type="text/javascript"></script>

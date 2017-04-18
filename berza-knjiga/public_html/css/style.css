@@ -1051,8 +1051,16 @@ USER DATA PAGE
 
 /* tab1 style */
 
+#tab1 .col-sm-4{
+    position: relative;
+}
+
 #tab1 form{
     text-align: center;
+}
+
+#tab1 .password-div{
+    margin-bottom: 5px;
 }
 
 #tab1 label{
@@ -1063,17 +1071,24 @@ USER DATA PAGE
 }
 
 #tab1 input{
-    width: 50%;
+    width: 80%;
     border: 1px solid #eaead2;
     padding: 3px 6px;
     font-family: 'Roboto', sans-serif;
 }
 
 #tab1 select{
+    width: 26%;
     height: 28px;
     border-radius: 0;
     border: 1px solid #eaead2;
     font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background:  url('assets/arrow-down.png') no-repeat 90% center;
 }
 
 #tab1 select:focus{
@@ -1081,11 +1096,11 @@ USER DATA PAGE
 }
 
 #tab1 select.city{
-    width: 50%;
+    width: 80%;
 }
 
 #tab1 textarea{
-    width: 50%;
+    width: 80%;
     height: 70px;
     border: 1px solid #eaead2;
     padding: 3px 6px;
@@ -1101,11 +1116,17 @@ USER DATA PAGE
     color: #e87218;
 }
 
+#tab1 .change-password{
+    margin-bottom: 20px;
+    display: block;
+}
+
 #tab1 a.change-photo{
-   position: absolute;
-   top: -45%;
-   left: 50%;
-   transform: translate(-50%);
+    position: absolute;
+    width: 100%;
+    top: -43%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 #tab1 .btn {
@@ -1120,6 +1141,11 @@ USER DATA PAGE
 #tab1 .btn:hover{
     border: 1px solid #f48b39;
     background-color: #f48b39;
+}
+
+#tab1 .error{
+    height: 5px;
+    font-size: 10px;
 }
 
 

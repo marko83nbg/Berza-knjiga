@@ -264,8 +264,12 @@
         width: 100%;
     }
 
+    #tab1 .change-password{
+        margin-bottom: 58px;
+    }
+
     #tab1 a.change-photo{
-        top: 50%;
+        top: 43%;
         left: -50%;
     }
 
@@ -416,7 +420,7 @@
     */
 
     main{
-        min-height: 600px;
+        min-height: 675px;
     }
 
     .sign-in-page article{
@@ -492,10 +496,12 @@
 
     #tab1 select.birthday{
         font-size: 14px;
+        width: 32%;
+
     }
 
     #tab1 a.change-photo{
-        top: 70%;
+        top: 60%;
     }
 
 
@@ -602,9 +608,13 @@
     #tab1 select.birthday{
         width: 22.3%;
     }
+    
+    #tab1 .change-password{
+        margin-bottom: 38px;
+    }
 
     #tab1 a.change-photo{
-        top: 75%;
+        top: 65%;
         left: -30%;
 
     }
