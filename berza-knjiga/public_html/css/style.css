@@ -1114,6 +1114,7 @@ USER DATA PAGE
     border-radius: 0px;
     color: #fff;
     transition: 1s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 #tab1 .btn:hover{
