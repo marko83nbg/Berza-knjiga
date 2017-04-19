@@ -254,5 +254,9 @@ max-height: 100%;
         left: 0%;
     }
     
+    .main-slider .tab-carousel {
+        padding: 0;
+    }
+    
     
 }

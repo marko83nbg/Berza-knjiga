@@ -975,7 +975,7 @@ USER DATA PAGE
 
 .user-data-tabs{
     margin-top: 0 !important;
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .user-data-tabs .user-data-img img{
@@ -1051,34 +1051,34 @@ USER DATA PAGE
 
 /* tab1 style */
 
-#tab1 .col-sm-4{
+.user-data #tab1 .col-sm-4{
     position: relative;
 }
 
-#tab1 form{
+.user-data #tab1 form{
     text-align: center;
 }
 
-#tab1 .password-div{
+.user-data #tab1 .password-div{
     margin-bottom: 5px;
 }
 
-#tab1 label{
+.user-data #tab1 label{
     color: #acacac;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     display: block;
 }
 
-#tab1 input{
+.user-data #tab1 input{
     width: 80%;
     border: 1px solid #eaead2;
     padding: 3px 6px;
     font-family: 'Roboto', sans-serif;
 }
 
-#tab1 select{
-    width: 26%;
+.user-data #tab1 select{
+    width: 26.5%;
     height: 28px;
     border-radius: 0;
     border: 1px solid #eaead2;
@@ -1088,18 +1088,18 @@ USER DATA PAGE
     -webkit-appearance: none;
     -ms-appearance: none;
     -o-appearance: none;
-    background:  url('assets/arrow-down.png') no-repeat 90% center;
+    background:  url('assets/arrow-down.png') no-repeat 95% center;
 }
 
-#tab1 select:focus{
+.user-data #tab1 select:focus{
     outline: none !important;
 }
 
-#tab1 select.city{
+.user-data #tab1 select.city{
     width: 80%;
 }
 
-#tab1 textarea{
+.user-data #tab1 textarea{
     width: 80%;
     height: 70px;
     border: 1px solid #eaead2;
@@ -1107,21 +1107,22 @@ USER DATA PAGE
     font-family: 'Roboto', sans-serif;
 }
 
-#tab1 a{
+.user-data #tab1 a{
     color: #e87218;
 }
 
-#tab1 a:hover,
-#tab1 a:focus{
+.user-data #tab1 a:hover,
+.user-data #tab1 a:focus{
     color: #e87218;
 }
 
-#tab1 .change-password{
+.user-data #tab1 .change-password{
+    margin-top: 8px;
     margin-bottom: 20px;
     display: block;
 }
 
-#tab1 a.change-photo{
+.user-data #tab1 a.change-photo{
     position: absolute;
     width: 100%;
     top: -43%;
@@ -1129,7 +1130,7 @@ USER DATA PAGE
     transform: translate(-50%);
 }
 
-#tab1 .btn {
+.user-data #tab1 .btn {
     border: 1px solid #e87218;
     background-color: #e87218;
     border-radius: 0px;
@@ -1138,15 +1139,89 @@ USER DATA PAGE
     font-family: 'Roboto', sans-serif;
 }
 
-#tab1 .btn:hover{
+.user-data #tab1 .btn:hover{
     border: 1px solid #f48b39;
     background-color: #f48b39;
 }
 
-#tab1 .error{
-    height: 5px;
-    font-size: 10px;
+.user-data #tab1 .error{
+    height: 0px;
+    font-size: 9px;
+    margin: 0;
 }
+
+/* end of tab1 style */
+
+/* tab2 style */
+
+.user-data #tab2 .opis .trash,
+.user-data #tab4 .opis .trash,
+.user-data #tab5 .opis .trash{
+    border: none;
+    color: #d7caa8;
+    font-size: 25px;
+}
+
+.user-data #tab2 .opis .trash:hover,
+.user-data #tab4 .opis .trash:hover,
+.user-data #tab5 .opis .trash:hover{
+    color: #f5f1e8;
+    background-color: #fff;
+}
+
+/* end of tab2 style */
+
+/* tab5 style */
+
+.user-data #tab5 .top-carousel .opis figure{
+
+}
+
+.user-data #tab5 .bottom-carousel{
+    border-top: 2px solid #e7e9d4;
+    padding-top: 25px;
+}
+
+/* end of tab5 style */
+
+/* tab6 style */
+
+.user-data #tab6 p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-data #tab6 h2{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.user-data #tab6 label{
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.user-data #tab6 .btn {
+    background-color: #e87217;
+    border-color: #e87217;
+    color: #fff;
+    transition: 1s ease;
+    margin-bottom: 15px;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-data #tab6 .btn:hover,
+.user-data #tab6 .btn:focus {
+    background-color: #f48b39;
+    border-color: #f48b39;
+}
+
+
+
+
 
 
 

@@ -242,42 +242,101 @@
 
     /* tab1 style */
 
-    #tab1 label{
+    .user-data #tab1 label{
         text-align: left;
     }
 
-    #tab1 input{
+    .user-data #tab1 input{
         width: 100%;
     }
 
-    #tab1 textarea{
+    .user-data #tab1 textarea{
         width: 100%;
 
     }
 
-    #tab1 select.birthday{
-        width: 30%;
+    .user-data #tab1 select.birthday{
+        width: 31.5%;
         font-size: 11px;
     }
 
-    #tab1 select.city{
+    .user-data #tab1 select.city{
         width: 100%;
     }
 
-    #tab1 .change-password{
-        margin-bottom: 58px;
+    .user-data #tab1 .change-password{
+        margin-bottom: 55px;
     }
 
-    #tab1 a.change-photo{
+    .user-data #tab1 a.change-photo{
         top: 43%;
         left: -50%;
     }
 
-    #tab1 .btn {
+    .user-data #tab1 .btn {
         float: left;
     }
 
+    /* end of tab2 style */
 
+    /* tab5 style */
+
+    .user-data #tab5 .top-carousel .opis figure{
+        height: 145px;
+    }
+
+    .user-data #tab5 .top-carousel .opis figure .discount-banner,
+    .user-data #tab5 .top-carousel .opis figure .new-banner{
+        transform-origin: 55px 200px;
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis figure span{
+        transform-origin: 55px 200px;
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis h4{
+        font-size: 12px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .opis-author{
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .stock{
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .fa-check-circle {
+        margin-right: 3px;
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .price{
+        font-size: 15px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .price span{
+        font-size: 12px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .old-price{
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .link a {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        margin-right: 5px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .user-data #tab5 .top-carousel .opis .link a:last-of-type {
+        margin-right: 0px;
+    }
 
 
 
@@ -494,15 +553,50 @@
 
     /* tab1 style */
 
-    #tab1 select.birthday{
+    .user-data #tab1 select.birthday{
         font-size: 14px;
         width: 32%;
 
     }
 
-    #tab1 a.change-photo{
+    .user-data #tab1 a.change-photo{
         top: 60%;
     }
+    /* end of tab1 style */
+
+    /* tab2 style */
+
+    .user-data #tab2 .opis figure,
+    .user-data #tab4 .opis figure,
+    .user-data #tab5 .bottom-carousel .opis figure{
+        height: 207px;
+    }
+
+    /* end of tab2 style */
+
+    /* tab5 style */
+
+    .user-data #tab5 .top-carousel .opis figure{
+        height: 111px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .stock{
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .fa-check-circle {
+        margin-right: 3px;
+        font-size: 8px;
+    }
+
+    /* end of tab5 style */
+
+    /* tab6 style */
+
+    .user-data #tab6 h2{
+        font-size: 25px;
+    }
+
 
 
 }
@@ -588,7 +682,7 @@
 
     /* tab1 style */
 
-    #tab1 label{
+    .user-data #tab1 label{
         display: inline-block;
         width: 30%;
         float: left;
@@ -596,32 +690,45 @@
         line-height: 28px;
     }
 
-    #tab1 label.reading{
+    .user-data #tab1 label.reading{
         width: 100%;
     }
 
-    #tab1 input{
+    .user-data #tab1 input{
         width: 70%;
         float: right;
     }
 
-    #tab1 select.birthday{
+    .user-data #tab1 select.birthday{
         width: 22.3%;
     }
-    
-    #tab1 .change-password{
-        margin-bottom: 38px;
+
+    .user-data #tab1 .change-password{
+        margin-bottom: 34px;
     }
 
-    #tab1 a.change-photo{
+    .user-data #tab1 a.change-photo{
         top: 65%;
         left: -30%;
 
     }
 
-    #tab1 select.city{
+    .user-data #tab1 select.city{
         width: 70%;
         float: right;
+    }
+
+    /* end of tab1 style */
+
+    /* tab5 style */
+
+    .user-data #tab5 .top-carousel .opis .stock{
+        font-size: 10px;
+    }
+
+    .user-data #tab5 .top-carousel .opis .fa-check-circle {
+        margin-right: 3px;
+        font-size: 10px;
     }
 
 
