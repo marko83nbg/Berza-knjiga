@@ -1033,7 +1033,7 @@ USER DATA PAGE
 
 .owl-carousel.nav-carousel .owl-nav .owl-prev {
     position: absolute;
-    left: -16px;
+    left: -14px;
     width: 20px;
     height: 20px;
     background-image: url('assets/left-arrow-gold-small.png');
@@ -1042,7 +1042,7 @@ USER DATA PAGE
 
 .owl-carousel.nav-carousel .owl-nav .owl-next {
     position: absolute;
-    right:  -22px;
+    right:  -20px;
     width: 20px;
     height: 20px;
     background-image: url('assets/right-arrow-gold-small.png');
@@ -1145,7 +1145,6 @@ USER DATA PAGE
 }
 
 .user-data #tab1 .error{
-    height: 0px;
     font-size: 9px;
     margin: 0;
 }
@@ -1219,9 +1218,112 @@ USER DATA PAGE
     border-color: #f48b39;
 }
 
+/* end of tab6 style */
 
+/* tab7 style */
 
+.user-data #tab7 h2{
+    font-size: 20px;
+}
 
+.user-data #tab7 ul{
+    text-align: center;
+}
+
+.user-data #tab7 .user-follow{
+    color: #e87217;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-data #tab7 .author-follow{
+    color: #33a0bd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-data #tab7 .follow{
+    color: #ababab;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+
+/* end of tab7 style */
+
+/* tab8 style */
+
+.user-data #tab8 h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+.user-data #tab8 .instructions p{
+    font-size: 12px;
+}
+
+.user-data #tab8 .account-status h3{
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    background-color: #efe9d9;
+    height: 40px;
+    line-height: 40px;
+}
+
+.user-data #tab8 .account-status p{
+    width: 70%;
+    float: right;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ababab;
+    background-color: #f5f1e8;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+.user-data #tab8 .account-status p span{
+    color: #000;
+    font-size: 20px;
+}
+
+.user-data #tab8 .payment-status{
+    padding: 0 15px;
+    border-right: 1px dotted #eaead2; 
+    border-left: 1px dotted #eaead2;
+    
+}
+
+.user-data #tab8 .payment-status h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.user-data #tab8 .payment-status ul{
+   height: 250px;
+   overflow: scroll;
+}
+
+.user-data #tab8 .payment-status li{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+    border-bottom: 1px dotted #eaead2;
+}
+
+.user-data #tab8 .payment-status .date{
+    color: #ababab;
+    float: left;
+    
+}
+
+.user-data #tab8 .payment-status .payment{
+    text-transform: uppercase;
+    float: right;
+    padding-right: 10px;
+}
+
+/* end of tab8 style */
+
+/* tab9 style */
 
 
 

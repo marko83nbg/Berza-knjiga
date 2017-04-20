@@ -1,5 +1,7 @@
 $(document).ready(function () {
- 
+
+    
+
     var w = $(window).width();
     $(window).resize(function () {
         w = $(window).width();
@@ -84,7 +86,7 @@ $(document).ready(function () {
         });
 
         /*NEXT OWL CAROUSEL*/
-        
+
         $('.nav-carousel').owlCarousel({
             navText: ['', ''],
             loop: false,
@@ -102,16 +104,16 @@ $(document).ready(function () {
 
                 },
                 768: {
-                    items:5
+                    items: 5
 
                 },
                 992: {
-                    items:7
+                    items: 7
 
 
                 },
                 1200: {
-                    items:10
+                    items: 10
 
                 }
             }
@@ -123,8 +125,8 @@ $(document).ready(function () {
     $('#breadcrumb .active a').click(function (e) {
         e.preventDefault();
     });
-    
-    $('.nav-carousel a').click(function(e){
+
+    $('.nav-carousel a').click(function (e) {
         e.preventDefault();
         $('.nav-carousel a').removeClass('active');
         $(this).addClass('active');
@@ -132,7 +134,23 @@ $(document).ready(function () {
         $('.tab-pane').removeClass('active');
         $(hrAtr).addClass('active');
     });
-   
+    
+    
+    
+    var replyForm = $('.form-example').html();
+    $('.reply').click(function(){
+        $(this).hide();
+        $(this).next('.form-wrapper').append(replyForm);
+    });
+    
+    
+     $('.form-wrapper').on('click', '.close-reply', function(){
+       $(this).closest('.form-wrapper').prev('.reply').show();
+        $(this).closest('.form-wrapper').html("");
+        
+    });
+    
+
 
 
 

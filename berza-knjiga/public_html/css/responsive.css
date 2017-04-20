@@ -338,6 +338,44 @@
         margin-right: 0px;
     }
 
+    /* end of tab6 style */
+
+    /* tab7 style */
+
+    .user-data #tab7 .col-sm-6:first-of-type{
+        border-right: 2px dotted #eaead2;
+    }
+
+    .user-data #tab7 h2{
+        text-align: center;
+    }
+
+    /* end of tab7 style */
+
+    /* tab8 style */
+
+    .user-data #tab8 h2{
+        font-size: 18px;
+    }
+
+    .user-data #tab8 .instructions{
+        margin-top: 70px;
+    }
+    
+    .user-data #tab8 .account-status h3{
+    font-size: 16px;
+}
+
+.user-data #tab8 .account-status p{
+    font-size: 12px;
+    text-align: right;
+    padding: 0 8px;
+}
+
+.user-data #tab8 .account-status p span{
+    font-size: 16px;
+}
+
 
 
 
@@ -597,6 +635,27 @@
         font-size: 25px;
     }
 
+    /* end of tab6 style */
+
+    /* tab7 style */
+
+    .user-data #tab7 h2{
+        font-size: 30px;
+    }
+
+    /* end of tab7 style */
+
+    /* tab8 style */
+
+    .user-data #tab8 h2{
+        font-size: 25px;
+    }
+
+    .user-data #tab8 .instructions p{
+        font-size: 14px;
+    }
+
+
 
 
 }
@@ -729,6 +788,18 @@
     .user-data #tab5 .top-carousel .opis .fa-check-circle {
         margin-right: 3px;
         font-size: 10px;
+    }
+
+    /* end of tab7 style */
+
+    /* tab8 style */
+
+    .user-data #tab8 h2{
+        font-size: 27px;
+    }
+
+    .user-data #tab8 .instructions p{
+        font-size: 16px;
     }
 
 
