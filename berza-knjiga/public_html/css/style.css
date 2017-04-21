@@ -1170,6 +1170,141 @@ USER DATA PAGE
 
 /* end of tab2 style */
 
+/*tab3 style */
+
+.messages .message-nav{
+    background-color: #f5f1e8;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.messages .message-sort p{
+    display: inline-block;
+    margin: 0;
+}
+
+.messages .message-sort .btn{
+    border-radius: 0px;
+    transition: 1s ease;
+    padding: 2px 12px;
+}
+
+.messages .message-sort .btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #eae9d4;
+}
+
+.messages .message-sort .caret{
+    color: #f5f1e8;
+}
+
+.messages .message-sort .btn:hover{
+    color: #000;
+}
+
+.messages .message-sort .btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+
+.messages .message-sort .dropdown-menu{
+    width: 30px;
+    padding: 10px;
+}
+
+.messages .message-sort .dropdown-menu li{
+    background-color: #fff;
+}
+
+.messages .message-delete p{
+    display: inline-block;
+    margin: 0;
+}
+
+.messages .message-delete input{
+    position: relative;
+    top: 2px;
+}
+
+.messages .message-delete input:focus{
+    outline: none;
+}
+
+.messages .message-delete a{
+    display: inline-block;
+    margin-left: 10px;
+    color:#a61323;
+}
+
+.messages .media{
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px dotted #eae9d4;
+}
+
+.messages .media .headline{
+    padding-left: 10px;
+}
+
+.messages .media h5{
+    color: #e87217;
+    font-weight: 400;
+    margin-top: 30%;
+}
+
+.messages .media h5 span{
+    display: block;
+    color: #a8a8a8;
+    text-align: center;
+}
+
+.messages .media-body{
+    padding-left: 5px;
+}
+
+.messages .media-body p{
+    position: relative;
+    padding-right: 17px;
+}
+
+.messages .media-body p input{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.messages .media-body p input:focus{
+    outline: none;
+}
+
+.messages .user-replay{
+    background-color: #ede7d7;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.messages .user-replay .media-body{
+    background-color: #f5f1e8;
+}
+
+.messages .form-example{
+    border-top: 1px dotted #eae9d4;
+    margin-top: 10px;
+}
+
+.messages .form-reply{
+    background-color: #f5f1e8;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* end of tab3 style */
+
 /* tab5 style */
 
 .user-data #tab5 .top-carousel .opis figure{
@@ -1201,6 +1336,25 @@ USER DATA PAGE
     overflow: hidden;
 
 }
+
+.user-data #tab6 input[type=radio]{
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.user-data #tab6 input[type=radio]+span{
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    background: url('assets/radio-small.png') no-repeat center center;
+}
+
+.user-data #tab6 input[type=radio]:checked + span{
+    background: url('assets/radio-small-ch.png') no-repeat center center;
+}
+
 
 .user-data #tab6 .btn {
     background-color: #e87217;
@@ -1291,7 +1445,7 @@ USER DATA PAGE
     padding: 0 15px;
     border-right: 1px dotted #eaead2; 
     border-left: 1px dotted #eaead2;
-    
+
 }
 
 .user-data #tab8 .payment-status h3{
@@ -1299,8 +1453,8 @@ USER DATA PAGE
 }
 
 .user-data #tab8 .payment-status ul{
-   height: 250px;
-   overflow: scroll;
+    height: 250px;
+    overflow: scroll;
 }
 
 .user-data #tab8 .payment-status li{
@@ -1312,7 +1466,7 @@ USER DATA PAGE
 .user-data #tab8 .payment-status .date{
     color: #ababab;
     float: left;
-    
+
 }
 
 .user-data #tab8 .payment-status .payment{

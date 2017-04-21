@@ -48,6 +48,18 @@
         font-size: 30px;
 
     }
+
+
+    /*tab3 style */
+    .messages .message-sort{
+        float: left;
+        display: inline-block;
+    }
+
+    .messages .message-delete{
+        float: right;
+        display: inline-block;
+    }
 }
 
 @media(min-width:768px){
@@ -361,20 +373,20 @@
     .user-data #tab8 .instructions{
         margin-top: 70px;
     }
-    
+
     .user-data #tab8 .account-status h3{
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
 
-.user-data #tab8 .account-status p{
-    font-size: 12px;
-    text-align: right;
-    padding: 0 8px;
-}
+    .user-data #tab8 .account-status p{
+        font-size: 12px;
+        text-align: right;
+        padding: 0 8px;
+    }
 
-.user-data #tab8 .account-status p span{
-    font-size: 16px;
-}
+    .user-data #tab8 .account-status p span{
+        font-size: 16px;
+    }
 
 
 

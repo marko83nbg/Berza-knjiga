@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    
+
 
     var w = $(window).width();
     $(window).resize(function () {
@@ -134,22 +134,25 @@ $(document).ready(function () {
         $('.tab-pane').removeClass('active');
         $(hrAtr).addClass('active');
     });
-    
-    
-    
+
+
+    $('.reply').click(function (e) {
+        e.preventDefault();
+    });
     var replyForm = $('.form-example').html();
-    $('.reply').click(function(){
+    $('.reply').click(function () {
         $(this).hide();
         $(this).next('.form-wrapper').append(replyForm);
     });
-    
-    
-     $('.form-wrapper').on('click', '.close-reply', function(){
-       $(this).closest('.form-wrapper').prev('.reply').show();
+
+    $('.form-wrapper').on('click', '.close-reply', function () {
+        $(this).closest('.form-wrapper').prev('.reply').show();
         $(this).closest('.form-wrapper').html("");
-        
+
     });
     
+    
+
 
 
 
