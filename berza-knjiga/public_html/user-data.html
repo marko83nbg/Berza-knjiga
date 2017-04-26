@@ -452,28 +452,25 @@
                                     <div class="tab-pane messages" id="tab3">
 
                                         <div class="form-example hidden">
-                                            <form class="form-reply">
-                                                <a class="close-reply">x</a>
-                                                <div class="form-group">
-                                                    <textarea placeholder="Odgovorite na poruku"></textarea>
-                                                </div>
-                                                <button type="submit">Pošalji odgovor</button>
-                                            </form>
+                                            <div class="wrapper-form-reply">
+                                                <form class="form-reply clearfix">
+                                                    <a class="close-reply">x</a>
+                                                    <div class="form-group">
+                                                        <textarea placeholder="Odgovorite na poruku"></textarea>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-default">Pošalji odgovor</button>
+                                                </form>
+                                            </div>
                                         </div>
                                         <div class="message-nav clearfix">
                                             <div class="message-sort">
                                                 <p>Sortiraj poruke po</p>
-                                                <div class="btn-group">
-                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Vremenu <span class="caret"></span>
-                                                    </button>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Action</a></li>
-                                                        <li><a href="#">Action</a></li>
-                                                        <li><a href="#">Action</a></li>
-
-                                                    </ul>
-                                                </div>
+                                                <select class="sort">
+                                                    <option value="">---</option>
+                                                    <option value="option1">option1</option>
+                                                    <option value="option2">option2</option>
+                                                    <option value="option3">option3</option>
+                                                </select>
                                             </div>
                                             <div class="message-delete">
                                                 <p>
@@ -495,10 +492,7 @@
                                                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                                     <input type="checkbox">                                                
                                                 </p>
-                                                <a class="reply">reply</a>
-                                                <div class="form-wrapper">
 
-                                                </div>
 
                                                 <div class="media user-replay">
                                                     <a  class = "pull-left headline" href = "#">
@@ -510,29 +504,16 @@
                                                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                                             <input type="checkbox">
                                                         </p>
-                                                        <a class="reply">reply</a>
-                                                        <div class="form-wrapper">
 
-                                                        </div>
+                                                    </div>
+                                                    <a class="reply">reply</a>
+                                                    <div class="form-wrapper">
 
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="media">
-                                            <a  class = "pull-left headline" href = "#">
-                                                <h5 class="media-heading">Selina Carmel<span class="comment-date">02.feb/2017</span></h5>  
-                                            </a>
-                                            <div class="media-body">
-
-                                                <p>
-                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                                    <input type="checkbox">
-                                                </p>
-                                                <a class="reply">reply</a>
-                                                <div class="form-wrapper">
-
-                                                </div>
+                                            <a class="reply">reply</a>
+                                            <div class="form-wrapper">
 
                                             </div>
                                         </div>
@@ -546,10 +527,27 @@
                                                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                                     <input type="checkbox">
                                                 </p>
-                                                <a class="reply">reply</a>
-                                                <div class="form-wrapper">
 
-                                                </div>
+                                            </div>
+                                            <a class="reply">reply</a>
+                                            <div class="form-wrapper">
+
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <a  class = "pull-left headline" href = "#">
+                                                <h5 class="media-heading">Selina Carmel<span class="comment-date">02.feb/2017</span></h5>  
+                                            </a>
+                                            <div class="media-body">
+
+                                                <p>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                    <input type="checkbox">
+                                                </p>
+
+                                            </div>
+                                            <a class="reply">reply</a>
+                                            <div class="form-wrapper">
 
                                             </div>
                                         </div>
@@ -898,11 +896,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-5">
+                                                <div class="col-sm-5 favorit-book-wrapper">
                                                     <article>
-                                                        <h4>Omiljena knjiga</h4>
-                                                        <div>
-                                                            <div class="opis">
+                                                        <h3>Omiljena knjiga</h3>
+                                                        <div class="opis-wrapper">
+                                                            <div class="opis clearfix">
                                                                 <figure>
                                                                     <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
                                                                     <!-- IF PRODUCT IS NEW ON STOCK DISPLAY THOS PARAGRAPH
@@ -911,42 +909,44 @@
                                                                         <span>novo</span>
                                                                     </p>
                                                                 </figure>
-                                                                <h4>
-                                                                    naslov
-                                                                </h4>
-                                                                <a href="#" class="opis-author">
-                                                                    autor
-                                                                </a>
-                                                                <p>
-                                                                    <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
-                                                                    <span class="fa fa-check-circle"></span>ima na stanju
+                                                                <div class="description-wrapper">
+                                                                    <h4>
+                                                                        naslov
+                                                                    </h4>
+                                                                    <a href="#" class="opis-author">
+                                                                        autor
+                                                                    </a>
+                                                                    <p class="stock-favorite">
+                                                                        <!--IF IS ON STOCK DISPLAY THIS BELLOW -->
+                                                                        <span class="fa fa-check-circle"></span>ima na stanju
 
-                                                                    <!--ELSE DISPLAY THIS-->
-                                                                    <!--nema na stanju-->
-                                                                </p>
-                                                                <div class='ratio'></div>
-                                                                <div class="product-price">
-
-
-                                                                    <p class="price">
-                                                                        500,00
-                                                                        <span>rsd</span>
+                                                                        <!--ELSE DISPLAY THIS-->
+                                                                        <!--nema na stanju-->
                                                                     </p>
+                                                                    <div class='ratio'></div>
+                                                                    <div class="product-price">
+
+
+                                                                        <p class="price">
+                                                                            500,00
+                                                                            <span>rsd</span>
+                                                                        </p>
+                                                                    </div>
+
+                                                                    <div class="link clearfix">
+                                                                        <a href="#" class="trash">
+                                                                            <span class="fa fa-trash-o"></span>
+                                                                        </a>
+                                                                        <a href="#">
+                                                                            <span class="fa fa-share-alt"></span>
+                                                                        </a>
+                                                                        <a href="#">
+                                                                            <span class="fa fa-shopping-cart"></span>
+                                                                        </a>
+
+                                                                    </div>
+
                                                                 </div>
-
-                                                                <div class="link clearfix">
-                                                                    <a href="#" class="trash">
-                                                                        <span class="fa fa-trash-o"></span>
-                                                                    </a>
-                                                                    <a href="#">
-                                                                        <span class="fa fa-share-alt"></span>
-                                                                    </a>
-                                                                    <a href="#">
-                                                                        <span class="fa fa-shopping-cart"></span>
-                                                                    </a>
-
-                                                                </div>
-
                                                             </div>
                                                         </div>
                                                     </article>
@@ -1320,33 +1320,16 @@
                                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                                             <div class="modal-dialog" role="document">
                                                 <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <form data-toggle="validator" role="form" method="get" action="">
-                                                            <div class="form-group col-sm-3">
-                                                                <input class="form-control" type="text" placeholder="First Name" pattern="^[_A-z]{1,}$" data-minlength="3" maxlength="10" value="" data-error="Please fill out this field." required>
-                                                                <div class="help-block with-errors error"></div>
+                                                    <div class="modal-body clearfix">
+                                                        <h3>Preporuči Berzu knjiga prijateljima i zaradi</h3>
+                                                        <div class="modal-social">
+                                                            <p>Konektuj se preko svog profila na socijalnim mrezama i zaradi dodatne apoene</p>
+                                                            <div class="text-center">
+                                                                <a href="#"><span class="fa fa-facebook"></span>Facebook</a>
+                                                                <a href="#"><span class="fa fa-twitter"></span>Twitter</a>
                                                             </div>
-                                                            <div class="form-group col-sm-3">
-                                                                <input class="form-control" type="text" placeholder="Last Name" pattern="^[_A-z]{1,}$" data-minlength="3" maxlength="15" value="" data-error="Please fill out this field." required>
-                                                                <div class="help-block with-errors error"></div>
-                                                            </div>
-                                                            <div class="form-group col-sm-3">
-                                                                <input class="form-control" type="email" placeholder="Email" value="" data-error="Please fill out this field." required>
-                                                                <div class="help-block with-errors error"></div>
-                                                            </div>
-                                                            <div class="form-group col-sm-3">
-                                                                <input class="form-control" type="text" placeholder="Phone Number" pattern="^[_0-9]{1,}$" value="" data-error="This field must contain numbers only." required>
-                                                                <div class="help-block with-errors error"></div>
-                                                            </div>
-                                                            <div class="form-group col-sm-12 comment">
-                                                                <textarea class="form-control" placeholder="Any thing we should know about your pet?"></textarea>
-                                                            </div>   
-
-                                                            <button type="submit" class="btn btn-primary">get an appoinment</button>
-                                                        </form>
+                                                        </div>
+                                                        <button type="button" class="close btn btn-default" data-dismiss="modal" aria-label="Close">otkaži</button>
                                                     </div>
                                                 </div>
                                             </div>

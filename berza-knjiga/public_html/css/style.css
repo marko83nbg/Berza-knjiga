@@ -1184,37 +1184,17 @@ USER DATA PAGE
     margin: 0;
 }
 
-.messages .message-sort .btn{
-    border-radius: 0px;
-    transition: 1s ease;
-    padding: 2px 12px;
-}
-
-.messages .message-sort .btn-default {
-    color: #000;
-    background-color: #fff;
-    border-color: #eae9d4;
-}
-
-.messages .message-sort .caret{
-    color: #f5f1e8;
-}
-
-.messages .message-sort .btn:hover{
-    color: #000;
-}
-
-.messages .message-sort .btn-group.open .dropdown-toggle {
-    box-shadow: none;
-}
-
-.messages .message-sort .dropdown-menu{
-    width: 30px;
-    padding: 10px;
-}
-
-.messages .message-sort .dropdown-menu li{
-    background-color: #fff;
+.messages .message-sort .sort {
+    padding: 0 20px 0 10px;
+    border-radius: 0;
+    border: 1px solid #eaead2;
+    font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: #fff url('assets/arrow-down.png') no-repeat 95% center;
 }
 
 .messages .message-delete p{
@@ -1258,6 +1238,11 @@ USER DATA PAGE
     text-align: center;
 }
 
+.messages .media .reply{
+    margin-left: 10px;
+    color: #a61323;
+}
+
 .messages .media-body{
     padding-left: 5px;
 }
@@ -1265,6 +1250,7 @@ USER DATA PAGE
 .messages .media-body p{
     position: relative;
     padding-right: 17px;
+    margin-top: 5px;
 }
 
 .messages .media-body p input{
@@ -1282,33 +1268,77 @@ USER DATA PAGE
     background-color: #ede7d7;
     padding-right: 0;
     padding-left: 0;
+    /*    padding-top: 18px;*/
 }
 
 .messages .user-replay .media-body{
     background-color: #f5f1e8;
 }
 
-.messages .form-example{
+.messages .form-wrapper{
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+.messages .wrapper-form-reply{
     border-top: 1px dotted #eae9d4;
-    margin-top: 10px;
 }
 
 .messages .form-reply{
     background-color: #f5f1e8;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     margin-top: 10px;
 }
 
+.messages .form-reply .close-reply{
+    color: #a61323; 
+}
 
+.messages .form-reply textarea{
+    min-width: 265px;
+    min-height: 70px;
+    width: 100%;
+}
 
+.messages .form-reply .btn{
+    border: 1px solid #e87218;
+    border-radius: 0px;
+    background-color: #e87218;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: 1s ease;
+}
 
+.messages .form-reply .btn:hover{
+    border: 1px solid #f48b39;
+    background-color: #f48b39;
+}
 
 /* end of tab3 style */
 
 /* tab5 style */
 
-.user-data #tab5 .top-carousel .opis figure{
+.user-data #tab5 .favorit-book-wrapper{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.user-data #tab5 .favorit-book-wrapper h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.user-data #tab5 .favorit-book-wrapper .opis-wrapper{
+    background-color: #f5f1e8;
+    padding: 10px;
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+
+.user-data #tab5 .opis-wrapper img{
+    width: 100%;
+    height: 100%;
 }
 
 .user-data #tab5 .bottom-carousel{
@@ -1354,7 +1384,6 @@ USER DATA PAGE
 .user-data #tab6 input[type=radio]:checked + span{
     background: url('assets/radio-small-ch.png') no-repeat center center;
 }
-
 
 .user-data #tab6 .btn {
     background-color: #e87217;
@@ -1479,7 +1508,85 @@ USER DATA PAGE
 
 /* tab9 style */
 
+.user-data #tab9 .modal-content {
+    position: relative;
+    background-color: #f5f1e8;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
 
+.user-data #tab9 h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #52514f;
+}
 
+.user-data #tab9 .modal-social{
+    background-color: #fff;
+    border:1px solid #ebe8d5;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
 
+.user-data #tab9 .modal-social p{
+    font-size: 12px;
+    color: #52514f;
+}
+
+.user-data #tab9 .modal-social a{
+    color: #adadad;
+}
+
+.user-data #tab9 .modal-social a:first-of-type{
+    margin-right: 20px;
+}
+
+.user-data #tab9 .modal-social a span{
+    display: inline-block;
+    background-color: #359ebc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid  #359ebc;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+    transition: 1s ease;
+}
+
+.user-data #tab9 .modal-social a:hover span{
+    background-color: #37c5ee;
+    border: 1px solid  #37c5ee;
+}
+
+.user-data #tab9 .modal-body .close {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #52514f;
+    text-shadow: none;
+    filter:none;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.user-data #tab9 .modal-body button.close {
+    -webkit-appearance: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ebe8d5;
+    border-radius: 0;
+}
 
