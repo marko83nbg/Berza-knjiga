@@ -364,6 +364,10 @@
         font-size: 10px;
         line-height: 20px;
     }
+    
+    .user-data #tab5 .description-wrapper .link .trash{
+        font-size: 18px;
+    }
 
     .user-data #tab5 .description-wrapper .trash:hover{
         background-color: #f5f1e8;
@@ -426,8 +430,12 @@
     .user-data #tab5 .top-carousel .opis .link a:last-of-type {
         margin-right: 0px;
     }
+    
+    .user-data #tab5 .top-carousel .opis .link .trash{
+        font-size: 18px;
+    }
 
-    /* end of tab6 style */
+    /* end of tab5 style */
 
     /* tab7 style */
 
@@ -942,6 +950,10 @@
         height: 30px;
         font-size: 17px;
         line-height: 30px;
+    }
+    
+    .user-data #tab5 .description-wrapper .link .trash{
+        font-size: 22px;
     }
 
     .user-data #tab5 .top-carousel .opis .stock{

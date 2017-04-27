@@ -1001,6 +1001,7 @@ USER DATA PAGE
 .user-data-tabs .nav-carousel li {
     font-size: 11px !important;
     text-align: center;
+    
 }
 
 .user-data-tabs .nav-carousel li a{
@@ -1378,6 +1379,9 @@ USER DATA PAGE
     height: 15px;
     display: block;
     float: left;
+    position: relative !important;
+    top: 20% !important;
+    margin-right: 10px;
     background: url('assets/radio-small.png') no-repeat center center;
 }
 
