@@ -118,6 +118,41 @@ $(document).ready(function () {
                 }
             }
         });
+        
+        /*NEXT OWL CAROUSEL*/
+
+        $('.author-carousel').owlCarousel({
+            navText: ['', ''],
+            loop: false,
+            margin: 10,
+            responsiveClass: true,
+            nav: true,
+            dots: false,
+            items:5,
+            responsive: {
+                0: {
+                    items: 1
+
+                },
+                480: {
+                    items: 2
+
+                },
+                768: {
+                    items: 3
+
+                },
+                992: {
+                    items:5
+
+
+                },
+                1200: {
+                    items: 5
+
+                }
+            }
+        });
 
     }
 

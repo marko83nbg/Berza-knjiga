@@ -1001,7 +1001,7 @@ USER DATA PAGE
 .user-data-tabs .nav-carousel li {
     font-size: 11px !important;
     text-align: center;
-    
+
 }
 
 .user-data-tabs .nav-carousel li a{
@@ -1173,14 +1173,16 @@ USER DATA PAGE
 
 /*tab3 style */
 
-.messages .message-nav{
+.messages .message-nav,
+.comment .message-nav{
     background-color: #f5f1e8;
     padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.messages .message-sort p{
+.messages .message-sort p,
+.comment .message-sort p{
     display: inline-block;
     margin: 0;
 }
@@ -1593,4 +1595,299 @@ USER DATA PAGE
     border: 1px solid #ebe8d5;
     border-radius: 0;
 }
+
+/*
+
+END OF USER DATA PAGE
+
+*/
+
+/*
+
+AUTHOR PROFILE PAGE
+
+*/
+
+.author-slider .author-info{
+    margin-top: 30px;
+}
+
+.author-slider .author-info .author-image{
+    margin-bottom: 15px;
+}
+
+.author-slider .author-info .ratio{
+    width: 50%;
+    float: left;
+}
+
+.author-slider .author-info .author-social{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.author-slider .author-info .author-social a span{
+    display: inline-block;
+    background-color: #359ebc;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid  #359ebc;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 5px;
+    transition: 1s ease;
+}
+
+.author-slider .author-info .author-social a:hover span{
+    background-color: #37c5ee;
+    border: 1px solid  #37c5ee;
+}
+
+.author-slider .author-info .author-list{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.author-slider .author-info .author-list a{
+    color: #e87218;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author-slider .author-info h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.author-slider .author-info h1 span{
+    display: block;
+    color: #aaaaaa;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+
+.author-slider .author-info .about-author{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    height: 444px;
+    overflow: hidden;
+}
+
+.author-slider .author-info .detail{
+    color: #e87218;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author-slider .author-info h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.author-slider .author-info .author-books{
+    margin-top: 10px;
+    height: 475px;
+    overflow: scroll;
+}
+
+.author-slider .author-info .author-books li{
+    margin-bottom:  10px;
+}
+
+.author-slider .author-info .author-books figure{
+    width: 40%;
+    float: left;
+}
+
+.author-slider .author-info .author-books .book-info{
+    width: 60%;
+    float: right;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author-slider .comment{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.author-slider .comment h3{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+
+.author-slider .comment .row{
+    margin: 20px 0;
+}
+
+.author-slider .comment .stars{
+    text-align: center;
+}
+
+.author-slider .comment .stars p{
+    margin-bottom: 0px;
+}
+
+.author-slider .comment .stars p .rate{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.author-slider .comment .stars h5{
+    margin-top: 30px;
+}
+
+.author-slider .comment .fa-star,
+.author-slider .comment .fa-star-o{
+    color: #00617c;
+}
+
+.author-slider .comment .stars ul li span:first-of-type{
+    margin-left: 40px;
+}
+
+.author-slider .comment .stars ul .five-star span:first-of-type{
+    margin-left: 44px;
+}
+
+.author-slider .comment .stars ul li span:last-of-type{
+    margin-left: 20px;
+}
+
+.author-slider .comment .col-sm-8{
+    margin-top: 20px;
+}
+
+.author-slider .comment .your-rate{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.author-slider .comment .your-rate p{
+    display: inline-block;
+    margin: 0;
+}
+
+.author-slider .comment .your-rate .ratio{
+    display: inline-block;
+}
+
+.author-slider .comment textarea{
+    width: 100%;
+    min-height: 150px;
+}
+
+.author-slider .comment form button{
+    padding: 10px 6px;
+    background-color: #e87218;
+    border: 1px solid #e87218;
+    color: #fff;
+    transition: 1s ease;
+}
+
+.author-slider .comment form button:hover{
+    background-color: #f48b39;
+    border: 1px solid #f48b39;
+
+}
+
+.author-slider .comment .media{
+    border-bottom: 1px dotted  #ede7d7;
+}
+
+.author-slider .comment .media:last-of-type{
+    border-bottom: none;
+}
+
+.author-slider .comment .media-heading{
+    color: #313131;
+}
+
+.author-slider .comment .comment-date{
+   display: block;
+   color: #ababab;
+   font-weight: 400;
+}
+
+.author-slider .comment .fa-clock-o{
+   color: #dcd2af;
+   margin-right: 5px;
+}
+
+.author-slider .comment .like-dislike{
+  text-align: center;
+}
+
+.author-slider .comment .like-dislike a{
+  display: inline-block;
+  margin-right: 10px;
+  color: #414141;
+}
+
+.author-slider .comment .like-dislike a span{
+  display: block;
+  font-size: 20px;
+}
+
+.author-slider .comment .like-dislike .fa-thumbs-up{
+    color: #d6c9a7;
+}
+
+.author-slider .comment .like-dislike .fa-thumbs-down{
+    color: #ede7d7;
+}
+
+.author-slider .comment .like-dislike a:hover,
+.author-slider .comment .like-dislike a:focus{
+ text-decoration: none;
+}
+
+.author-slider .comment .like-dislike a:hover .fa-thumbs-up{
+    color: #ede7d7;
+}
+
+.author-slider .comment .like-dislike a:hover .fa-thumbs-down{
+    color: #d6c9a7;
+}
+
+.author-slider .comment .old-comments{
+    margin: 15px 0 30px 0;
+}
+
+/*
+
+END OF AUTHOR PROFILE PAGE
+
+*/
+
+/*
+
+AUTHOR DATA PAGE
+
+*/
+
+.author-carousel .fa{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ede7d7;
+}
+
+/*.author-carousel .active .fa{
+   color: #d6cfa3;
+}*/
+
+.author-data #tab1 a.change-photo {
+    top: -83%;
+}
+
+
+
+
+
+
 
