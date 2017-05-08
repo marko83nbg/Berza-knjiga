@@ -1205,13 +1205,28 @@ USER DATA PAGE
     margin: 0;
 }
 
-.messages .message-delete input{
-    position: relative;
-    top: 2px;
+.messages input[type="checkbox"]{
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
-.messages .message-delete input:focus{
-    outline: none;
+.messages input[type="checkbox"] + span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: right;
+    position: relative !important;
+    top: 20% !important;
+    background: url('assets/checkbox.png') no-repeat center center;
+}
+
+.messages input[type="checkbox"]:checked + span {
+    background: url('assets/checkbox-ch.png') no-repeat center center;
+}
+
+.messages .message-delete input[type="checkbox"] + span{
+    right: 42%;
 }
 
 .messages .message-delete a{
@@ -1809,29 +1824,29 @@ AUTHOR PROFILE PAGE
 }
 
 .author-slider .comment .comment-date{
-   display: block;
-   color: #ababab;
-   font-weight: 400;
+    display: block;
+    color: #ababab;
+    font-weight: 400;
 }
 
 .author-slider .comment .fa-clock-o{
-   color: #dcd2af;
-   margin-right: 5px;
+    color: #dcd2af;
+    margin-right: 5px;
 }
 
 .author-slider .comment .like-dislike{
-  text-align: center;
+    text-align: center;
 }
 
 .author-slider .comment .like-dislike a{
-  display: inline-block;
-  margin-right: 10px;
-  color: #414141;
+    display: inline-block;
+    margin-right: 10px;
+    color: #414141;
 }
 
 .author-slider .comment .like-dislike a span{
-  display: block;
-  font-size: 20px;
+    display: block;
+    font-size: 20px;
 }
 
 .author-slider .comment .like-dislike .fa-thumbs-up{
@@ -1844,7 +1859,7 @@ AUTHOR PROFILE PAGE
 
 .author-slider .comment .like-dislike a:hover,
 .author-slider .comment .like-dislike a:focus{
- text-decoration: none;
+    text-decoration: none;
 }
 
 .author-slider .comment .like-dislike a:hover .fa-thumbs-up{
@@ -1877,16 +1892,221 @@ AUTHOR DATA PAGE
     color: #ede7d7;
 }
 
-/*.author-carousel .active .fa{
-   color: #d6cfa3;
-}*/
+/* tab1 style */
 
 .author-data #tab1 a.change-photo {
     top: -83%;
 }
 
+/* end of tab1 style */
+
+/* tab2 style */
+
+.author-data #tab2 .sold,
+.author-data #tab2 .comments,
+.author-data #tab2 .view{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.author-data #tab2 .product-price{
+    border-bottom: 1px dotted #ece5d5;
+}
+
+.author-data #tab2 .change-book{
+    color: #e87218;
+}
+
+.author-data #tab2 .second-list{
+    margin-top: 30px;
+}
+
+/* modal style*/
+
+.author-data #tab2 .modal-content {
+    background-color: #f5f1e8;
+    border: 1px solid #f5f1e8;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.author-data #tab2 .modal-content h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.author-data #tab2 .modal-content .modal-form{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ede7d7;
+    padding: 20px 10px;
+}
+
+.author-data #tab2 .modal-content .modal-form figure{
+    height: 350px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.author-data #tab2 .modal-content .modal-form img{
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+}
+
+.author-data #tab2 .modal-form form{
+    margin-top: 40px;
+    position: relative;
+}
+
+.author-data #tab2 .modal-form .new-photo{
+    position: absolute;
+    width: 100%;
+    top: -10%;
+    left: 83%;
+    transform: translate(-50%);
+    color: #e87218;
+
+}
+
+.author-data #tab2 .modal-form label{
+    font-weight: 400 !important;
+    color: #b9b9b9;
+    margin-right: 10px;
+}
+
+.author-data #tab2 .modal-form input{
+    border: 1px solid #ede7d7;
+    padding: 3px 6px;
+}
+
+.author-data #tab2 .modal-form select {
+    width: 26.5%;
+    height: 28px;
+    border-radius: 0;
+    border: 1px solid #ede7d7;
+    font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: url('assets/arrow-down.png') no-repeat 95% center;
+}
+
+.author-data #tab2 input[type="radio"],
+.author-data #tab2 input[type="checkbox"]{
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.author-data #tab2 input[type="radio"] + span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    position: relative !important;
+    top: 20% !important;
+    background: url('assets/radio-small.png') no-repeat center center;
+}
+
+.author-data #tab2 input[type="radio"]:checked + span {
+    background: url('assets/radio-small-ch.png') no-repeat center center;
+}
+
+.author-data #tab2 input[type="checkbox"] + span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    position: relative !important;
+    top: 20% !important;
+    background: url('assets/checkbox.png') no-repeat center center;
+}
+
+.author-data #tab2 input[type="checkbox"]:checked + span {
+    background: url('assets/checkbox-ch.png') no-repeat center center;
+}
+
+.author-data #tab2 form .btn {
+    background-color: #e87217;
+    border-color: #e87217;
+    color: #fff;
+    transition: 1s ease;
+    margin-bottom: 15px;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: -10px;
+    bottom: -96px;
+    font-size: 14px;
+}
+
+.author-data #tab2 .modal-body .close {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #52514f;
+    text-shadow: none;
+    filter: none;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.author-data #tab2 .modal-body button.close {
+    -webkit-appearance: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ebe8d5;
+    border-radius: 0;
+}
 
 
+/* end of tab2 style */
+
+/* tab7 style */
+
+.author-data #tab7 .col-sm-3{
+    border-right: 1px dotted #ece5d5;
+}
+
+.author-data #tab7 .col-sm-3:last-of-type{
+    border: none;
+}
+
+/* end of tab7 style */
+
+/* tab8 style */
+
+.author-data #tab8 h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.author-data #tab8 figure{
+    height: auto;
+}
+
+.author-data #tab8 .favorit-book-wrapper .opis-wrapper {
+    background-color: #f5f1e8;
+    padding: 10px;
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+.author-data #tab8 .favorit-book-wrapper .opis-wrapper figure{
+    width: 40%;
+    float: left;
+}
+
+.author-data #tab8 .favorit-book-wrapper .description-wrapper{
+    width: 60%;
+    float: right;
+}
 
 
 

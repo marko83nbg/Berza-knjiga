@@ -96,6 +96,23 @@
         width: 20%;
         float: right;
     }
+
+    /*
+    
+    END OF AUTHOR PROFILE PAGE
+    
+    */
+
+    /*
+    
+    AUTHOR DATA PAGE
+    
+    */
+
+    .author-data #tab2 .modal-form .new-photo{
+        left: 88%;
+
+    }
 }
 
 @media(min-width:768px){
@@ -545,10 +562,23 @@
     AUTHOR DATA PAGE
     
     */
- 
+
     .author-data #tab1 a.change-photo{
         top: 19%;
         left: -33%;
+    }
+
+    .author-data #tab2 .modal-form .new-photo {
+        top:60%;
+        left: 16%;
+    }
+
+    .author-data #tab2 .modal-form form {
+        margin-top: 0px;
+    }
+
+    .author-data #tab2 form .btn {
+        bottom: -115px;
     }
 
 
@@ -1135,6 +1165,16 @@
         top: 32%;
         left: -20%;
 
+    }
+
+    .author-data #tab8 .statistic{
+        width: 85%;
+        float: left;
+    }
+    
+    .author-data #tab8 .year{
+        width: 15%;
+        float: right;
     }
 
 
