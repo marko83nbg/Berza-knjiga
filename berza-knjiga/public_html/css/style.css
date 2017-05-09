@@ -2085,6 +2085,7 @@ AUTHOR DATA PAGE
 
 .author-data #tab8 h3{
     font-family: 'Playfair Display', serif;
+    font-size: 18px;
 }
 
 .author-data #tab8 figure{
@@ -2099,12 +2100,12 @@ AUTHOR DATA PAGE
 }
 
 .author-data #tab8 .favorit-book-wrapper .opis-wrapper figure{
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
 .author-data #tab8 .favorit-book-wrapper .description-wrapper{
-    width: 60%;
+    width:50%;
     float: right;
 }
 

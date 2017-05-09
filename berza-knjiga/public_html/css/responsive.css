@@ -954,6 +954,10 @@
         top: 37%;
 
     }
+    
+    /*    .author-data #tab8 .favorit-book-wrapper .opis-wrapper figure{
+       height: 270px;
+    }*/
 
 
 
@@ -1167,7 +1171,7 @@
 
     }
 
-    .author-data #tab8 .statistic{
+    .author-data #tab8 .statistics{
         width: 85%;
         float: left;
     }
