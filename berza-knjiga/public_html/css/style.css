@@ -1229,6 +1229,10 @@ USER DATA PAGE
     right: 42%;
 }
 
+.messages .message-delete span{
+    margin-top: 5px;
+}
+
 .messages .message-delete a{
     display: inline-block;
     margin-left: 10px;
@@ -1263,34 +1267,45 @@ USER DATA PAGE
 
 .messages .media-body{
     padding-left: 5px;
+    position: relative;
 }
 
 .messages .media-body p{
     position: relative;
-    padding-right: 17px;
+    padding-right: 20px;
     margin-top: 5px;
+
 }
 
-.messages .media-body p input{
-    position: absolute;
-    right: 0;
-    top: 50%;
+.messages .media-body .checkbox-media{
+    position: absolute !important;
+    width: 100%;
+    left: 48%;
+    top: 50% !important;
     transform: translateY(-50%);
 }
 
-.messages .media-body p input:focus{
-    outline: none;
+.messages .user-replay .checkbox-media{
+    left: 45%;
 }
+
 
 .messages .user-replay{
     background-color: #ede7d7;
     padding-right: 0;
     padding-left: 0;
-    /*    padding-top: 18px;*/
+    position: relative;
+
 }
 
 .messages .user-replay .media-body{
     background-color: #f5f1e8;
+}
+
+.messages .user-replay .reply{
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
 }
 
 .messages .form-wrapper{
@@ -1398,7 +1413,7 @@ USER DATA PAGE
     float: left;
     position: relative !important;
     top: 20% !important;
-    margin-right: 10px;
+    margin-top: 5px;
     background: url('assets/radio-small.png') no-repeat center center;
 }
 
@@ -1412,6 +1427,7 @@ USER DATA PAGE
     color: #fff;
     transition: 1s ease;
     margin-bottom: 15px;
+    margin-top: 20px;
     border-radius: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -1811,6 +1827,20 @@ AUTHOR PROFILE PAGE
 
 }
 
+.author-slider .message-nav .message-sort select{
+    padding: 0 20px 0 10px;
+    border-radius: 0;
+    border: 1px solid #eaead2;
+    font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: #fff url('assets/arrow-down.png') no-repeat 95% center;
+}
+
+
 .author-slider .comment .media{
     border-bottom: 1px dotted  #ede7d7;
 }
@@ -1923,20 +1953,23 @@ AUTHOR DATA PAGE
 
 /* modal style*/
 
-.author-data #tab2 .modal-content {
+.author-data #tab2 .modal-content,
+.book-of-impression .modal-content{
     background-color: #f5f1e8;
     border: 1px solid #f5f1e8;
     border-radius: 0px;
     box-shadow: none;
 }
 
-.author-data #tab2 .modal-content h3{
+.author-data #tab2 .modal-content h3,
+.book-of-impression .modal-content h3{
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     margin-top: 10px;
 }
 
-.author-data #tab2 .modal-content .modal-form{
+.author-data #tab2 .modal-content .modal-form,
+.book-of-impression .modal-content .modal-form{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     border: 1px solid #ede7d7;
@@ -2030,7 +2063,8 @@ AUTHOR DATA PAGE
     background: url('assets/checkbox-ch.png') no-repeat center center;
 }
 
-.author-data #tab2 form .btn {
+.author-data #tab2 form .btn,
+.book-of-impression form .btn{
     background-color: #e87217;
     border-color: #e87217;
     color: #fff;
@@ -2044,7 +2078,8 @@ AUTHOR DATA PAGE
     font-size: 14px;
 }
 
-.author-data #tab2 .modal-body .close {
+.author-data #tab2 .modal-body .close,
+.book-of-impression .modal-body .close{
     float: left;
     font-size: 14px;
     font-weight: 400;
@@ -2057,7 +2092,8 @@ AUTHOR DATA PAGE
     margin-top: 10px;
 }
 
-.author-data #tab2 .modal-body button.close {
+.author-data #tab2 .modal-body button.close,
+.book-of-impression .modal-body button.close{
     -webkit-appearance: none;
     padding: 10px 12px;
     cursor: pointer;
@@ -2086,10 +2122,45 @@ AUTHOR DATA PAGE
 .author-data #tab8 h3{
     font-family: 'Playfair Display', serif;
     font-size: 18px;
+    margin-top: 0px;
 }
 
 .author-data #tab8 figure{
     height: auto;
+}
+
+.author-data #tab8 .statistics img{
+    width: 100%;
+}
+
+.author-data #tab8 .year{
+    text-align: right;
+}
+
+.author-data #tab8 .year select{
+    padding: 0 20px 0 10px;
+    border-radius: 0;
+    border: 1px solid #eaead2;
+    font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: #fff url('assets/arrow-down.png') no-repeat 95% center;
+}
+
+.author-data #tab8 .top-books{
+    margin-top: 25px;
+}
+
+.author-data #tab8 .col-sm-12,
+.author-data #tab8 .col-sm-6{
+    margin-bottom: 15px;
+}
+
+.author-data #tab8 .favorit-book-wrapper h3{
+    text-align: center;
 }
 
 .author-data #tab8 .favorit-book-wrapper .opis-wrapper {
@@ -2104,10 +2175,104 @@ AUTHOR DATA PAGE
     float: left;
 }
 
+.author-data #tab8 .favorit-book-wrapper .opis-wrapper img{
+    height: 145px;
+}
+
 .author-data #tab8 .favorit-book-wrapper .description-wrapper{
     width:50%;
     float: right;
 }
+
+.author-data #tab8 .top-rated{
+    text-align: center;
+}
+
+.author-data #tab8 .top-rated img{
+    margin: 0 auto;
+}
+
+.author-data #tab8 .top-rated h4{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.author-data #tab8 .top-rated .ratio{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.author-data #tab8 .top-rated .comments{
+    font-size: 12px;
+    margin: 5px 0 5px 0;
+}
+
+.author-data #tab8 .top-rated .product-price{
+    height: 35px;
+    margin: 5px 0 0 0;
+}
+
+.author-data #tab8 .top-rated .price{
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.author-data #tab8 .top-rated .price span{
+    font-size: 14px;
+}
+
+/* end of tab8 style */
+
+
+/*
+
+END OF AUTHOR DATA PAGE
+
+*/
+
+/*
+
+BOOK OF IMPRESSIONS PAGE
+
+*/
+
+.book-of-impression{
+    padding-top: 30px;
+}
+
+.book-of-impression .col-sm-8 img{
+    width: 100%;
+}
+
+.book-of-impression .col-sm-4 p:last-of-type{
+    font-family: 'Roboto', sans-serif;
+}
+
+.book-of-impression .book-for-sale{
+    padding: 10px 7px;
+}
+
+.book-of-impression .comment{
+    margin-top: 30px;
+}
+
+.book-of-impression form label{
+    width: 100%;
+}
+
+.book-of-impression form textarea{
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #ede7d7;
+    padding: 6px 12px;
+    font-weight: 400;
+}
+
+.author-data #tab2 form .btn, .book-of-impression form .btn {
+    bottom: 0px;
+    right: 15px;
+}
+
 
 
 

@@ -51,6 +51,7 @@
 
 
     /*tab3 style */
+
     .messages .message-sort{
         float: left;
         display: inline-block;
@@ -60,6 +61,11 @@
         float: right;
         display: inline-block;
     }
+
+    .messages .media-body .user-replay .checkbox-media{
+        left: 47%;
+    }
+
     /*end of tab3 style */
 
     /*
@@ -563,10 +569,15 @@
     
     */
 
+    /* tab1 style*/
     .author-data #tab1 a.change-photo{
         top: 19%;
         left: -33%;
     }
+
+    /* end of tab1 style */
+
+    /* tab2 style*/
 
     .author-data #tab2 .modal-form .new-photo {
         top:60%;
@@ -580,6 +591,32 @@
     .author-data #tab2 form .btn {
         bottom: -115px;
     }
+
+    /* end of tab2 style */
+
+    /* tab8 style*/
+
+    .author-data #tab8 .favorit-book-wrapper h3{
+        text-align: left;
+    }
+
+    .author-data #tab8 .favorit-book-wrapper .opis-wrapper {
+        margin: 0;
+    }
+
+    .author-data #tab8 .top-rated{
+        text-align: left;
+    }
+
+    .author-data #tab8 .top-rated img{
+        margin: 0;
+    }
+
+    .author-data #tab8 .top-rated .ratio{
+
+        margin: 0;
+    }
+
 
 
 
@@ -820,7 +857,14 @@
     /* end of tab2 style */
 
     /* tab3 style */
+    .messages .media-body .checkbox-media{
 
+        left: 49%;
+    }
+
+    .messages .media-body .user-replay .checkbox-media{
+        left: 48.5%;
+    }
 
     /* end of tab3 style */
 
@@ -828,6 +872,11 @@
 
     .user-data #tab5 .opis-wrapper figure{
         height: 150px;
+    }
+
+    .user-data #tab5 .opis-wrapper .description-wrapper {
+
+        padding-left: 20px;
     }
 
     .user-data #tab5 .top-carousel .opis figure{
@@ -949,15 +998,43 @@
     */
 
 
-
+    /* tab1 style */
     .author-data #tab1 a.change-photo{
         top: 37%;
-
     }
-    
-    /*    .author-data #tab8 .favorit-book-wrapper .opis-wrapper figure{
-       height: 270px;
-    }*/
+
+    /* end of tab style */
+
+    /* tab8 style */
+
+    .author-data #tab8 .statistics{
+        width: 85%;
+        float: left;
+    }
+
+    .author-data #tab8 .year{
+        width: 15%;
+        float: right;
+        text-align: center;
+        position: relative;
+        bottom: -180px;
+    }
+
+    .author-data #tab8 .favorit-book-wrapper .description-wrapper{
+        margin-top: 30px;
+    }
+
+    .author-data #tab8 .favorit-book-wrapper .opis-wrapper {
+        height: 235px;
+    }
+
+    .author-data #tab8 .favorit-book-wrapper .opis-wrapper img{
+        height: 215px;
+    }
+
+    .author-data #tab8 .col-md-3{
+        border-left: 1px dotted #ece5d5;
+    }
 
 
 
@@ -1083,6 +1160,13 @@
 
     /* end of tab1 style */
 
+    /* tab3 style */
+    .messages .media-body .user-replay .checkbox-media{
+        left: 49%;
+    }
+
+    /* end of tab3 style */
+
     /* tab5 style */
 
     .user-data #tab5 .opis-wrapper figure{
@@ -1165,20 +1249,23 @@
     
     */
 
+    /* tab1 style */
     .author-data #tab1 a.change-photo{
         top: 32%;
         left: -20%;
 
     }
 
-    .author-data #tab8 .statistics{
-        width: 85%;
-        float: left;
-    }
-    
+    /* end of tab1 style */
+
+    /* tab8 style */
+
     .author-data #tab8 .year{
-        width: 15%;
-        float: right;
+        bottom: -240px;
+    }
+
+    .author-data #tab8 .favorit-book-wrapper .opis-wrapper {
+        max-width: 100%;
     }
 
 
