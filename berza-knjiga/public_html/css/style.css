@@ -2273,6 +2273,31 @@ BOOK OF IMPRESSIONS PAGE
     right: 15px;
 }
 
+/*
+
+END OF BOOK OF IMPRESSIONS PAGE
+
+*/
+
+/*
+
+PRODUCTS PAGE
+
+*/
+
+
+.products .tab-content{
+    margin: 30px 0;
+}
+
+.products .user-profile-tab h2{
+    font-size: 14px;
+}
+
+.products .comment h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 
 
 

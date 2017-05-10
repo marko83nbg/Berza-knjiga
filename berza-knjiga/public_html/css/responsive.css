@@ -119,6 +119,26 @@
         left: 88%;
 
     }
+
+    /*
+
+    END OF AUTHOR DATA PAGE
+
+    */
+
+    /*
+    
+    PRODUCTS PAGE
+    
+    */
+
+    .products .user-profile-tab h2{
+        font-size: 22px;
+    }
+
+    .products .comment h3{
+        font-size: 22px;
+    }
 }
 
 @media(min-width:768px){
@@ -615,6 +635,26 @@
     .author-data #tab8 .top-rated .ratio{
 
         margin: 0;
+    }
+
+    /*
+
+    END OF AUTHOR DATA PAGE
+
+    */
+
+    /*
+    
+    PRODUCTS PAGE
+    
+    */
+
+    .products .user-profile-tab h2{
+        font-size: 24px;
+    }
+
+    .products .comment h3{
+        font-size: 24px;
     }
 
 
