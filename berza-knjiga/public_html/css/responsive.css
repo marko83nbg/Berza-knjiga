@@ -649,6 +649,21 @@
     
     */
 
+    .products .product-wrapper h1{
+        margin-top: 0;
+        text-align: left;
+    }
+
+
+    .products .product-wrapper .writter {
+        text-align: left;    
+    }
+
+    .products .product-wrapper .writter a{
+        display: inline-block;
+        margin-right: 10px;
+    }
+
     .products .user-profile-tab h2{
         font-size: 24px;
     }
