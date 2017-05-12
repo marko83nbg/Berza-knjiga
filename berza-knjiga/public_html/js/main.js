@@ -143,12 +143,47 @@ $(document).ready(function () {
 
                 },
                 992: {
-                    items:5
+                    items:4
 
 
                 },
                 1200: {
                     items: 5
+
+                }
+            }
+        });
+        
+        /*NEXT OWL CAROUSEL*/
+
+        $('.book-club-carousel').owlCarousel({
+            navText: ['', ''],
+            loop: false,
+            margin: 10,
+            responsiveClass: true,
+            nav: true,
+            dots: false,
+            items:30,
+            responsive: {
+                0: {
+                    items: 5
+
+                },
+                480: {
+                    items: 10
+
+                },
+                768: {
+                    items: 15
+
+                },
+                992: {
+                    items:30
+
+
+                },
+                1200: {
+                    items: 30
 
                 }
             }
