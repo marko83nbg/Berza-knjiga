@@ -139,6 +139,22 @@
     .products .comment h3{
         font-size: 22px;
     }
+
+    /*
+
+    END OF PRODUCTS PAGE
+
+    */
+
+    /*
+    
+    BLOG PAGE
+    
+    */
+
+    .blog .blog-headline h1{
+        font-size: 28px;
+    }
 }
 
 @media(min-width:768px){
@@ -664,12 +680,88 @@
         margin-right: 10px;
     }
 
+    .products .wrapper-data article div:first-of-type{
+        text-align: left;
+    }
+
+    .products .product-wrapper .publisher p,
+    .products .product-wrapper .delivery p,
+    .products .product-wrapper .format p{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
     .products .user-profile-tab h2{
         font-size: 24px;
     }
 
     .products .comment h3{
         font-size: 24px;
+    }
+
+    .products .wrapper-data .price-wrapper{
+        text-align: left;
+    }
+
+    .products .wrapper-data .price-wrapper ul li a{
+        font-size: 12px
+    }
+
+    .products .wrapper-data .price-wrapper ul span{
+
+        font-size: 10px;
+
+    }
+
+    /*
+
+    END OF PRODUCTS PAGE PAGE
+
+    */
+
+    /*
+    
+    BEST SELLER PAGE
+    
+    */
+
+    .best-seller .tab-content figure {
+        position: relative;
+        height: 245px;
+    }
+
+    /*
+
+    END OF BEST SELLER PAGE
+
+    */
+
+    /*
+    
+    BLOG PAGE
+    
+    */
+
+
+    .blog .blog-headline span {
+        font-size: 20px;
+    }
+
+    .blog .blog-headline .bookmark {
+        font-size: 14px;
+    }
+
+    .blog .blog-search h2{
+        text-align: left;
+    }
+
+    .blog .blog-search .navbar-form{
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .blog .blog-search .tags{
+        text-align: left;
     }
 
 
@@ -1058,7 +1150,7 @@
         top: 37%;
     }
 
-    /* end of tab style */
+    /* end of tab1 style */
 
     /* tab8 style */
 
@@ -1090,6 +1182,75 @@
     .author-data #tab8 .col-md-3{
         border-left: 1px dotted #ece5d5;
     }
+
+    /* end of tab8 style */
+
+    /*
+   
+    END OF AUTHOR DATA PAGE
+   
+    */
+
+    /*
+   
+    PRODUCTS PAGE
+   
+    */
+
+
+    .products .product-wrapper .delivery p{
+        width: 50%;
+        float: left;
+    }
+
+    .products .product-wrapper .delivery p:last-of-type{
+        text-align: right;
+    }
+
+    .products .product-wrapper .format p{
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+
+    .products .product-wrapper .format p:first-of-type{
+        text-align: left;
+    }
+
+    .products .product-wrapper .format p:first-of-type span{
+        font-size: 12px;
+    }
+
+    .products .product-wrapper .format p:last-of-type{
+        text-align: right;
+    }
+
+    .products .wrapper-data .price-wrapper ul li a{
+        font-size: 14px
+    }
+
+    .products .wrapper-data .price-wrapper ul span{
+        font-size: 20px;
+    }
+
+    /*
+
+    END OF PRODUCTS PAGE PAGE
+
+    */
+
+    /*
+    
+    BEST SELLER PAGE
+    
+    */
+
+    .best-seller .tab-content figure {
+        position: relative;
+        height: 190px;
+    }
+
+
 
 
 
@@ -1321,6 +1482,40 @@
 
     .author-data #tab8 .favorit-book-wrapper .opis-wrapper {
         max-width: 100%;
+    }
+
+    /* end of tab8 style */
+
+    /*
+   
+    END OF AUTHOR DATA PAGE
+   
+    */
+
+    /*
+   
+    PRODUCTS PAGE
+   
+    */
+
+    .products .product-wrapper .book-description{
+        margin-top: 55px;
+    }
+
+    /*
+
+    END OF PRODUCTS PAGE
+
+    */
+
+    /*
+    
+    BLOG PAGE
+    
+    */
+
+    .blog .blog-headline h1{
+        font-size: 30px;
     }
 
 

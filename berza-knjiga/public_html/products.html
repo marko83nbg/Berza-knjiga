@@ -44,7 +44,7 @@
 
         </header>
 
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default" role="navigation" id="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -144,6 +144,51 @@
         <main>
 
             <section class="main-slider user-slider breadcrumb-section author-slider products">
+
+                <!-- modal -->
+                <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body clearfix">
+                                <h3>Zašto ne biste kupili ovu knjigu?</h3>
+                                <div class="modal-form">
+                                    <form>
+                                        <label>
+                                            <input type="radio" name="money" value="nemam novca">nemam novca
+                                            <span></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="money" value="nemam dovoljno novca">nemam dovoljno novca
+                                            <span></span>
+                                        </label>
+                                        <label class="price-label">
+                                            Po kojoj ceni biste kupili ovu knjigu?
+                                            <input type="text">
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="book" value="zelim">zelim da mi je neko pokloni
+                                            <span></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="book" value="kupicu">kupicu je kada bude na popustu
+                                            <span></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="book" value="nisam siguran">nisam siguran da je dobra knjiga
+                                            <span></span>
+                                        </label>
+                                        
+                                        <button type="submit" class="btn btn-default">Snimi izmene</button>
+                                    </form>
+                                </div>
+                                <button type="button" class="close btn btn-default" data-dismiss="modal" aria-label="Close">otkaži</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of modale -->
+
+
                 <div class="container">
                     <div class="row">
                         <ul class="bxslider ">
@@ -158,7 +203,7 @@
                                 <div class="product-wrapper">
 
                                     <div class="col-sm-4">
-                                        <article class="product-image">
+                                        <article class="product-image" >
                                             <figure>
                                                 <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
                                             </figure>
@@ -180,42 +225,50 @@
                                                         <div>
                                                             <div class='ratio'></div> 
                                                         </div>
-                                                   
-                                                    <div class="publisher">
-                                                        <p>
-                                                            Izdavač:
-                                                            <span>
-                                                                <a href="#">Vulkan</a>
-                                                            </span>
-                                                        </p>
+
+                                                        <div class="publisher">
+                                                            <p>
+                                                                Izdavač:
+                                                                <span>
+                                                                    <a href="#">Vulkan</a>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="clearfix delivery">
+                                                            <p>
+                                                                Stanje knjige:
+                                                                <span>nova</span>
+                                                            </p>
+                                                            <p>
+                                                                Dostava:
+                                                                <span>besplatna</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="clearfix format">
+                                                            <p>
+                                                                Format:
+                                                                <span>14X20 cm</span>
+                                                            </p>
+                                                            <p>
+                                                                Broj strana:
+                                                                <span>240</span>
+                                                            </p>
+                                                            <p>
+                                                                Povez:
+                                                                <span>tvrdi</span>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#" class="read-comments">pročitaj komentare <span>(26)</span></a>
                                                     </div>
-                                                    <div class="clearfix delivery">
-                                                        <p>
-                                                            Stanje knjige:
-                                                            <span>nova</span>
-                                                        </p>
-                                                        <p>
-                                                            Dostava:
-                                                            <span>besplatna</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="clearfix format">
-                                                        <p>
-                                                            Format:
-                                                            <span>14X20 cm</span>
-                                                        </p>
-                                                        <p>
-                                                            Broj strana:
-                                                            <span>240</span>
-                                                        </p>
-                                                        <p>
-                                                            Povez:
-                                                            <span>tvrdi</span>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">pročitaj komentare <span>(26)</span></a>
-                                                    </div>
-                                                    <p>
+                                                    <p class="book-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo ultricies, 
+                                                        mollis urna nec, convallis enim. Donec euismod facilisis felis, non egestas felis faucibus non.
+                                                        In consectetur eros ligula, id congue ante mollis imperdiet. Aliquam orci eros, 
+                                                        laoreet vel consequat sed, ultricies sed lectus. Phasellus porttitor ligula et mauris luctus,
+                                                        sed congue massa finibus. Proin vitae ornare nisi. Nunc quis varius erat. Donec fringilla elit 
+                                                        dolor, at molestie augue sodales a. Duis a urna porta, consectetur lorem vel, placerat odio. 
+                                                        Donec auctor nibh eu faucibus maximus. Praesent volutpat justo in sapien efficitur tincidunt. 
+                                                        Aenean lacinia libero vel interdum pulvinar. Donec scelerisque ac tortor non lacinia.
                                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo ultricies, 
                                                         mollis urna nec, convallis enim. Donec euismod facilisis felis, non egestas felis faucibus non.
                                                         In consectetur eros ligula, id congue ante mollis imperdiet. Aliquam orci eros, 
@@ -225,67 +278,72 @@
                                                         Donec auctor nibh eu faucibus maximus. Praesent volutpat justo in sapien efficitur tincidunt. 
                                                         Aenean lacinia libero vel interdum pulvinar. Donec scelerisque ac tortor non lacinia.
                                                     </p>
-                                                    <a href="#">detaljnije</a>
+
+                                                    <a href="#" class="detail">detaljnije</a>
                                                 </article>
                                             </div>
                                             <div class="col-sm-5">
                                                 <article>
-                                                    <p>
-                                                        350
-                                                        <span>rsd</span>
-                                                    </p>
-                                                    <div>
-                                                        <p>Kom</p>
-                                                        <select class="sort">
-                                                            <option value="">---</option>
-                                                            <option value="1">1</option>
-                                                            <option value="2">2</option>
-                                                            <option value="3">3</option>
-                                                        </select>
+                                                    <div class="price-wrapper">
+                                                        <p class="book-price">
+                                                            350,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                        <div>
+                                                            <p>Kom</p>
+                                                            <select class="sort">
+                                                                <option value="">---</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="clearfix">
+                                                            <a href="#" class="star-button">
+                                                                <span class="fa fa-star"></span>
+                                                            </a>
+                                                            <a href="#" class="cart-button btn btn-default">
+                                                                <span class="fa fa-shopping-cart"></span>
+                                                                Ubaci u korpu
+                                                            </a>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal" data-target="#productModal">
+                                                                    <span class="fa fa-plus-square"></span>
+                                                                    želim ovu knjigu
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-book"></span>
+                                                                    čitao sam knjigu
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-heart"></span>
+                                                                    postavi kao moju omiljenu
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-heart-o"></span>
+                                                                    dodeli u moje omiljene
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-eye"></span>
+                                                                    pogledaj slične knjige
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </div>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                        Ubaci u korpu
-                                                    </a>
-                                                    <ul class="list-unstyled">
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-plus-square"></span>
-                                                                želim ovu knjigu
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-book"></span>
-                                                                čitao sam knjigu
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-heart"></span>
-                                                                postavi kao moju omiljenu
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-heart-o"></span>
-                                                                dodeli u moje omiljene
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-eye"></span>
-                                                                pogledaj slične knjige
-                                                            </a>
-                                                        </li>
-                                                    </ul>
 
                                                     <h5>Još od ovog autora</h5>
                                                     <div class="underline"></div>
-                                                    <ul class="list-unstyled">
+                                                    <ul class="list-unstyled book-list clearfix">
                                                         <li>
                                                             <figure>
                                                                 <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
@@ -293,7 +351,7 @@
                                                         </li>
                                                         <li>
                                                             <figure>
-                                                                <img src="img/book-img/book3.jpeg" alt="" class="img-responsive"/>
+                                                                <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
                                                             </figure>
                                                         </li>
                                                         <li>
@@ -301,6 +359,7 @@
                                                                 <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
                                                             </figure>
                                                         </li>
+
                                                     </ul>
 
                                                 </article>
@@ -873,6 +932,8 @@
                                         </article>
                                     </div>
                                 </div>
+
+                                <a href="#navigation" class="to-top"><span class="top-arrow"></span>na vrh</a>
 
 
                             </li>
@@ -904,41 +965,54 @@
                                         <div class="row wrapper-data">
                                             <div class="col-sm-7">
                                                 <article>
-                                                    <div class='ratio'></div>
                                                     <div>
-                                                        <p>
-                                                            Izdavač:
-                                                            <span>
-                                                                <a href="#">Vulkan</a>
-                                                            </span>
-                                                        </p>
+                                                        <div>
+                                                            <div class='ratio'></div> 
+                                                        </div>
+
+                                                        <div class="publisher">
+                                                            <p>
+                                                                Izdavač:
+                                                                <span>
+                                                                    <a href="#">Vulkan</a>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="clearfix delivery">
+                                                            <p>
+                                                                Stanje knjige:
+                                                                <span>nova</span>
+                                                            </p>
+                                                            <p>
+                                                                Dostava:
+                                                                <span>besplatna</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="clearfix format">
+                                                            <p>
+                                                                Format:
+                                                                <span>14X20 cm</span>
+                                                            </p>
+                                                            <p>
+                                                                Broj strana:
+                                                                <span>240</span>
+                                                            </p>
+                                                            <p>
+                                                                Povez:
+                                                                <span>tvrdi</span>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#" class="read-comments">pročitaj komentare <span>(26)</span></a>
                                                     </div>
-                                                    <div class="clearfix">
-                                                        <p>
-                                                            Stanje knjige:
-                                                            <span>nova</span>
-                                                        </p>
-                                                        <p>
-                                                            Dostava:
-                                                            <span>besplatna</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="clearfix">
-                                                        <p>
-                                                            Format:
-                                                            <span>14X20 cm</span>
-                                                        </p>
-                                                        <p>
-                                                            Broj strana:
-                                                            <span>240</span>
-                                                        </p>
-                                                        <p>
-                                                            Povez:
-                                                            <span>tvrdi</span>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">pročitaj komentare <span>(26)</span></a>
-                                                    <p>
+                                                    <p class="book-description">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo ultricies, 
+                                                        mollis urna nec, convallis enim. Donec euismod facilisis felis, non egestas felis faucibus non.
+                                                        In consectetur eros ligula, id congue ante mollis imperdiet. Aliquam orci eros, 
+                                                        laoreet vel consequat sed, ultricies sed lectus. Phasellus porttitor ligula et mauris luctus,
+                                                        sed congue massa finibus. Proin vitae ornare nisi. Nunc quis varius erat. Donec fringilla elit 
+                                                        dolor, at molestie augue sodales a. Duis a urna porta, consectetur lorem vel, placerat odio. 
+                                                        Donec auctor nibh eu faucibus maximus. Praesent volutpat justo in sapien efficitur tincidunt. 
+                                                        Aenean lacinia libero vel interdum pulvinar. Donec scelerisque ac tortor non lacinia.
                                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec leo ultricies, 
                                                         mollis urna nec, convallis enim. Donec euismod facilisis felis, non egestas felis faucibus non.
                                                         In consectetur eros ligula, id congue ante mollis imperdiet. Aliquam orci eros, 
@@ -948,67 +1022,72 @@
                                                         Donec auctor nibh eu faucibus maximus. Praesent volutpat justo in sapien efficitur tincidunt. 
                                                         Aenean lacinia libero vel interdum pulvinar. Donec scelerisque ac tortor non lacinia.
                                                     </p>
-                                                    <a href="#">detaljnije</a>
+
+                                                    <a href="#" class="detail">detaljnije</a>
                                                 </article>
                                             </div>
                                             <div class="col-sm-5">
                                                 <article>
-                                                    <p>
-                                                        350
-                                                        <span>rsd</span>
-                                                    </p>
-                                                    <div>
-                                                        <p>Kom</p>
-                                                        <select class="sort">
-                                                            <option value="">---</option>
-                                                            <option value="1">1</option>
-                                                            <option value="2">2</option>
-                                                            <option value="3">3</option>
-                                                        </select>
+                                                    <div class="price-wrapper">
+                                                        <p class="book-price">
+                                                            350,00
+                                                            <span>rsd</span>
+                                                        </p>
+                                                        <div>
+                                                            <p>Kom</p>
+                                                            <select class="sort">
+                                                                <option value="">---</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="clearfix">
+                                                            <a href="#" class="star-button">
+                                                                <span class="fa fa-star"></span>
+                                                            </a>
+                                                            <a href="#" class="cart-button btn btn-default">
+                                                                <span class="fa fa-shopping-cart"></span>
+                                                                Ubaci u korpu
+                                                            </a>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal" data-target="#productModal">
+                                                                    <span class="fa fa-plus-square"></span>
+                                                                    želim ovu knjigu
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-book"></span>
+                                                                    čitao sam knjigu
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-heart"></span>
+                                                                    postavi kao moju omiljenu
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-heart-o"></span>
+                                                                    dodeli u moje omiljene
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <span class="fa fa-eye"></span>
+                                                                    pogledaj slične knjige
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </div>
-                                                    <a href="#">
-                                                        <span class="fa fa-star"></span>
-                                                    </a>
-                                                    <a href="#">
-                                                        <span class="fa fa-shopping-cart"></span>
-                                                        Ubaci u korpu
-                                                    </a>
-                                                    <ul class="list-unstyled">
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-plus-square"></span>
-                                                                želim ovu knjigu
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-book"></span>
-                                                                čitao sam knjigu
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-heart"></span>
-                                                                postavi kao moju omiljenu
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-heart-o"></span>
-                                                                dodeli u moje omiljene
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">
-                                                                <span class="fa fa-eye"></span>
-                                                                pogledaj slične knjige
-                                                            </a>
-                                                        </li>
-                                                    </ul>
 
                                                     <h5>Još od ovog autora</h5>
                                                     <div class="underline"></div>
-                                                    <ul class="list-unstyled">
+                                                    <ul class="list-unstyled book-list clearfix">
                                                         <li>
                                                             <figure>
                                                                 <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
@@ -1016,7 +1095,7 @@
                                                         </li>
                                                         <li>
                                                             <figure>
-                                                                <img src="img/book-img/book3.jpeg" alt="" class="img-responsive"/>
+                                                                <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
                                                             </figure>
                                                         </li>
                                                         <li>
@@ -1024,6 +1103,7 @@
                                                                 <img src="img/book-img/book2.jpeg" alt="" class="img-responsive"/>
                                                             </figure>
                                                         </li>
+
                                                     </ul>
 
                                                 </article>
@@ -1597,7 +1677,7 @@
                                     </div>
                                 </div>
 
-
+                                <a href="#navigation" class="to-top"><span class="top-arrow"></span>na vrh</a>
                             </li>
 
                         </ul>
