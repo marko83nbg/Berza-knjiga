@@ -157,6 +157,11 @@
     }
 }
 
+
+
+
+
+
 @media(min-width:768px){
 
     /* SECTION MAIN SLIDER*/
@@ -725,9 +730,142 @@
     
     */
 
+    .best-seller .col-sm-9 h2{
+        display: inline-block
+    }
+
+    .best-seller .message-sort {
+        display: inline-block;
+        position: relative;
+        left: 100px;
+    }
+
     .best-seller .tab-content figure {
         position: relative;
         height: 245px;
+    }
+
+    .best-seller .middle-best-seller .opis{
+        width: 100%;
+
+    }
+
+    .best-seller .middle-best-seller .opis .image-wrapper{
+        width: 35%;
+        float: left;
+
+    }
+
+    .best-seller .middle-best-seller .opis .image-wrapper figure{
+        height: 125px;
+
+    }
+
+    .best-seller .middle-best-seller figure .new-banner,
+    .best-seller .middle-best-seller figure .discount-banner{
+
+        transform-origin: 60px 190px;
+
+    }
+
+    .best-seller .image-wrapper figure .discount-banner span,
+    .best-seller .image-wrapper figure .new-banner span {
+        font-size: 16px;
+    }
+
+    .best-seller .middle-best-seller article{
+        border-right: 2px solid #e7e9d4;
+        margin-top: 0;
+    }
+
+    .best-seller .mbs-2 article{
+        border-right: none;
+    }
+
+    .best-seller .middle-best-seller .opis .description-wrapper{
+        width: 65%;
+        float: right;
+        padding-left: 15px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper h4{
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper a{
+        font-size: 12px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper p:first-of-type{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper p:first-of-type span{
+        font-size: 14px;
+    }
+
+    .best-seller .middle-best-seller .product-price{
+        height: 30px;
+        margin: 5px 0;
+    }
+
+    .best-seller .middle-best-seller .product-price p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .best-seller .bottom-best-seller .image-wrapper{
+        width: 17%;
+        float: left;
+    }
+
+    .best-seller .bottom-best-seller .image-wrapper figure .discount-banner, 
+    .best-seller .bottom-best-seller .image-wrapper figure .new-banner {
+        transform-origin: 60px 190px;
+    }
+
+    .best-seller .bottom-best-seller .hedaline-wrapper{
+        width: 50%;
+        float: left;
+        padding-left: 15px;
+    }
+
+    .best-seller .bottom-best-seller .data-wrapper{
+        width: 33%;
+        float: left;
+        padding-left: 35px;
+    }
+
+    .best-seller .bottom-best-seller .hedaline-wrapper h4{
+        margin-top: 0;
+    }
+
+    .best-seller .bottom-best-seller .hedaline-wrapper p{
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .best-seller .aside h2{
+
+        text-align: left;
+    }
+
+    .best-seller .aside .side-list{
+        text-align: left;
+        padding-left: 5px;
+
+    }
+    .best-seller .aside .side-form select {
+        width: 48%;
+
+    }
+
+    .best-seller .to-top {
+        bottom: 0px;
+        right: 0px;
     }
 
     /*
@@ -824,41 +962,7 @@
     */
 
 
-    .cart-page .nav-tabs a{
-        font-size: 16px;   
-    }
 
-    .cart-page .product-price-cart{
-        width: 35%;
-        float: left;
-        text-align: center;
-        padding: 5px 0px;
-    }
-
-    .cart-page .product-quantity {
-        width: 20%;
-        float: left;
-        text-align: center;
-        padding: 5px 0px;
-    }
-
-    .cart-page .sum{
-        width: 15%;
-        float: left;
-        text-align: center;
-        padding: 5px 0px;
-
-    }
-
-    .cart-page .product-img {
-        width: 20%;
-        float: left;
-        text-align: center;
-    }
-
-    .cart-page .product-wraper {
-        width: 80%;
-    }
 
     /*
 
@@ -881,9 +985,48 @@
 
     }
 
+    .book-club-tabs .tab-pane ul li a{
+        float: right;
+        margin-left: 10px;
+    }
+
+    .book-club-tabs .tab-pane ul li a:first-of-type{
+        float: left;
+        margin-left: 0px;
+    }
+
     /*
 
     END OF BOOK CLUB PAGE
+
+    */
+
+    /*
+    
+    PUBLISHERS LIST PAGE
+    
+    */
+
+    .publishers-tabs .tab-content li{
+        width: 18%;
+        float: left;
+        margin-right: 2.5%;
+    }
+
+    .publishers-tabs .tab-content ul li:last-of-type{
+        margin-right: 0px;
+    }
+
+    .publishers-tabs .tab-content ul{
+        border-bottom: 2px dotted #eaead2;
+    }
+
+    .publishers-tabs .tab-content li a p{
+        text-align: left;
+    }
+    /*
+
+    END OF  PUBLISHERS LIST PAGE
 
     */
 
@@ -894,9 +1037,15 @@
     */
 
     .publish-book .small-wrapper{
-       float: right;
-       margin-right: 40px;
+        float: right;
+        margin-right: 40px;
     }
+
+    /*
+
+    END OF  PUBLISH BOOK PAGE
+
+    */
 
 
 
@@ -906,6 +1055,10 @@
 
 
 }
+
+
+
+
 
 
 
@@ -1379,15 +1532,51 @@
     
     */
 
+    .best-seller .message-sort {
+        left: 260px;
+    }
+
     .best-seller .tab-content figure {
         position: relative;
         height: 190px;
     }
 
+    .best-seller .tab-content figure .discount-banner, 
+    .best-seller .tab-content figure .new-banner {
+        transform-origin: 60px 190px;
+    }
+
+    .best-seller .tab-content figure .discount-banner span, 
+    .best-seller .tab-content figure .new-banner span {
+
+        font-size: 16px;
+
+    }
+
+    .best-seller .middle-best-seller .opis .image-wrapper figure{
+        height: 168px;
+
+    }
+
+    .best-seller .image-wrapper figure .discount-banner span,
+    .best-seller .image-wrapper figure .new-banner span {
+        font-size: 20px;
+    }
+
+    .best-seller .bottom-best-seller .hedaline-wrapper p{
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .best-seller .aside .side-form select {
+        width: 49%;
+
+    }
+
     /*
-
+    
     END OF SELLER PAGE
-
+    
     */
 
     /*
@@ -1416,8 +1605,23 @@
     */
 
 
-    .cart-page .nav-tabs a{
-        font-size: 20px;   
+
+
+    /*
+
+    END OF CART PAGE
+
+    */
+
+    /*
+    
+    BOOK CLUB PAGE
+    
+    */
+
+    .book-club-tabs .tab-pane ul{
+        padding: 0 30px;
+
     }
 
 
@@ -1429,6 +1633,10 @@
 
 
 }
+
+
+
+
 
 @media(min-width:1200px){
 
@@ -1706,6 +1914,62 @@
     .publisher-page .publisher-wrapper .publisher-data p{
         font-size: 14px;
     }
+
+    /*
+    
+    END OF PUBLISHER PAGE
+    
+    */
+
+    /*
+    
+    BEST SELLER PAGE
+    
+    */
+
+    .best-seller .message-sort {
+        left: 410px;
+    }
+
+    .best-seller .middle-best-seller .opis .image-wrapper figure{
+        height: 205px;
+
+    }
+
+    .best-seller .middle-best-seller .description-wrapper h4{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper a{
+        font-size: 14px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper p:first-of-type{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .best-seller .middle-best-seller .description-wrapper p:first-of-type span{
+        font-size: 16px;
+    }
+
+    .best-seller .middle-best-seller .product-price{
+        height: 45px;
+        margin: 10px 0;
+    }
+
+    .best-seller .middle-best-seller .product-price p{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .best-seller .bottom-best-seller .hedaline-wrapper p{
+        height: 160px;
+        overflow: hidden;
+    }
+
+
 
 
 

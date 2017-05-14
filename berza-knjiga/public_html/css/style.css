@@ -2682,9 +2682,272 @@ BEST SELLER PAGE
 
 */
 
-.best-seller .underline{
-    margin: 30px 0;
+.best-seller .best-seller-wrapper{
+    position: relative;
 }
+
+.best-seller h2{
+    font-family: 'Playfair Display', serif; 
+}
+
+.best-seller .col-sm-9 h2{
+    font-style: italic;
+    text-align: center;
+}
+
+.best-seller .message-sort {
+    text-align: center;
+}
+
+.best-seller .message-sort p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.best-seller .message-sort select {
+    width: 75px;
+    height: 24px;
+    border-radius: 0;
+    border: 1px solid #eaead2;
+    font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: url('assets/arrow-down.png') no-repeat 95% center;
+}
+
+.best-seller .tab-content{
+    margin-bottom: 35px;
+}
+
+.best-seller .message-sort a{
+    color: #d6c9a7;
+    margin-left: 10px;
+}
+
+.best-seller .message-sort a:first-of-type{
+    color: #d6c9a7;
+    margin-left: 20px;
+}
+
+.best-seller .owl-carousel .owl-nav {
+    width: 100%;
+    left: 0;
+}
+
+.best-seller .tab-pane{
+    padding-bottom: 35px;
+    border-bottom: 2px solid #e7e9d4;
+}
+
+.best-seller .middle-best-seller article{
+    margin-top: 20px;
+}
+
+.best-seller .image-wrapper figure{
+    position: relative;
+}
+
+.best-seller .image-wrapper figure .discount-banner,
+.best-seller .image-wrapper figure .new-banner {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 3;
+    text-align: center;
+    border-bottom: none;
+    background-color: #fedb03;
+    border: 1px solid #fff;
+    transform: rotate(-40deg);
+    transform-origin: 80px 170px;
+    height: 20%;
+    width: 300px;
+}
+
+.best-seller .image-wrapper figure .discount-banner span, 
+.best-seller .image-wrapper figure .new-banner span {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(-18%,-50%);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.best-seller .image-wrapper figure .new-banner {
+    background-color: #e87218;
+}
+
+.best-seller .image-wrapper figure .new-banner span {
+    color: #fff;
+}
+
+.best-seller .middle-best-seller .opis{
+    width: 290px;
+    margin: 0 auto;
+}
+
+.best-seller .middle-best-seller .opis img{
+    width: 100%;
+}
+
+.best-seller .bottom-best-seller article{
+    margin-top: 35px;
+    border-top: 2px solid #e7e9d4;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.best-seller .aside h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.best-seller .aside .side-list{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif; 
+}
+
+.best-seller .aside .side-list a{
+    color: #666666;
+}
+
+.best-seller .aside .side-list a:hover,
+.best-seller .aside .side-list a:focus{
+    color: #000;
+    text-decoration: none;
+}
+
+.best-seller .aside .side-list a span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-image: url('assets/bullet.jpg');
+    margin-right: 10px;
+    transition: 1s ease;
+}
+
+.best-seller .aside .side-list a:hover span,
+.best-seller .aside .side-list a:focus span{
+    background-image: url('assets/bullet-orange.png');
+}
+
+.best-seller .aside .side-form{
+    margin-top: 15px;
+    background-color: #f5f1e8;
+    padding: 15px 10px;
+    border: 1px solid #e7e9d4;
+    font-family: 'Roboto', sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.best-seller .aside .side-form input[type="radio"]{
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.best-seller .aside .side-form input[type="radio"] + span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    position: relative !important;
+    top: 20% !important;
+    margin-top: 5px;
+    background: url('assets/radio-unselected-white.png') no-repeat center center;
+}
+
+.best-seller .aside .side-form input[type="radio"]:checked + span {
+    background: url('assets/radio-small-ch.png') no-repeat center center;
+}
+
+.best-seller .aside .side-form input[type="checkbox"] {
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.best-seller .aside .side-form input[type="checkbox"] + span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    position: relative !important;
+    top: 20% !important;
+    margin-top: 5px;
+    background: url('assets/checkbox.png') no-repeat center center;
+}
+
+.best-seller .aside .side-form input[type="checkbox"]:checked + span {
+    background: url('assets/checkbox-ch.png') no-repeat center center;
+}
+
+.best-seller .aside .side-form select {
+    width: 49%;
+    height: 28px;
+    border-radius: 0;
+    border: 1px solid #eaead2;
+    font-family: 'Roboto', sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: #fff url('assets/arrow-down.png') no-repeat 95% center;
+}
+
+.best-seller .aside .side-form label{
+    display: block;
+}
+
+.best-seller .aside .side-form .btn {
+    border: 1px solid #e87218;
+    background-color: #e87218;
+    border-radius: 0px;
+    color: #fff;
+    transition: 1s ease;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.best-seller .aside .side-form .btn:hover {
+    background-color: #f48b39;
+    border: 1px solid #f48b39;
+}
+
+.best-seller .to-top {
+    display: inline-block;
+    color: #000;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.best-seller .to-top span {
+    display: block;
+    width: 32px;
+    height: 33px;
+    background-image: url('assets/arrow-up.png');
+}
+
+.best-seller .to-top:hover span {
+    background-image: url('assets/arrow-up-color2.png');
+
+}
+
 
 /*
 
@@ -3197,21 +3460,36 @@ BOOK CLUB PAGE
     margin-bottom: 40px;
 }
 
+.book-club-tabs .book-club-carousel,
+.publishers-tabs .book-club-carousel{
+    padding: 5px 0 5px 0;
+}
+
+.owl-carousel.book-club-carousel .owl-nav .owl-prev {
+    top: 8px
+}
+
+.owl-carousel.book-club-carousel .owl-nav .owl-next {
+    top: 8px;
+}
+
+.book-club-tabs .book-club-carousel a,
+.publishers-tabs .book-club-carousel a{
+    display: block;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+.book-club-tabs .book-club-carousel a:hover,
+.book-club-tabs .book-club-carousel a.active{
+    background-color: #e87218;
+    color: #fff !important;
+}
 
 
 .book-club-tabs .tab-pane ul{
     text-align: center;
 
-}
-
-.book-club-tabs .tab-pane ul li a{
-    float: right;
-    margin-left: 10px;
-}
-
-.book-club-tabs .tab-pane ul li a:first-of-type{
-    float: left;
-    margin-left: 0px;
 }
 
 .book-club-tabs .tab-pane ul li a:first-of-type span{
@@ -3222,6 +3500,72 @@ BOOK CLUB PAGE
 /*
 
 END OF BOOK CLUB PAGE
+
+*/
+/*
+
+PUBLISHERS LIST PAGE
+
+*/
+
+.publishers-tabs .book-club-carousel a:hover,
+.publishers-tabs .book-club-carousel a.active{
+    background-color: #04637f;
+    color: #fff !important;
+}
+
+.owl-carousel.publishers-tabs .owl-nav .owl-prev {
+    top: 8px
+}
+
+.owl-carousel.publishers-tabs .owl-nav .owl-next{
+    top: 8px;
+}
+
+.publishers-tabs .tab-content{
+    font-family: 'Roboto', sans-serif;
+}
+
+.publishers-tabs .tab-content li{
+    text-align: center
+}
+
+.publishers-tabs .tab-content li a{
+    display:block;
+    width: 100%
+}
+
+.publishers-tabs .tab-content li a p{
+    color: #a8a8a8;
+    transition: 1s ease;
+}
+
+.publishers-tabs .tab-content li a:hover,
+.publishers-tabs .tab-content li a:focus{
+    text-decoration: none;
+    color: #686565;
+}
+
+.publishers-tabs .tab-content li a:hover p{
+    color: #686565;
+}
+
+.publishers-tabs .tab-content figure {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    max-width: 290px;
+}
+
+.publishers-tabs .tab-content figure img{
+    width: 100%;
+}
+
+
+
+/*
+
+END OF PUBLISHERS PAGE
 
 */
 
@@ -3332,42 +3676,6 @@ PUBLISH BOOK PAGE
 .publish-book .container form .btn:hover {
     border: 1px solid #f48b39;
     background-color: #f48b39;
-}
-
-
-.table>tbody>tr>td, .table>tfoot>tr>td{
-    vertical-align: middle;
-}
-@media screen and (max-width: 600px) {
-    table#cart tbody td .form-control{
-		width:20%;
-		display: inline !important;
-	}
-	.actions .btn{
-		width:36%;
-		margin:1.5em 0;
-	}
-	
-	.actions .btn-info{
-		float:left;
-	}
-	.actions .btn-danger{
-		float:right;
-	}
-	
-	table#cart thead { display: none; }
-	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
-	table#cart tbody tr td:first-child { background: #333; color: #fff; }
-	table#cart tbody td:before {
-		content: attr(data-th); font-weight: bold;
-		display: inline-block; width: 8rem;
-	}
-	
-	
-	
-	table#cart tfoot td{display:block; }
-	table#cart tfoot td .btn{display:block;}
-	
 }
 
 
