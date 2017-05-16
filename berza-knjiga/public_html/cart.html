@@ -35,7 +35,85 @@
     <body>
         <header>
             <section class="header-top">
+                <div class="container clearfix text-center">
+                    <ul class="list-inline  location">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-map-marker"></span>Srbija <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Srbija</a></li>
+                                <li><a href="#">Srbija</a></li>
+                                <li><a href="#">Srbija</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RSD <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">CHF</a></li>
+                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">DOL</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Srpski <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Srpski</a></li>
+                                <li><a href="#">Srpski</a></li>
+                                <li><a href="#">Srpski</a></li>
+                            </ul>
+                        </li>
 
+                    </ul>
+                    <ul class="list-inline  admin-user">
+                        <li><a href="sign-in.html">Prijava</a></li>
+                        <li><a href="sign-in.html">Registracija</a></li>
+                        <li><a href="#">Pomoc</a></li>
+                        <li><a href="#">Moj izbor ( <span>10</span> )</a></li>
+                        <li><a href="#">Otvori prodavnicu</a></li>
+                        
+                    </ul>
+                </div>
+            </section>
+            <section class="header-middle">
+                <div class="container">
+                    <div class="flex-container">
+                        <a class="logo hidden-xs hidden-sm" href="index">
+                            <img src="img/berza-knjiga-logo.png" alt="" class="img-responsive"/>
+                        </a>
+                        <form class="search " action="" method="get">
+                            <div class="input-group">
+                                <input class="form-control" > 
+                                <div class="input-group-btn"> 
+                                     
+                                    <button type="button" class=" category-list btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="hidden-xs">Sve kategorije</span><span class="caret"></span> </button>
+                                    <ul class="dropdown-menu dropdown-menu-right"> 
+                                        <li><a href="#">kategory 1</a></li> 
+                                        <li><a href="#">kategory 2</a></li>
+                                    </ul> 
+                                    <button type="submit" class="search-category btn btn-default"><span class="fa fa-search"></span></button>
+
+                                </div>
+                            </div>
+                        </form>
+                        <div class=" cart clearfix">
+                            <p class="total hidden-xs">1.350,00 rsd</p>
+                            <a href="cart.html">
+                                <img class="img-responsive" src="img/korpa.jpg" alt=""/>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <ul class="list-inline  second-menu">
+                            <li class="authors"><a href="#">autori</a></li>
+                            <li class="publisher"><a href="#">izdavači</a></li>
+                            <li class="publish-book"><a href="#">objavi knjigu</a></li>
+                            <li><a href="#">knjiga utisaka</a></li>
+                            <li><a href="#">klub čitaoca</a></li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
         </header>
@@ -142,196 +220,125 @@
             <section class="cart-page">
                 <div class="container">
 
-                    <ul class="nav nav-tabs nav-justified" role="tablist">
-                        <li role="presentation" class="active"><a href="#forma" aria-controls="forma" role="tab" data-toggle="tab"><span>1</span>Sadržaj moje korpe</a></li>
-                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span>2</span>Naručilac i plaćanje</a></li>
-                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span>3</span>Proveri porudžbinu</a></li>
-                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span>4</span>Naruči</a></li>
+                    <ul class="order-step list-unstyled">
+                        <li class="active"><a href="#"><span>1</span>Sadržaj moje korpe</a></li>
+                        <li ><a href="#" ><span>2</span>Naručilac i plaćanje</a></li>
+                        <li><a href="#"><span>3</span>Proveri porudžbinu</a></li>
+                        <li ><a href="#"><span>4</span>Naruči</a></li>
                     </ul>
 
                     <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="forma">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <article>
-                                        <div class="shopping-cart">
-                                            <table class="table table-bordered ">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Proizvod</th>
-                                                        <th>Cena</th>
-                                                        <th>Količina</th>
-                                                        <th>Ukupno</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td >
-                                                            <figure>
-                                                                <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                                            </figure>
+                    <div class="order-content">
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <article>
+                                    <div class="shopping-cart ">
+                                        <div class="table-responsive">
+                                            <table class="table ">
+                                            <thead>
+                                                <tr>
+                                                    <th>Proizvod</th>
+                                                    <th>Cena</th>
+                                                    <th>Količina</th>
+                                                    <th>Ukupno</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td >
+                                                        <figure class="product-img">
+                                                            <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
+                                                        </figure>
+                                                        <div class="product-title">
                                                             <h2>naslov knjige</h2>
                                                             <a href="#">autor knige</a>
-                                                            <a href="#">dodaj u moj izbor</a>
-                                                        </td>
-                                                        <td >
-                                                            <p>
-                                                                450,00
-                                                                <span>din</span>
-                                                            </p>
-                                                        </td>
-                                                        <td>
-                                                            <label for="number">
-                                                                <input type="number">
-                                                            </label>
+                                                            <a href="#" class="favorites">dodaj u moj izbor</a>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <p>450,00<span>din</span></p>
+                                                    </td>
+                                                    <td class="quantity">
+                                                        <label >
+                                                            <input type="text" name="quantity" value="1">
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <p>450,00<span>din</span></p>
+                                                        <a class=" remove" href="#">izbaci iz korpe</a>
+                                                    </td>
+                                                </tr>
 
-                                                        </td>
-                                                        <td>
-                                                            <p>
-                                                                450,00
-                                                                <span>din</span>
-                                                            </p>
-                                                            <a class="remove" href="#">x</a>
-                                                        </td>
-
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td >
-                                                            <figure>
-                                                                <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                                            </figure>
+                                                <tr>
+                                                    <td >
+                                                        <figure class="product-img">
+                                                            <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
+                                                        </figure>
+                                                        <div class="product-title">
                                                             <h2>naslov knjige</h2>
                                                             <a href="#">autor knige</a>
-                                                            <a href="#">dodaj u moj izbor</a>
-                                                        </td>
-                                                        <td >
-                                                            <p>
-                                                                450,00
-                                                                <span>din</span>
-                                                            </p>
-                                                        </td>
-                                                        <td>
-                                                            <label for="number">
-                                                                <input type="number">
-                                                            </label>
-
-                                                        </td>
-                                                        <td>
-                                                            <p>
-                                                                450,00
-                                                                <span>din</span>
-                                                            </p>
-                                                            <a class="remove" href="#">x</a>
-                                                        </td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td >
-                                                            <figure>
-                                                                <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                                            </figure>
+                                                            <a href="#" class="favorites">dodaj u moj izbor</a>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <p>450,00<span>din</span></p>
+                                                    </td>
+                                                    <td class="quantity">
+                                                        <label >
+                                                            <input type="text" name="quantity" value="1">
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <p>450,00<span>din</span></p>
+                                                        <a class=" remove" href="#">izbaci iz korpe</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td >
+                                                        <figure class="product-img">
+                                                            <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
+                                                        </figure>
+                                                        <div class="product-title">
                                                             <h2>naslov knjige</h2>
                                                             <a href="#">autor knige</a>
-                                                            <a href="#">dodaj u moj izbor</a>
-                                                        </td>
-                                                        <td >
-                                                            <p>
-                                                                450,00
-                                                                <span>din</span>
-                                                            </p>
-                                                        </td>
-                                                        <td>
-                                                            <label for="number">
-                                                                <input type="number">
-                                                            </label>
+                                                            <a href="#" class="favorites">dodaj u moj izbor</a>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <p>450,00<span>din</span></p>
+                                                    </td>
+                                                    <td class="quantity">
+                                                        <label >
+                                                            <input type="text" name="quantity" value="1">
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <p>450,00<span>din</span></p>
+                                                        <a class=" remove" href="#">izbaci iz korpe</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
 
-                                                        </td>
-                                                        <td>
-                                                            <p>
-                                                                450,00
-                                                                <span>din</span>
-                                                            </p>
-                                                            <a class="remove" href="#">x</a>
-                                                        </td>
-
-                                                    </tr>
-
-                                                </tbody>
-
-                                            </table>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="col-sm-4">
-                                    <article>
-                                        <h2>Ukupno za plaćanje</h2>
-                                        <p>
-                                            1.350,00
-                                            <span>rsd</span>
-                                        </p>
-                                        <a href="#" class="btn btn-default">nastavi kupovinu</a>
-                                        <a href="#" class="btn btn-default">sledeći korak</a>
-                                        <a href="#">isprazni korpu</a>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="profile">
-                            <ul class="list-unstyled">
-                                <li class="cart-header clearfix">
-                                    <div class="product-img">proizvod</div>
-                                    <div class="product-wraper clearfix clear">
-                                        <div class="product-price hidden-xs">cena</div>
-                                        <div class="product-quantity hidden-xs">kolicina</div>
-                                        <div class="product-total hidden-xs">ukupno</div>
-                                    </div>
-                                    <div class="product-detail visible-xs">product detail</div><!-- na 768 display:none -->
-                                </li>
-                                <li class="cart-product clearfix">
-                                    <div class="product-img">
-                                        <figure>
-                                            <img src="img/book-img/book1.jpeg" alt="" class="img-responsive"/>
-                                        </figure>
-                                        <h2>naslov knjige</h2>
-                                        <a href="#">autor knige</a>
-                                        <a href="#">dodaj u moj izbor</a>
-                                    </div>
-                                    <div class="product-wraper clearfix clear">
-
-
-                                        <div class="product-price">
-                                   
-                                            <p>
-                                               450,00
-                                                <span>rsd</span>
-                                            </p>
-                                            
-                                        </div>
-                                        <div class="product-quantity">
-                                            <div class="form-group order-quantity">
-                                                
-                                                <input  type="text" >
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="product-total">
-                                            <p>
-                                               450,00
-                                                <span>rsd</span>
-                                            </p>
-                                            <a class="remove" href="#">izbaci iz korpe</a>
+                                        </table>
                                         </div>
                                         
                                     </div>
-
-                                </li>
-                                
-                            </ul>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="cart-info text-center">
+                                    <h2>Ukupno za plaćanje</h2>
+                                    <p class="total">1.350,00<span>rsd</span></p>
+                                    <p><a href="#" class="btn btn-default">nastavi kupovinu</a></p>
+                                    <p><a href="#" class="btn btn-warning">sledeći korak</a></p>
+                                    <p class="erase"><a href="#">isprazni korpu</a></p>
+                                </article>
+                            </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="messages">tri</div>
-                        <div role="tabpanel" class="tab-pane" id="settings">cetiri</div>
+
+
+
                     </div>
                 </div>
             </section>

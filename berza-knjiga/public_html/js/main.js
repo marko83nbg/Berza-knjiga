@@ -222,6 +222,21 @@ $(document).ready(function () {
     });
     
     
+    
+    $('.trigger .nav-tabs li a, .trigger .nav-tabs li a').on('click', function (e){
+        e.preventDefault();
+        $(' .trigger .nav-tabs li a').removeClass('active');
+        $(this).addClass('active');
+        $('.trigger .nav-tabs li a').closest('li').removeClass('active');
+        $(this).closest('li').addClass('active');
+        var name = $(this).attr('href');
+        
+        
+        $('.trigger .tab-content .tab-pane').hide();
+        $('.trigger .tab-content ').find(name).show().css('visibility','visible');
+        
+    });
+    
 
 
 

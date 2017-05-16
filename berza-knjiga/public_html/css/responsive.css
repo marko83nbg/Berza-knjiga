@@ -163,7 +163,33 @@
 
 
 @media(min-width:768px){
-
+    .header-top{
+        padding: 10px 0;
+    }
+    .header-top .location{
+        float: left;
+    }
+    .header-top .admin-user{
+        float: right;
+    }
+    .header-top *{
+        font-size: 12px !important;
+    }
+    .admin-user li a{
+        padding: 0 5px;
+    }
+    .header-middle .cart{
+        width: auto;
+        display: flex;
+        align-items: center;
+    }
+    .category-list span{
+        font-size: 12px;
+    }
+    .category-list span.caret{
+        margin-left: 3px;
+    }
+    
     /* SECTION MAIN SLIDER*/
 
     .bxslider .slider-img{
@@ -1624,7 +1650,10 @@
 
     }
 
-
+.order-content .cart-info{
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
 
 
 
