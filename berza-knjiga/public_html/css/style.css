@@ -1219,7 +1219,7 @@ USER DATA PAGE
     color: #acacac;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    display: block;
+    display: inline-block;
 }
 
 .user-data .tab-pane input{
@@ -1535,6 +1535,7 @@ USER DATA PAGE
     display: block;
     margin-bottom: 10px;
     overflow: hidden;
+    text-align: left;
 
 }
 
